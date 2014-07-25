@@ -9,5 +9,5 @@ title: Archive
 ##{{ currentyear }}##
     {% capture year %}{{currentyear}}{% endcapture %} 
   {% endif %}
-  * {{ post.date | date: '%d %b' }} &raquo;  [{{ post.title }}]({{ post.url}})
+  * [{{ post.title }}]({{ post.url}})
 {% endfor %}
