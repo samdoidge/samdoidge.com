@@ -7,17 +7,27 @@
 
     <div class="container content">
       <div class="masthead">
+        <div class="title-holder">
+        <a href="/"><img id="logo" src="/assets/s-logo.png" alt="Sam Doidge S Logo Red"></a>
         <h3 class="masthead-title">
           <a href="{{ site.baseurl }}" title="Home">{{ site.title }}</a>
-          <small>{{ site.tagline }}</small>
+          <p><small>{{ site.tagline }}</small></p>
         </h3>
       </div>
+         <div class="menu">
+        {% for page in site.pages_list %}
 
+<a href="{{ page[1]  }}">{{ page[0] }}</a>
+{% endfor %}
+      </div>
+</div>
       {{ content }}
+
+      {% include comments.html %}
 
       <div class="footer">
         <p>
-          &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+          &copy; {{ site.time | date: '%Y' }} Sam Doidge
         </p>
       </div>
     </div>

@@ -67,7 +67,7 @@ body {
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #268bd2;
+  color: #F04A4A;
   text-decoration: none;
 }
 a strong {
@@ -303,12 +303,14 @@ tbody tr:nth-child(odd) th {
 .masthead {
   padding-top:    1rem;
   padding-bottom: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
+  overflow:hidden;
 }
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
+
 }
 .masthead-title a {
   color: #505050;
@@ -320,6 +322,28 @@ tbody tr:nth-child(odd) th {
   letter-spacing: 0;
 }
 
+.title-holder {
+  margin: auto;
+display: block;
+width: 240px;
+}
+
+.menu {
+ text-align:center;
+}
+
+.menu a {
+  margin-right:5px;
+
+}
+
+.menu a:last-child {
+  margin-right:0;
+}
+
+.footer {
+  text-align: center;
+}
 
 /*
  * Posts and pages
@@ -331,6 +355,14 @@ tbody tr:nth-child(odd) th {
 .page,
 .post {
   margin-bottom: 4em;
+}
+
+img[alt=Sam] { margin:auto;}
+
+#logo {
+  float:left;
+  margin-right: 15px;
+  max-width: 50px;
 }
 
 /* Blog post or page title */
@@ -354,8 +386,8 @@ tbody tr:nth-child(odd) th {
 
 /* Related posts */
 .related {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   border-top: 1px solid #eee;
 }
 .related-posts {
@@ -370,7 +402,7 @@ tbody tr:nth-child(odd) th {
   color: #999;
 }
 .related-posts li a:hover {
-  color: #268bd2;
+  color: #E73939;
   text-decoration: none;
 }
 .related-posts li a:hover small {
@@ -427,4 +459,30 @@ a.pagination-item:hover {
     border-top-right-radius:    4px;
     border-bottom-right-radius: 4px;
   }
+
+
+.menu {
+  float:right;
+}
+
+.menu a {
+  margin-right:5px;
+  font-size: 0.95rem;
+}
+
+.masthead-title {
+  float:left;
+}
+
+  #logo {
+      max-width: 62px;
+  }
+
+  .title-holder {
+
+width: inherit;
+}
+
+
+
 }
