@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+permalink: about/
 ---
 
 I'm a web developer who appreciates design.
@@ -22,4 +23,4 @@ Change something on the site by creating [a GitHub issue](https://github.com/sam
 
 Email me: [sam@samdoidge.com](mailto:sam@samdoidge.com)
 
-![Sam](/assets/sam.png)
+![Sam](/assets/sam-light.png)

@@ -7,4 +7,4 @@ comments: True
 ![urgigs](/assets/hackrhackr.jpeg)
 
 
-The logo compromises two abstract h letters. Inpsired by symbols from The Matrix.
+The logo compromises two abstract h letters. Inspired by symbols from The Matrix.
