@@ -357,7 +357,18 @@ width: 240px;
   margin-bottom: 4em;
 }
 
-img[alt=Sam] { margin:auto;}
+img[alt=Sam] { 
+  margin:auto;
+  border: 3px solid #fff;
+  z-index: 500;
+  position: relative;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
 
 #logo {
   float:left;
