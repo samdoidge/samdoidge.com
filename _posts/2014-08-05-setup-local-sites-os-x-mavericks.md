@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Setup local sites with Mavericks
+title: Setup local sites with OS X Mavericks
 comments: True
 ---
 
@@ -19,14 +19,14 @@ DocumentRoot "/Users/[username]/Sites"
 </div>
 and also line 197:
 <div class="message">
-Directory <Directory "/Users/[username]/Sites">
+Directory "/Users/[username]/Sites"
 </div>
 
 Line 217 change AllowOverride to “All” so that we can use .htaccess to modify any settings for our local sites
 
 `AllowOverride All`
 
-***** PHP *****
+##### PHP #####
 To setup PHP, uncomment line 118 of `LoadModule php5_module libexec/apache2/libphp5.so` in the same file.
 
 To see your changes, restart apache with:
@@ -34,10 +34,9 @@ To see your changes, restart apache with:
 
 Test it's all working:
 
-Create a folder within Users/[username]/Sites, add an index.php with some php `<?php echo 'working';`
+Create a folder within Users/[username]/Sites, add an index.php with some php `<?php echo 'working';` and browse to it: 
 
 
+This guide is based on [Brian Love's Mavericks Apache guide](http://brianflove.com/2013/10/23/os-x-mavericks-and-apache/)
 
-Thanks to
-http://brianflove.com/2013/10/23/os-x-mavericks-and-apache/
 
