@@ -10,11 +10,15 @@ title:            Sam Doidge
 tagline:          Coffee's for closers only.
 url:              http://samdoidge.com/
 paginate:         1
-baseurl:          /
+baseurl:          http://samdoidge.com/
 author:
   name:           Sam Doidge	
   url:            http://samdoidge.com
   email:          sam@samdoidge.com
+
+# Gems
+gems:
+  - jekyll-sitemap
 
 # Custom vars
 version:          1.0.0
