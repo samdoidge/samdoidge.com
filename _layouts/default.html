@@ -17,7 +17,7 @@
          <div class="menu">
         {% for page in site.pages_list %}
 
-<a href="{{ page[1]  }}">{{ page[0] }}</a>
+<a href="{{ site.baseurl }}/{{ page[1]  }}">{{ page[0] }}</a>
 {% endfor %}
       </div>
 </div>
