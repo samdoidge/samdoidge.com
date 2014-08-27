@@ -4,8 +4,11 @@ title: About
 permalink: about/
 ---
 
-I'm a web developer who appreciates design.
+I'm a web developer who appreciates design. 
 
+Some of my personal projects include:
+
+* [fifatrader.com](http://fifatrader.com) - a site which automatically buys and sells players from EA's FIFA at a users set prices. Has received 100's of signups with no promotion.
 
 ### Social ###
 
