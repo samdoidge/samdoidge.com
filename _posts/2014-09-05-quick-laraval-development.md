@@ -10,7 +10,7 @@ This is a quick post to share a small tool ([Laravel-4-Generators-Bootstrap-3](h
 php artisan generate:scaffold tweet --fields="author:string, body:text"
 {% endhighlight %}
 
-`scaffold` is the powerful command to generate the connecting view and controller in a Bootstrap 3 format. In the below example a table 'tweets' will be created with a controller named TweetsController
+`scaffold` is the powerful option to generate the connecting view and controller in a Bootstrap 3 format. In the below example a table 'tweets' will be created with a controller named TweetsController
 
 
 
