@@ -8,7 +8,9 @@ I'm a web developer who appreciates design.
 
 Some of my personal projects include:
 
-* [fifatrader.com](http://fifatrader.com) - a site which automatically buys and sells players from EA's FIFA at a users set prices. Has received 100's of signups with no promotion.
+* [fifatrader.com](http://fifatrader.com) - Automatically buy and sell players from EA's FIFA at a users set prices. Has received 100's of signups with no promotion.
+
+* [pintbet.com](http://pintbet.com) - A site for sports betting tips which tracks real bookmaker odds and records user performance with play money.
 
 ### Social ###
 
