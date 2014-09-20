@@ -9,7 +9,7 @@ My friend Neil mentioned the claim 'Fraser Island has more sand than the Sahara 
 
 ![no-margin](/assets/fraser-island.jpg)
 
-Googling the claim, several results claim up. Two Australian tourist sites claiming this is a myth, while 2 tourist blogs recite the claim. However there was a lack of evidence.
+Googling the claim, several results came up. Two Australian tourist sites stating this is a myth, while 2 tourist blogs recite the claim however there was no evidence presented.
 
 More Googling and some back-of-the-envelope calculations:
 

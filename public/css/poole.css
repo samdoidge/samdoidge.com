@@ -357,6 +357,10 @@ width: 240px;
   margin-bottom: 4em;
 }
 
+.post {
+  margin-bottom:2em;
+}
+
 img[alt=Sam] { 
   margin:auto;
   border: 3px solid #fff;
