@@ -7,11 +7,12 @@ $(document).ready(function()
 		}
 	});
 
-	Socialite.load($(this)[0]);
+
 
 
 
     $(window).scroll(function(){
+    		Socialite.load($(this)[0]);
     var posTop = $(window).scrollTop() - $('.container').offset().top
     if (posTop > 160)
     {
