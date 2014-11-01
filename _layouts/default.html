@@ -4,11 +4,9 @@
   {% include head.html %}
 
   <body>
-
-    <div class="container content">
-      <div class="masthead">
+   <div class="masthead">
+   <div class="container">
         <div class="title-holder">
-        <a href="/"><img id="logo" src="/assets/s-logo.png" alt="Sam Doidge S Logo Red"></a>
         <h3 class="masthead-title">
           <a href="{{ site.baseurl }}" title="Home">{{ site.title }}</a>
           <p><small>{{ site.tagline }}</small></p>
@@ -20,22 +18,25 @@
 <a href="{{ page[1]  }}">{{ page[0] }}</a>
 {% endfor %}
       </div>
+      </div>
 </div>
+    <div class="container content">
+   
       {{ content }}
 
-      {% include comments.html %}
 
-      <div class="footer">
+      
+    </div>
+    <footer class="footer">
         <p>
           &copy; {{ site.time | date: '%Y' }} Sam Doidge
         </p>
       </div>
-    </div>
-    
  <!--script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script-->
   <!--script src="{{ site.baseurl }}/public/js/socialite.min.js"></script-->
     <!--script src="{{ site.baseurl }}/public/js/app.js"></script-->
         {% include analytics.html %}
-  
+ 
+
   </body>
 </html>
