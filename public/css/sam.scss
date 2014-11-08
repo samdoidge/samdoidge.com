@@ -2,20 +2,38 @@
 ---
 $font-stack: 'Droid Serif', serif;
 
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 html {
 	font-family: 'Source Sans Pro', sans-serif;
 	position: relative;
 	min-height: 100%;
 }
 
+@media (min-width: 38em) {
+  html {
+    font-size: 20px;
+  }
+}
+
 body {
-	margin: 0 0 130px; /* bottom = footer height */
+	margin: 0 0 118px; /* bottom = footer height */
 }
 .footer {
 	position: absolute;
 	left: 0;
 	bottom: 0;
-	height: 100px;
+	height: 88px;
 	width: 100%;
 }
 
@@ -31,37 +49,40 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .masthead{
+	border-top: 4px solid #d03547;
+
 	background-color:#E72323;
 	background-color:#D02854;
 	background-color:#D02E28;
-	background-color:#990024;
-
+	/*background-color:#990024;*/
+	background-color:#f53e54;
 }
 
 .footer {
-	background-color:#F2F2F2;
+	background-color:#f53e54;
 	color:#D02854;
 }
 
 .menu {
 	float: left;
-	margin-top: 6px;
 }
+
 
 .menu a {
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
 	display: block;
 	padding: 10px 15px;
-	color:#dedede;
+	color: #F5F5F5;
 	float:left;
 	-webkit-transition: color .3s ease;
 	-o-transition: color .3s ease;
 	transition: color .3s ease;
+	text-shadow: 1px 1px 1px rgba(208, 53, 71, 1);
 }
 
 .menu a:hover {
-	background-color: #C0002D;
+	background-color: #d03547;
 	color:#ffffff;
 }
 
@@ -72,23 +93,28 @@ a:hover {
 color: #E42D58;
 }
 
-.masthead-title a,{
+.masthead-title a{
 	font-family: 'Source Sans Pro', sans-serif;
 	-webkit-transition: color .2s ease;
 	-o-transition: color .2s ease;
 	transition: color .2s ease;
 	color:#ffffff;
+	line-height:46px;
+	font-weight: normal;
+letter-spacing: 0.05px;
+text-shadow: 1px 1px 1px rgba(208, 53, 71, 1);
 }
 
 .masthead-title {
 	float:left;
 }
 
-.masthead-title a:hover {
-	color: #FFFD74;
+.masthead-title a:hover img {
+	margin-top:-3px;
 }
 .masthead p {
 	margin-bottom:0;
+	line-height:20px;
 }
 
 .masthead small {
@@ -103,12 +129,29 @@ color: #E42D58;
 	margin-top:2.5rem;
 }
 
+footer .masthead-title {
+	float:none;
+	margin: 20px auto;
+width: 50px;
+}
+
+footer .masthead-title a {
+color:#7b7b7b;
+}
+
+
+.logo {
+	width:48px;
+	float:left;
+	margin:0;
+	margin-right:15px;
+}
+
 @media (min-width: 22em) {
 
 	.menu {
 		float: left;
 		margin-left: 40px;
-		margin-top: 6px;
 	}
 
 	body {

@@ -8,16 +8,18 @@
    <div class="container">
         <div class="title-holder">
         <h3 class="masthead-title">
-          <a href="{{ site.baseurl }}" title="Home">{{ site.title }}</a>
-          <p><small>{{ site.tagline }}</small></p>
+          <a href="{{ site.baseurl }}" title="Home"><img src="{{ site.baseurl }}/assets/smiley-s.png" class="logo">{{ site.title }}</a>
         </h3>
       </div>
-         <div class="menu">
+      <nav class="nav-collapse">
+         <ul>
         {% for page in site.pages_list %}
-
+<li>
 <a href="{{ page[1]  }}">{{ page[0] }}</a>
+</li>
 {% endfor %}
-      </div>
+      </ul>
+      </nav>
       </div>
 </div>
     <div class="container content">
@@ -26,15 +28,34 @@
       
     </div>
     <footer class="footer">
-        <p>
-          &copy; {{ site.time | date: '%Y' }} Sam Doidge
-        </p>
+    <div class="container">
+    <h3 class="masthead-title">
+          <a href="{{ site.baseurl }}" title="Home"><img src="{{ site.baseurl }}/assets/s-smiley-grey.png" class="logo"></a>
+        </h3>
+     
       </div>
+      </footer>
  <!--script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script-->
   <!--script src="{{ site.baseurl }}/public/js/socialite.min.js"></script-->
     <!--script src="{{ site.baseurl }}/public/js/app.js"></script-->
         {% include analytics.html %}
- 
+   <script>
+          var navigation = responsiveNav(".nav-collapse", {
+        animate: true,                    // Boolean: Use CSS3 transitions, true or false
+        transition: 284,                  // Integer: Speed of the transition, in milliseconds
+        labal:'',              // String: Label for the navigation toggle
+        insert: "before",                  // String: Insert the toggle before or after the navigation
+        customToggle: "",                 // Selector: Specify the ID of a custom toggle
+        closeOnNavClick: false,           // Boolean: Close the navigation when one of the links are clicked
+        openPos: "relative",              // String: Position of the opened nav, relative or static
+        navClass: "nav-collapse",         // String: Default CSS class. If changed, you need to edit the CSS too!
+        navActiveClass: "js-nav-active",  // String: Class that is added to <html> element when nav is active
+        jsClass: "js",                    // String: 'JS enabled' class which is added to <html> element
+        init: function(){},               // Function: Init callback
+        open: function(){},               // Function: Open callback
+        close: function(){}               // Function: Close callback
+      });
+    </script>
 
   </body>
 </html>
