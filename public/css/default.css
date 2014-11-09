@@ -400,6 +400,11 @@ img[alt=no-margin]
   margin-bottom:0;
 }
 
+img[alt=sam]
+{
+  margin-bottom:0;
+}
+
 #logo {
   float:left;
   margin-right: 15px;
