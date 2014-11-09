@@ -93,6 +93,15 @@ a:hover {
 color: #E42D58;
 }
 
+.view-comments {
+	float: inherit;
+text-align: center;
+width: 100%;
+display: block;
+padding: 1rem;
+border: 1px solid #eee;
+}
+
 .masthead-title a{
 	font-family: 'Source Sans Pro', sans-serif;
 	-webkit-transition: color .2s ease;

@@ -503,7 +503,8 @@ top: 0px;
 
 @media (min-width: 30em) {
   .pagination {
-    margin: 3rem 0;
+    margin: 2rem 0;
+    margin-bottom:1rem;
   }
   .pagination-item {
     float: left;
