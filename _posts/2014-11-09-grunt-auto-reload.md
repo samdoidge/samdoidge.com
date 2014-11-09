@@ -73,7 +73,3 @@ The following will work as we have 'default' set as a registerTask. Run this via
 {% highlight js %}
 grunt
 {% endhighlight %}
-
-
-
-
