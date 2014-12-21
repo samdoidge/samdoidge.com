@@ -17,6 +17,6 @@ Not the most interesting post but essential for OOP PHP development:
 ### Basically ###
 
 
-<code>public</code> can be accessed and changed from outside the class. This cannot happen with <code>public</code> or <code>protected</code> :)
+<code>public</code> can be accessed and changed from outside the class. This cannot happen with <code>private</code> or <code>protected</code> :)
 
 Taken from [this stackoverflow question](http://stackoverflow.com/questions/4361553/php-public-private-protected) with a minor improvement.
