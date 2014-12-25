@@ -1,6 +1,7 @@
 ---
 ---
 $font-stack: 'Droid Serif', serif;
+$main-colour: #e34234;
 
 * {
 	-webkit-box-sizing: border-box;
@@ -41,6 +42,7 @@ a {
 	-webkit-transition: color .3s ease;
 	-o-transition: color .3s ease;
 	transition: color .3s ease;
+	color: #e34234;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -50,16 +52,11 @@ h1,h2,h3,h4,h5,h6 {
 
 .masthead{
 	border-top: 4px solid #d03547;
-
-	background-color:#E72323;
-	background-color:#D02854;
-	background-color:#D02E28;
-	/*background-color:#990024;*/
-	background-color:#f53e54;
+	background-color: $main-colour;
 }
 
 .footer {
-	background-color:#f53e54;
+	background-color:#e34234;
 	color:#D02854;
 }
 
@@ -79,6 +76,7 @@ h1,h2,h3,h4,h5,h6 {
 	-o-transition: color .3s ease;
 	transition: color .3s ease;
 	text-shadow: 1px 1px 1px rgba(208, 53, 71, 1);
+	text-transform:lowercase;
 }
 
 .menu a:hover {

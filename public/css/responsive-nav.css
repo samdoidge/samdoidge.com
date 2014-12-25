@@ -65,15 +65,11 @@
        -webkit-border-radius: 4px;
   border-radius: 4px;
 
-  -webkit-transition: color .3s ease;
-  -o-transition: color .3s ease;
-  transition: color .3s ease;
-  text-shadow: 1px 1px 1px rgba(208, 53, 71, 1);
   }
 
   .nav-collapse a:hover {
-  background-color: #d03547;
-  color:#ffffff;
+  background-color: #ffffff;
+  color:#E34234;
 }
 
   @media screen and (min-width: 40em) {
@@ -84,13 +80,11 @@
       text-align: center;
       border-bottom: 0;
       -webkit-border-radius: 4px;
-  border-radius: 4px;
+      border-radius: 4px;
 
-  -webkit-transition: color .3s ease;
-  -o-transition: color .3s ease;
-  transition: color .3s ease;
-  text-shadow: 1px 1px 1px rgba(208, 53, 71, 1);
-
+      -webkit-transition: color .3s ease;
+      -o-transition: color .3s ease;
+      transition: color .3s ease;
     }
     .nav-toggle {
       display:none;
