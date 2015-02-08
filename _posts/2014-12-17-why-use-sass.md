@@ -7,7 +7,7 @@ description: To answer the question, on anything more complex than a one page si
 
 ![no-margin](/assets/sass.png)
 
-On small projects CSS can seem fine. On large projects they can quickly become difficult to maintain. Want to change a colour used throughout your site? At best it's a mass search and replace, at worst you are browsing each style declaration, check where it is used and then changing the HEX value.
+Admittedly Sass has been out for years now, but I did'nt feel an urgent need to write about, until now. On small projects CSS can seem fine. On large projects they can quickly become difficult to maintain. Want to change a colour used throughout your site? At best it's a mass search and replace, at worst you are browsing each style declaration, check where it is used and then changing the HEX value.
 
 
 

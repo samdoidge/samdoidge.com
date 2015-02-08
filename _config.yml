@@ -9,7 +9,7 @@ permalink:        "/:title"
 title:            Sam Doidge
 tagline:          Coffee's for closers only.
 url:              http://samdoidge.com
-paginate:         1
+paginate:         5
 baseurl:          http://samdoidge.com
 author:
   name:           Sam Doidge	
