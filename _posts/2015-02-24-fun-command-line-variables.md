@@ -45,3 +45,5 @@ Then paste your command:
 Forgive the ugly multi-line command. It doesn't work due to the credentials, but otherwise you would be connecting to a FTP server. 
 
 This may be obvious to some, as it's a bash script - you can run the contents in the bash command line! But if you are learning you may not have thought to use this previously (like me).
+
+```PRO-TIP: Don't leave spaces around = when setting your variables```
