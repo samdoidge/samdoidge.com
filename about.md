@@ -4,7 +4,7 @@ title: About
 permalink: about/
 ---
 
-I'm a web developer who believes in a user-centric approach to solutions. The technology used is only a means to an end for me, the user experience is the priority. I'm an accomplished developer across the spectrum, from front-end and Photoshop to back-end and server setup. I try not to impose limits on myself and continually look to learn.
+I'm a web developer based in the UK. I'm 27, like to think of ideas and execute them. I conintually look to learn and I try not to impose limits on myself.
 
 Outside of the internet some of my interests include: playing football, rowing (in the gym), design and reading.
 
@@ -24,6 +24,7 @@ You can find me on:
 * [Github](http://github.com/samdoidge) - Code for this site and other contributions
 * [LinkedIn](http://uk.linkedin.com/in/samdoidge) - Business contacts
 * [Facebook](http://facebook.com/samdoidge) - Pour mes amis
+* [Instagram](http://instagram.com/samdoidge) - Occasional vanity
 
 
 ### Contact ###
