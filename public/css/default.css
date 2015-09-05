@@ -319,21 +319,6 @@ tbody tr:nth-child(odd) th {
   letter-spacing: 0;
 }
 
-
-
-.menu {
- text-align:center;
-}
-
-.menu a {
-  margin-right:10px;
-
-}
-
-.menu a:last-child {
-  margin-right:0;
-}
-
 .footer {
   text-align: center;
 }
