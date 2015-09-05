@@ -1,7 +1,8 @@
 ---
 ---
-$font-stack: 'Droid Serif', serif;
-$main-colour: #e34234;
+
+$main-colour: #CE573B;
+$highlight-colour: #CE573B;
 
 * {
 	-webkit-box-sizing: border-box;
@@ -9,169 +10,293 @@ $main-colour: #e34234;
 	box-sizing: border-box;
 }
 
-html,
-body {
-	margin: 0;
-	padding: 0;
-}
+/* ------------------------------------------
+  NAVIGATION STYLES
+  (+ responsive-nav.css file is loaded in the <head>)
+  --------------------------------------------- */
 
-html {
-	font-family: 'Source Sans Pro', sans-serif;
-	position: relative;
-	min-height: 100%;
-}
+  .fixed {
+  	position: fixed;
+  	width: 100%;
+  	top: 0;
+  	left: 0;
+  }
 
-@media (min-width: 38em) {
-	html {
-		font-size: 20px;
-	}
-}
+  .nav-collapse,
+  .nav-collapse ul {
+  	list-style: none;
+  	width: 100%;
 
-body {
-	margin: 0 0 118px; /* bottom = footer height */
-}
-.footer {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	height: 88px;
-	width: 100%;
-}
+  }
 
-a {
-	-webkit-transition: color .3s ease;
-	-o-transition: color .3s ease;
-	transition: color .3s ease;
-	color: #e34234;
-}
+  .nav-collapse ul {
+  	margin:0;
+  	padding:0;
+  }
 
-h1,h2,h3,h4,h5,h6 {
-	letter-spacing: -0.03125em;
-	font-family: 'Source Serif Pro', serif;
-}
-
-.masthead{
-	border-top: 4px solid #d03547;
-	background-color: $main-colour;
-}
-
-.footer {
-	background-color:#e34234;
-	color:#D02854;
-}
-
-.menu {
-	float: left;
+  .nav-collapse li {
+  	float: left;
+  	width: 100%;
+border-top: 1px solid #E0A082;
+  	
+  }
+.nav-collapse li:first-child {
+	border: none;
 }
 
 
-.menu a {
-	-webkit-border-radius: 4px;
-	border-radius: 4px;
-	display: block;
-	padding: 10px 15px;
-	color: #F5F5F5;
-	float:left;
-	-webkit-transition: color .3s ease;
-	-o-transition: color .3s ease;
-	transition: color .3s ease;
-	text-shadow: 1px 1px 1px rgba(208, 53, 71, 1);
-	text-transform:lowercase;
-}
+  .nav-collapse.closed {
+  	display:none;
+  }
 
-.menu a:hover {
-	background-color: #d03547;
-	color:#ffffff;
-}
+  @media screen and (min-width: 40em) {
+  	.nav-collapse li {
+  		width:auto;
+  		padding-left:0.4rem;
+  		border:none;
+  	}
+  }
 
-a:hover {
-	-webkit-transition: color .2s ease;
-	-o-transition: color .2s ease;
-	transition: color .2s ease;
-	color: #E42D58;
-}
+  .nav-collapse ul {
+  	padding-left:20px;
+  }
 
-.view-comments {
-	float: inherit;
-	text-align: center;
-	width: 100%;
-	display: block;
-	padding: 1rem;
-	border: 1px solid #eee;
-	-webkit-border-radius: 4px;
-	border-radius: 4px;
-}
+  .nav-collapse.closed {
+  	display:none;
+  }
 
-.masthead-title a{
-	font-family: 'Source Sans Pro', sans-serif;
-	-webkit-transition: color .2s ease;
-	-o-transition: color .2s ease;
-	transition: color .2s ease;
-	color:#ffffff;
-	line-height:46px;
-	font-weight: normal;
-	letter-spacing: 0.05px;
-	text-shadow: 1px 1px 1px rgba(208, 53, 71, 1);
-}
+  .nav-collapse a {
+  	color: #fff;
+  	text-decoration: none;
+  	width: 100%;
+  	font-family: Arial;
+  	font-size: 1.1rem;
+  	line-height: 60px;
+  	padding-left:0.5rem;
+  	padding-right:0.5rem;
+  	float: left;
+  	letter-spacing: 0.75px;
+  	opacity: 0.85;
+  	border-radius: 1px;
+  	text-transform: lowercase;
+  	text-align:center;
+  }
 
-.masthead-title {
-	float:left;
-}
+    	.nav-collapse a:hover {
+  		background:none;
+  		color:#ffffff;
+  		opacity:1;
+  	}
 
-.masthead-title a:hover img {
-	margin-top:-3px;
-}
-.masthead p {
-	margin-bottom:0;
-	line-height:20px;
-}
-
-.masthead small {
-	font-family: 'Source Sans Pro', sans-serif;
-	letter-spacing: -0.03125em;
-
-	color:#dedede;
-}
-
-.footer p {
-	color: #3C3335;
-	margin-top:2.5rem;
-}
-
-footer .masthead-title {
-	float:none;
-	margin: 20px auto;
-	width: 50px;
-}
-
-footer .masthead-title a {
-	color:#7b7b7b;
-}
+  @media screen and (min-width: 40em) {
+  	.nav-collapse a {
+  		margin: 0;
+  		float: left;
+  		text-align: center;
+  		border-bottom: 0;
+  		border-radius: 2px;
+  		text-align:left;
+  	}
 
 
-.logo {
-	width:48px;
-	float:left;
-	margin:0;
-	margin-right:15px;
-}
 
-@media (min-width: 22em) {
+  	.nav-toggle {
+  		display:none;
+  	}
 
-	.menu {
-		float: left;
-		margin-left: 40px;
-	}
+  	.nav-collapse.closed {
+  		display:block;
+  	}
+  }
 
-	body {
-		margin: 0 0 150px; /* bottom = footer height */
-	}
 
-}
+  .nav-collapse ul ul a {
 
-@media (min-width:564px)
-{
-	.footer p {
-		margin-top:1.8rem;
-	}
-}
+  	padding-left: 2em;
+  }
+
+  @media screen and (min-width: 40em) {
+  	.masthead-title {
+  		margin-right: 2rem;
+  	}
+
+  	.nav-collapse ul ul a {
+  		display: none;
+  	}
+  }
+
+  @media (max-width: 38em) {
+ html .masthead a{
+ 	font-size: 1.375rem;
+ }
+  }
+
+
+/* ------------------------------------------
+  NAV TOGGLE STYLES
+  --------------------------------------------- */
+
+  @font-face {
+  	font-family: "responsivenav";
+  	src:url("../icons/responsivenav.eot");
+  	src:url("../icons/responsivenav.eot?#iefix") format("embedded-opentype"),
+  	url("../icons/responsivenav.ttf") format("truetype"),
+  	url("../icons/responsivenav.woff") format("woff"),
+  	url("../icons/responsivenav.svg#responsivenav") format("svg");
+  	font-weight: normal;
+  	font-style: normal;
+  }
+
+  .nav-toggle {
+  	position: fixed;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+  	-webkit-touch-callout: none;
+  	-webkit-user-select: none;
+  	-moz-user-select: none;
+  	-ms-user-select: none;
+  	user-select: none;
+  	text-decoration: none;
+  	text-indent: -999px;
+  	position: relative;
+  	overflow: hidden;
+  	width: 70px;
+  	height: 55px;
+  	float: right;
+  }
+
+  .nav-toggle:before {
+  	color: #f4421a; /* Edit this to change the icon color */
+  	font-family: "Arial", sans-serif;
+  	font-style: normal;
+  	font-weight: normal;
+  	font-variant: normal;
+  	font-size: 28px;
+  	text-transform: none;
+  	position: absolute;
+  	content: "≡";
+  	text-indent: 0;
+  	text-align: center;
+  	line-height: 55px;
+  	speak: none;
+  	width: 100%;
+  	top: 6px;
+  	left: 0;
+  }
+
+  .nav-toggle.active::before {
+  	font-size: 2em;
+  	content:"x";
+  }
+
+  .nav-toggle:before {
+  	font-size:2.2em;
+  	color:#ffffff;
+  	opacity:0.85;
+  	line-height:45px;
+  }
+
+
+  html,
+  body {
+  	margin: 0;
+  	padding: 0;
+  }
+
+  html {
+  	font-family: 'Source Sans Pro', sans-serif;
+  	position: relative;
+  	min-height: 100%;
+  }
+
+  @media (min-width: 38em) {
+  	html {
+  		font-size: 20px;
+  	}
+  }
+
+  body {
+  	margin: 0 0 118px; /* bottom = footer height */
+  }
+  .footer {
+  	position: absolute;
+  	left: 0;
+  	bottom: 0;
+  	height: 88px;
+  	width: 100%;
+  }
+
+  a {
+  	color: $highlight-colour;
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+  	font-family: 'Source Sans Pro', serif;
+  }
+
+  .masthead {
+  	background: #cd573b; /* Old browsers */
+  	background: -moz-radial-gradient(center, ellipse cover, #cd573b 0%, #d0452a 100%); /* FF3.6+ */
+  	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#cd573b), color-stop(100%,#d0452a)); /* Chrome,Safari4+ */
+  	background: -webkit-radial-gradient(center, ellipse cover, #cd573b 0%,#d0452a 100%); /* Chrome10+,Safari5.1+ */
+  	background: -o-radial-gradient(center, ellipse cover, #cd573b 0%,#d0452a 100%); /* Opera 12+ */
+  	background: -ms-radial-gradient(center, ellipse cover, #cd573b 0%,#d0452a 100%); /* IE10+ */
+  	background: radial-gradient(ellipse at center, #cd573b 0%,#d0452a 100%); /* W3C */
+  	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cd573b', endColorstr='#d0452a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  }
+
+  .footer {
+  	background-color:$highlight-colour;
+  	color:#D02854;
+  }
+
+  a:hover {
+  	color: $main-colour;
+  }
+
+  .masthead-title a {
+  	font-family: Arial;
+  	text-transform: lowercase;
+  	color:#ffffff;
+  	line-height: 60px;
+  	font-size: 1.1rem;
+  	font-weight:normal;
+  	letter-spacing: 0.75px;
+  	opacity: 0.85;
+  }
+
+  .masthead-title a:hover {
+  	background:none;
+  	color:#ffffff;
+  	opacity:1;
+  }
+
+  .masthead-title {
+  	float:left;
+  }
+
+  footer .masthead-title {
+  	float:none;
+  	margin: 20px auto;
+  	width: 50px;
+  }
+
+  footer .masthead-title a {
+  	color:#7b7b7b;
+  }
+
+
+  .logo {
+  	width:60px;
+  	float:left;
+  	margin:0;
+  	margin-right:20px;
+  }
+
+  @media (min-width: 22em) {
+
+  	body {
+  		margin: 0 0 150px; /* bottom = footer height */
+  	}
+
+  }

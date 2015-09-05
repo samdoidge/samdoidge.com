@@ -4,7 +4,7 @@ title: About
 permalink: about/
 ---
 
-I'm a web developer based in the UK, currently contracting for a finance company. I'm 27 and like to think of ideas and execute them.  I continually look to learn and I try not to impose limits on myself.
+I'm a web developer based in the UK, currently contracting for a finance company. I'm 28 and like to think of ideas and execute them.  I continually look to learn and I try not to impose limits on myself.
 
 Outside of the internet some of my interests include: playing football, rowing (in the gym), design and reading.
 
@@ -36,3 +36,6 @@ Email me: [sam@samdoidge.com](mailto:sam@samdoidge.com)
 
 ![sam](/assets/sam-shanghai.jpg)
 Shanghai '13
+
+![sam](/assets/sam-zara.jpg)
+Zara, Basingstoke, UK '15
