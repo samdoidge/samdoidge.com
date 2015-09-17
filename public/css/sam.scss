@@ -62,12 +62,16 @@ h1,h2,h3,h4,h5,h6 {
 	padding-right:0.5rem;
 	float: left;
 	letter-spacing: 0.75px;
-	border-radius: 1px;
 	text-transform: lowercase;
 	text-align:center;
 }
 
 @media screen and (min-width: 40em) {
+
+	html {
+		font-size: 20px;
+	}
+
 	.nav-collapse li {
 		width:auto;
 		padding-left:0.4rem;
@@ -78,7 +82,6 @@ h1,h2,h3,h4,h5,h6 {
 		margin: 0;
 		float: left;
 		border-bottom: 0;
-		border-radius: 2px;
 		text-align:left;
 	}
 
@@ -99,9 +102,12 @@ h1,h2,h3,h4,h5,h6 {
 	}
 }
 
-@media (max-width: 38em) {
+@media (max-width: 40em) {
 	html .masthead a {
 		font-size: 1.375rem;
+	}
+		.masthead .container {
+			border-radius: 0;
 	}
 }
 
@@ -138,21 +144,14 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 
-
-@media (min-width: 38em) {
-	html {
-		font-size: 20px;
-	}
-}
-
-
 .masthead {
-	padding-top:0.5em;
+	padding-top:0;
 }
 
 .masthead .container {
 	overflow:hidden;
-	border-bottom: 1px solid #eeeeee;
+	border: 1px solid #eeeeee;
+	border-top:0;
 }
 
 
