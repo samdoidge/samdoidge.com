@@ -1,46 +1,38 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
-   <div class="masthead">
+<body>
+ <div class="masthead">
    <div class="container">
-        <div class="title-holder">
-        <h3 class="masthead-title">
-          <a href="{{ site.baseurl }}" title="Home"><img width="56" src="{{ site.baseurl }}/assets/sam-x-90.png" class="logo" alt="samdoidge s on side logo">{{ site.title }}</a>
-        </h3>
-      </div>
-      <nav class="nav-collapse">
-         <ul>
-        {% for page in site.pages_list %}
-<li>
-<a href="{{ page[1]  }}">{{ page[0] }}</a>
-</li>
-{% endfor %}
-      </ul>
-      </nav>
-      </div>
-</div>
-    <div class="container content">
-   
-      {{ content }}
-      
+    <div class="title-holder">
+      <h3 class="masthead-title">
+        <a href="{{ site.baseurl }}" title="Home"><img width="56" src="{{ site.baseurl }}/assets/sam-x-90.png" class="logo" alt="samdoidge s on side logo">{{ site.title }}</a>
+      </h3>
     </div>
-    <footer class="footer">
-    <div class="container">
-    <h3 class="masthead-title">
-          <a href="{{ site.baseurl }}" title="Home"><img width="60" src="{{ site.baseurl }}/assets/sam-x-90.png" class="logo" alt="samdoidge s on side logo"></a>
-        </h3>
-     
-      </div>
-      </footer>
- <!--script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script-->
-  <!--script src="{{ site.baseurl }}/public/js/socialite.min.js"></script-->
-    <!--script src="{{ site.baseurl }}/public/js/app.js"></script-->
-        {% include analytics.html %}
-   <script>
-          var navigation = responsiveNav(".nav-collapse", {
+    <nav class="nav-collapse">
+     <ul>
+      {% for page in site.pages_list %}
+      <li>
+        <a href="{{ page[1]  }}">{{ page[0] }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
+
+</div>
+
+</div>
+<div class="container content">
+
+  {{ content }}
+
+</div>
+
+{% include analytics.html %}
+<script>
+  var navigation = responsiveNav(".nav-collapse", {
         animate: true,                    // Boolean: Use CSS3 transitions, true or false
         transition: 284,                  // Integer: Speed of the transition, in milliseconds
         labal:'',              // String: Label for the navigation toggle
@@ -55,7 +47,7 @@
         open: function(){},               // Function: Open callback
         close: function(){}               // Function: Close callback
       });
-    </script>
+</script>
 
-  </body>
+</body>
 </html>
