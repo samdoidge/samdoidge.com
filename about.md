@@ -8,7 +8,7 @@ I'm a web developer based in the UK, currently contracting for a finance company
 
 Outside of the internet some of my interests include: playing football, rowing (in the gym), design and reading.
 
-### Personal projects ###
+## Personal projects
 
 * [textiler.com](http://textiler.com) - A joint project where I was responsible for the development. Design & print custom digital fabrics. Makes use of canvas / fabric.js and node.js 
 
@@ -16,7 +16,7 @@ Outside of the internet some of my interests include: playing football, rowing (
 
 * [pintbet.com](http://pintbet.com) - A site for sports betting tips which tracks real bookmaker odds and records user performance with play money.
 
-### Social ###
+## Social
 
 You can find me on:
 
@@ -27,7 +27,7 @@ You can find me on:
 * [Instagram](http://instagram.com/samdoidge) - Occasional vanity
 
 
-### Contact ###
+## Contact
 
 
 Change something on the site by creating [a GitHub issue](https://github.com/samdoidge/samdoidge.github.io/issues)

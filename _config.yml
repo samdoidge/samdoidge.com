@@ -1,30 +1,19 @@
-# Dependencies
-markdown:         redcarpet
-pygments:         true
+# Site settings
+title: Your awesome title
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+disqusid: samdoidge
+permalink: /:title
 
-# Permalinks
-permalink:        "/:title"
-
-# Setup
-title:            Sam Doidge
-tagline:          Coffee's for closers only.
-url:              http://samdoidge.com
-paginate:         5
-baseurl:          http://samdoidge.com
-author:
-  name:           Sam Doidge	
-  url:            http://samdoidge.com
-  email:          sam@samdoidge.com
-
-# Gems
-gems:
-  - jekyll-sitemap
-
-# Custom vars
-version:          1.0.0
-github:
-  repo:           https://github.com/samdoidge/samdoidge.github.io
-disqusid:			  samdoidge
+# Build settings
+markdown: kramdown
 
 # Custom header pages
 pages_list:       
