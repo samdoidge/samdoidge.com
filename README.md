@@ -8,4 +8,4 @@ Install Jekyll, clone this repo, run `jekyll serve` in terminal from the cloned 
 
 ### Screenshots
 
-![samdoidge.com](http://samdoidge.com/assets/samdoidge-20151019.png)
+![samdoidge.com](/assets/samdoidge-20151019.png)
