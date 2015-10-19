@@ -1,7 +1,7 @@
 ---
 ---
-$main-colour: #82C13E;
-$secondary-colour: #6D9C39;
+$main-colour: #212121;
+$secondary-colour: #F11919;
 $light-colour: rgba(243, 251, 241, 0.62);
 
 body {
@@ -13,20 +13,48 @@ ul {
     padding-left:20px;
 }
 
+hr {
+    border-bottom: 1px solid #eee;
+    margin:auto;
+    margin-top:60px;
+    margin-bottom:20px;
+}
+
+.posts .post {
+    text-align:justify;
+}
+
+.posts .post-title {
+    margin-top:60px;
+}
+
+.post .post-title {
+    margin-bottom:0;
+}
+
+.post-meta {
+    margin-top:0;   
+    color: #B9B9B9;
+    font-size:17px;
+}
+
+#disqus_thread {
+    margin-top: 20px;
+}
 
 .gradient {
 background-image: -webkit-gradient(
     linear,
     left top,
     right bottom,
-    color-stop(0.4, #91D24A),
-    color-stop(0.74, #8DC54F)
+    color-stop(0.2, #F11919),
+    color-stop(0.74, #F55633)
 );
-background-image: -o-linear-gradient(right bottom, #91D24A 40%, #8DC54F 74%);
-background-image: -moz-linear-gradient(right bottom, #91D24A 40%, #8DC54F 74%);
-background-image: -webkit-linear-gradient(right bottom, #91D24A 40%, #8DC54F 74%);
-background-image: -ms-linear-gradient(right bottom, #91D24A 40%, #8DC54F 74%);
-background-image: linear-gradient(to right bottom, #91D24A 40%, #8DC54F 74%);
+background-image: -o-linear-gradient(right bottom, #F11919 20%, #F55633 74%);
+background-image: -moz-linear-gradient(right bottom, #F11919 20%, #F55633 74%);
+background-image: -webkit-linear-gradient(right bottom, #F11919 20%, #F55633 74%);
+background-image: -ms-linear-gradient(right bottom, #F11919 20%, #F55633 74%);
+background-image: linear-gradient(to right bottom, #F11919 20%, #F55633 74%);
 }
 
 /* ==========================================================================
@@ -46,7 +74,7 @@ background-image: linear-gradient(to right bottom, #91D24A 40%, #8DC54F 74%);
 }
 
 .subtitle {
-    color: $secondary-colour;
+    color: #ffffff;
     font-size: 27px;
     font-weight: 400;
     line-height: 30px;
@@ -54,7 +82,7 @@ background-image: linear-gradient(to right bottom, #91D24A 40%, #8DC54F 74%);
 }
 
 .subtitle + .subtitle {
-    color: white;
+    color: #ffffff;
 }
 
 .nav {
@@ -99,9 +127,10 @@ p {
 }
 
 a {
-    color: $main-colour;
+    color: $secondary-colour;
     -webkit-transition: opacity .3s ease-in-out;
     transition: opacity .3s ease-in-out;
+    border-bottom:1px dashed #F11919;
 }
 
 a:hover,
@@ -123,9 +152,9 @@ h2 {
 h3 {
     color: #333;
     margin: 40px 0;
-    font-size: 18px;
-    font-weight: 300;
-    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .clippy {
@@ -147,9 +176,9 @@ pre code {
 }
 
 code {
-    background-color: $light-colour;
+    background-color: #FFF1F1;
     border-radius: 3px;
-    color: $main-colour;
+    color: #F11919;
     font-size: 85%;
     margin: 0;
     padding: 0.2em;
@@ -260,7 +289,7 @@ img {
     font-weight: 400;
     font-family: 'Lato', sans-serif;
     font-size: 20px;
-    color: $secondary-colour;
+    color: #ffffff;
 }
 
 .credits-link {
