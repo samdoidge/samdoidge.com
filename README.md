@@ -1,6 +1,6 @@
 # samdoidge.com
 
-[samdoidge.com](http://samdoidge.com) running on [Jekyll](http://jekyllrb.com) with [Poole](https://github.com/poole/poole)
+[samdoidge.com](http://samdoidge.com) running on [Jekyll](http://jekyllrb.com)
 
 ### Setup
 
