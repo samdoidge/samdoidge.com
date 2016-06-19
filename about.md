@@ -4,11 +4,13 @@ title: About
 permalink: about/
 ---
 
-I'm a web developer based in the UK, currently contracting for a finance company. I'm 28 and like to think of ideas and execute them.  I continually look to learn and I try not to impose limits on myself.
+I'm a web developer based in the UK, currently contracting for a finance company. I'm 29 and like to think of ideas and execute them. I continually look to learn and I try not to impose limits on myself.
 
 Outside of the internet some of my interests include: playing football, rowing (in the gym), design and reading.
 
 ## Personal projects
+
+* [beforesteam.com](https://beforesteam.com) - A price comparison site for Steam games. Millions of price points tracked. Records price history for thousands of games in multiple vendors and mulitple currencies. ~40 IP's used for polling data without hitting limits. Amazon S3 for image hosting, cloudflare as a CDN at the front of it all.
 
 * [textiler.com](http://textiler.com) - A joint project where I was responsible for the development. Design & print custom digital fabrics. Makes use of canvas / fabric.js and node.js 
 
