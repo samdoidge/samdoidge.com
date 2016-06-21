@@ -43,18 +43,10 @@ hr {
 }
 
 .gradient {
-background-image: -webkit-gradient(
-    linear,
-    left top,
-    right bottom,
-    color-stop(0.2, #F11919),
-    color-stop(0.74, #F55633)
-);
-background-image: -o-linear-gradient(right bottom, #F11919 20%, #F55633 74%);
-background-image: -moz-linear-gradient(right bottom, #F11919 20%, #F55633 74%);
-background-image: -webkit-linear-gradient(right bottom, #F11919 20%, #F55633 74%);
-background-image: -ms-linear-gradient(right bottom, #F11919 20%, #F55633 74%);
-background-image: linear-gradient(to right bottom, #F11919 20%, #F55633 74%);
+    background-image: url(/assets/italian-fields.jpg);
+    background-size: cover;
+    background-color: rgba(165, 114, 94, 0.4);
+    background-blend-mode: multiply;
 }
 
 /* ==========================================================================
@@ -87,9 +79,8 @@ background-image: linear-gradient(to right bottom, #F11919 20%, #F55633 74%);
 
 .nav {
     margin: 72px 0 0;
-    background: rgba(0, 0, 0, .1);
     padding: 15px 0 15px;
-        font-size: 27px;
+    font-size: 27px;
 }
 
 .nav li {
@@ -98,7 +89,6 @@ background-image: linear-gradient(to right bottom, #F11919 20%, #F55633 74%);
 
 .nav a {
     color: #fff;
-
     border: 0;
     padding: 0 30px;
     font-weight: bold;
