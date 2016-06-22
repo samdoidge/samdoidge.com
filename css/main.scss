@@ -120,7 +120,6 @@ a {
     color: $secondary-colour;
     -webkit-transition: opacity .3s ease-in-out;
     transition: opacity .3s ease-in-out;
-    border-bottom:1px dashed #F11919;
 }
 
 a:hover,
@@ -145,6 +144,10 @@ h3 {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
+}
+
+h5 {
+    font-size: 18px;
 }
 
 .clippy {
@@ -340,6 +343,9 @@ img {
 
     .posts .post {
         text-align: left;
+    }
+    .posts .post-title {
+        margin-top: 40px;
     }
 
 }

@@ -3,21 +3,18 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <!--span class="post-date">{{ post.date | date_to_string }}</span-->
-
-    <p>{{ post.content | truncatewords:47 | strip_html }}</p>
-  </div>
-  <hr/>
-  {% endfor %}
+    {% for post in site.posts %}
+    <div class="post">
+        <h1 class="post-title">
+            <a href="{{ post.url }}">
+            {{ post.title }}
+            </a>
+        </h1>
+        <!--span class="post-date">{{ post.date | date_to_string }}</span-->
+        <p>{{ post.content | truncatewords:47 | strip_html }}</p>
+    </div>
+    <hr/>
+    {% endfor %}
 </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
