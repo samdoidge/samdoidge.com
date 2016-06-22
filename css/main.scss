@@ -30,6 +30,7 @@ hr {
 
 .post .post-title {
     margin-bottom:0;
+    margin-top:60px;
 }
 
 .post-meta {
@@ -129,7 +130,6 @@ a:focus {
 }
 
 h1 {
-    margin-top: 80px;
     color: $main-colour;
 }
 
@@ -344,7 +344,7 @@ img {
     .posts .post {
         text-align: left;
     }
-    .posts .post-title {
+    .posts .post-title, .post .post-title {
         margin-top: 40px;
     }
 
