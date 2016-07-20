@@ -38,6 +38,3 @@ Email me: [sam@samdoidge.com](mailto:sam@samdoidge.com)
 
 ![sam](/assets/sam-shanghai.jpg)
 Shanghai '13
-
-![sam](/assets/sam-zara.jpg)
-Zara, Basingstoke, UK '15
