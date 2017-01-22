@@ -18,6 +18,8 @@ Outside of the internet some of my interests include: playing football, rowing (
 
 * [pintbet.com](http://pintbet.com) - A site for sports betting tips which tracks real bookmaker odds and records user performance with play money.
 
+* [thebuildingcompany.co](https://thebuildingcompany.co) - A local building company website hosted on Github, using a custom Jekyll theme and Cloudflare.
+
 ## Social
 
 You can find me on:
