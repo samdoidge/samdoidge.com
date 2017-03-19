@@ -5,8 +5,9 @@ $secondary-colour: #F11919;
 $light-colour: rgba(243, 251, 241, 0.62);
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
     font-size: 20px;
+    -webkit-font-smoothing: antialiased;
 }
 
 ul {
@@ -52,6 +53,7 @@ p {
     background-size: cover;
     background-color: rgba(165, 114, 94, 0.4);
     background-blend-mode: multiply;
+    background-position: center center;
 }
 
 /* ==========================================================================
@@ -64,9 +66,8 @@ p {
 
 .title {
     color: white;
-    font-size: 64px;
-    font-weight: 900;
-    letter-spacing: -1px;
+    font-weight: bold;
+    font-size: 50px;
     margin: 0 20px 20px;
 }
 
@@ -83,20 +84,32 @@ p {
 }
 
 .nav {
-    margin: 72px 0 0;
-    padding: 15px 0 15px;
-    font-size: 27px;
+    margin: 0;
+    font-size: 23px;
+    padding-left: 0;
+    margin-top: 72px;
+    overflow: auto;
+    list-style: none
 }
 
 .nav li {
-    display: inline-block;
+    width: 49%;
+    float: left;
+    text-align: center;
 }
 
 .nav a {
     color: #fff;
     border: 0;
-    padding: 0 30px;
+    text-align: center;
+    width: 100%;
+    display: block;
     font-weight: bold;
+    padding: 15px 0 15px;
+}
+
+.nav a:hover, .nav a:focus {
+    background-color: rgba(0,0,0,0.25);
 }
 
 .post-date {
@@ -127,14 +140,12 @@ p {
 
 a {
     color: $secondary-colour;
-    -webkit-transition: opacity .3s ease-in-out;
-    transition: opacity .3s ease-in-out;
+
 }
 
 a:hover,
 a:focus {
     text-decoration: none;
-    opacity: .7;
 }
 
 h1 {
@@ -334,11 +345,25 @@ img {
 
 @media screen and (max-width: 640px) {
     .title {
-        font-size: 48px;
+        font-size: 34px;
+        margin: 0 10px 10px;
     }
 
     .subtitle {
-        font-size: 22px;
+        font-size: 20px;
+        margin: 0 15px 10px;
+    }
+
+    .header{
+    padding-top:20px;
+    }
+    .nav {
+     margin-top:0px;
+    }
+
+    .nav a {
+    font-size:18px;
+        padding: 10px 0 10px;
     }
 
     .credits {
