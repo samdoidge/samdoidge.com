@@ -37,8 +37,13 @@ if(window.location.hash.indexOf('#comments') > 0)
 if(comments) {
   var commentsOffset = findTop(comments);
 
+  window.onload = function() {
+    if(!disqusLoaded && window.pageYOffset > commentsOffset - 1500)
+      loadDisqus();
+  }
+
   window.onscroll = function() {
-    if(!disqusLoaded && window.pageYOffset > commentsOffset - 1000)
+    if(!disqusLoaded && window.pageYOffset > commentsOffset - 1500)
       loadDisqus();
   }
 }

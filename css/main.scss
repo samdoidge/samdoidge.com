@@ -1,6 +1,6 @@
 ---
 ---
-$main-colour: #212121;
+$main-colour: #000000;
 $secondary-colour: #F11919;
 $light-colour: rgba(243, 251, 241, 0.62);
 
@@ -22,11 +22,12 @@ hr {
 }
 
 p {
-    font-family: 'Lora', serif;
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+
 }
 
 .posts .post {
-    text-align:justify;
+
 }
 
 .posts .post-title {
@@ -36,6 +37,7 @@ p {
 .post .post-title {
     margin-bottom:0;
     margin-top:60px;
+    font-size:46px;
 }
 
 .post-meta {
@@ -51,9 +53,10 @@ p {
 .gradient {
     background-image: url(/assets/italian-fields.jpg);
     background-size: cover;
-    background-color: rgba(165, 114, 94, 0.4);
+    background-color: rgba(165, 114, 94, 0.3);
     background-blend-mode: multiply;
     background-position: center center;
+
 }
 
 /* ==========================================================================
@@ -61,19 +64,21 @@ p {
    ========================================================================== */
 
 .header {
-    padding-top: 72px;
+    padding-top: 40px;
 }
 
 .title {
     color: white;
     font-weight: bold;
-    font-size: 50px;
-    margin: 0 20px 20px;
+    font-size: 48px;
+    margin: 10px 0;
+    padding: 20px;
+    padding-bottom: 10px;
 }
 
 .subtitle {
     color: #ffffff;
-    font-size: 27px;
+    font-size: 24px;
     font-weight: 400;
     line-height: 30px;
     margin: 0 20px 20px;
@@ -87,7 +92,7 @@ p {
     margin: 0;
     font-size: 23px;
     padding-left: 0;
-    margin-top: 72px;
+    padding-top: 10px;
     overflow: auto;
     list-style: none
 }
@@ -106,6 +111,7 @@ p {
     display: block;
     font-weight: bold;
     padding: 15px 0 15px;
+    letter-spacing: 1px; 
 }
 
 .nav a:hover, .nav a:focus {
@@ -127,13 +133,13 @@ figure {
 
 .wrap {
     margin: 0 auto 90px;
-    max-width: 700px;
+    max-width: 740px;
     padding: 0 20px;
     word-wrap: break-word;
 }
 
 p {
-    color: #333;
+    color: #000;
     font-size: 20px;
     line-height: 1.6;
 }
@@ -148,13 +154,20 @@ a:focus {
     text-decoration: none;
 }
 
+.post a {
+    text-decoration: underline;
+}
+
 h1 {
     color: $main-colour;
+    letter-spacing: 1px; 
 }
 
 h2 {
     margin-top: 40px;
     color: $main-colour;
+    font-size: 1.5em;
+    letter-spacing: 1px; 
 }
 
 h3 {
@@ -179,6 +192,21 @@ h5 {
     opacity: .3;
 }
 
+main blockquote p {
+    font-size: 28px;
+    line-height: 1.4em;
+    margin-top: 1em;
+    font-weight: light;
+    display: block;
+    color: #5C596D;
+    font-family: 'Lora', serif;
+    width: 120%;
+    margin-left: -10%;
+        border-left: 7px solid #d4d4d4;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
 /* Code
    ========================================================================== */
 
@@ -188,9 +216,9 @@ pre code {
 }
 
 code {
-    background-color: #FFF1F1;
+    background-color: #e9efe6;
     border-radius: 3px;
-    color: #F11919;
+    color: #48922c;
     font-size: 85%;
     margin: 0;
     padding: 0.2em;
@@ -261,6 +289,13 @@ textarea {
     width: 100%;
 }
 
+img + em {
+        color: #5C596D;
+    font-size: 85%;
+    margin-top: -18px;
+    line-height: 1.5em;
+}
+
 /* Support
    ========================================================================== */
 
@@ -280,8 +315,9 @@ textarea {
 
 img {
     display: block;
-    max-width: 100%;
-    margin: 0 0 1rem;
+    margin: 0 0 0.5rem;
+    width: 120%;
+    margin-left: -10%;
 }
 
 /* ==========================================================================
@@ -344,9 +380,37 @@ img {
    ========================================================================== */
 
 @media screen and (max-width: 640px) {
+    .post .post-title  {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 22px;
+        letter-spacing: 0.5px;
+    }
+
+    h1 {
+        letter-spacing: 0.5px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    img {
+        width:100%;
+        margin-left:0;
+    }
+
+    main blockquote p {
+    font-size: 24px;
+    width:100%;
+        margin-left:0;
+}
+
     .title {
         font-size: 34px;
-        margin: 0 10px 10px;
+        margin: 0;
     }
 
     .subtitle {
@@ -355,10 +419,10 @@ img {
     }
 
     .header{
-    padding-top:40px;
+    padding-top:25px;
     }
     .nav {
-     margin-top:30px;
+     margin-top:15px;
     }
 
     .nav a {

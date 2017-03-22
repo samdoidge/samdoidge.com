@@ -9,9 +9,9 @@ This post is probably a marker that I have to split my personal and technical po
 My recent holiday has been a relevation to me, and I'm feeling very positive. 
 
 
-* WORK IN PROGRESS *
+
 ![sam](/assets/7121210zoomed.jpeg)
-Asher Durand, The Beeches, 1845.
+*Asher Durand, The Beeches, 1845.*
 
 I discovered it when viewing Romanticism art, and it appears to be a genre almost made for me. 
 
