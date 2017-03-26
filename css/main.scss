@@ -4,14 +4,20 @@ $main-colour: #000000;
 $secondary-colour: #F11919;
 $light-colour: rgba(243, 251, 241, 0.62);
 
+$light-code-bg: #f1f3f0;
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
     font-size: 20px;
     -webkit-font-smoothing: antialiased;
 }
 
-ul {
+ul, ol {
     padding-left:20px;
+}
+
+ol li {
+    padding-left: 10px;
 }
 
 hr {
@@ -25,8 +31,13 @@ p {
     font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
 }
 
-.home h1.post-title {
+.home h2.post-title {
     font-size: 36px;
+
+}
+.home h2.post-title a{
+    text-decoration: none;
+
 }
 
 .posts .post-title {
@@ -210,13 +221,17 @@ main blockquote p {
 /* Code
    ========================================================================== */
 
+pre {
+    font-size:20px;
+}
 pre code {
-    font-size: 14px;
+
     line-height: 20px;
+
 }
 
 code {
-    background-color: #e9efe6;
+    background-color: $light-code-bg;
     border-radius: 3px;
     color: #48922c;
     font-size: 85%;
@@ -445,4 +460,15 @@ img {
         margin-top: 40px;
     }
 
+}
+
+.haml {
+       background-color: $light-code-bg;
+    border-radius: 3px;
+    color: #48922c;
+    font-size: 85%;
+}
+
+.highlighter-rouge {
+        margin-bottom: 1em;
 }

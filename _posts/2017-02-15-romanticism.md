@@ -8,7 +8,7 @@ I've had a reminder to post the following image for ages, and now I've been putt
 
 
 ![sam](/assets/7121210zoomed.jpeg)
-Asher Durand, The Beeches, 1845.
+*Asher Durand, The Beeches, 1845.*
 
 I discovered it when viewing Romanticism art, and it appears to be a genre almost made for me. 
 
