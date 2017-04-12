@@ -2,6 +2,7 @@
 layout: post
 title: 'Romanticism'
 comments: True
+categories: Art
 ---
 
 I've had a reminder to post the following image for ages, and now I've been putting into practise the lessons from The 7 Habits of Highly Effective People - I thought I should post.

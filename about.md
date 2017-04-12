@@ -8,7 +8,7 @@ I'm a web developer based in the UK, currently contracting for a finance company
 
 Outside of the internet some of my interests include: playing football, rowing (in the gym), design and reading.
 
-## Personal projects
+### Personal projects
 
 * [beforesteam.com](https://beforesteam.com) - A price comparison site for Steam games. Millions of price points tracked. Records price history for thousands of games in multiple vendors and mulitple currencies. ~40 IP's used for polling data without hitting limits. Amazon S3 for image hosting, cloudflare as a CDN at the front of it all.
 
@@ -20,7 +20,7 @@ Outside of the internet some of my interests include: playing football, rowing (
 
 * [thebuildingcompany.co](https://thebuildingcompany.co) - A local building company website hosted on Github, using a custom Jekyll theme and Cloudflare.
 
-## Social
+### Social
 
 You can find me on:
 
@@ -31,7 +31,7 @@ You can find me on:
 * [Instagram](http://instagram.com/samdoidge) - Occasional vanity
 
 
-## Contact
+### Contact
 
 
 Change something on the site by creating [a GitHub issue](https://github.com/samdoidge/samdoidge.github.io/issues)

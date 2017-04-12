@@ -2,6 +2,7 @@
 layout: post
 title: hackrhackr Logo
 comments: True
+categories: Design
 ---
 
 ![urgigs](/assets/hackrhackr.jpeg)

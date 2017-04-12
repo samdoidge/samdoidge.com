@@ -5,18 +5,28 @@ layout: default
 ---
 
 <div class="posts home">
-    {% for post in site.posts %}
-    <div class="post">
+    {% for post in site.posts limit:5  %}
+    <article>
         <h2 class="post-title">
             <a href="{{ post.url }}">
             {{ post.title }}
             </a>
         </h2>
+                    <div class="postmetadata">
+<time datetime="2012-04-15T20:33:11+00:00" pubdate class="updated">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</time>
+<a href="https://web-beta.archive.org/web/20120415203312/http://samdoidge.com/wordpress-vs-tumblr-vs-posterous/#respond" class="comments-link" title="Comment on WordPress vs Tumblr vs Posterous">0</a></div>
         <!--span class="post-date">{{ post.date | date_to_string }}</span-->
-        <p>{{ post.content | truncatewords:47 | strip_html }}</p>
-    </div>
-    <hr/>
+          <!--div class="entry"><p>{{ post.content | truncatewords:47 | strip_html }}</p>     </div-->
+</article>
     {% endfor %}
 </div>
 
-<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+    
+            <!--footer class="postmetadata">
+                                Posted in <a href="http://samdoidge.com/category/web/" title="View all posts in Web" rel="category tag">Web</a> | 
+                <a href="http://samdoidge.com/wordpress-vs-tumblr-vs-posterous/#respond" title="Comment on WordPress vs Tumblr vs Posterous">No Comments &#187;</a>         </footer-->
+
+
+
+<p class="rss-subscribe"><a href="/archive">View more</a><br/>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
