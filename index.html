@@ -16,7 +16,7 @@ layout: default
 <time datetime="2012-04-15T20:33:11+00:00" pubdate class="updated">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</time>
 <a href="https://web-beta.archive.org/web/20120415203312/http://samdoidge.com/wordpress-vs-tumblr-vs-posterous/#respond" class="comments-link" title="Comment on WordPress vs Tumblr vs Posterous">0</a></div>
         <!--span class="post-date">{{ post.date | date_to_string }}</span-->
-          <!--div class="entry"><p>{{ post.content | truncatewords:47 | strip_html }}</p>     </div-->
+          <div class="entry"><p>{{ post.content | truncatewords:47 | strip_html }}</p>     </div>
 </article>
     {% endfor %}
 </div>

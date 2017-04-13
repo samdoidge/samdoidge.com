@@ -158,6 +158,11 @@ article h2 a, article h1 {
     color: #2C2C2C;
 }
 
+.posts article h2 a {
+    font-size: 23px;
+    color: red;
+}
+
 article.page h1 {
   margin-bottom:15px;
 }
@@ -227,3 +232,9 @@ code {
     -webkit-font-smoothing: subpixel-antialiased;
 }
 
+blockquote {
+    padding: 0 1em;
+    color: #6a737d;
+    border-left: 0.25em solid #dfe2e5;
+    margin-left: 0;
+}

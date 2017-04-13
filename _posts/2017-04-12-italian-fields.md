@@ -15,7 +15,7 @@ I'm placing the Italian farm/fields image below as a monument to my last design.
 
 There are several tasks remaining for the new design:
 
-* Fix blockquote display.
+*  ~~Fix blockquote display.~~
 
 * Update code highlighting on older posts.
 
