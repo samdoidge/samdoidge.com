@@ -23,27 +23,23 @@ I'm linking to the [Grunt installation instructions](http://gruntjs.com/getting-
 ### Setup auto reload ###
 
 grunt-contrib-watch is the plugin we will use, install on your system with:
-{% highlight js %}
-npm install grunt-contrib-watch --save-dev
-{% endhighlight %}
+<pre><code class="language-bash">npm install grunt-contrib-watch --save-dev
+</code></pre>
 Grunt needs 2 files for use in a project - ```package.json``` and ```Gruntfile.js```
 
 You will need to add ```grunt-contrib-watch``` to your ```package.json``` so your file contains the following:
-{% highlight js %}
- "devDependencies": {
+<pre><code class="language-js">"devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-watch": "^0.6.1"
   }
-{% endhighlight %}
+</code></pre>
 
 With the plugin as a dependancy in package.json, you can now install the dependency for your project by running the following command:
-{% highlight js %}
-npm install
-{% endhighlight %}
+<pre><code class="language-bash">npm install
+</code></pre>
 
 The last step of the plugin installation is to configure your ```Gruntfile.js```. I am watching all css and php files within the directory and have included our plugin at the bottom of the file, contents of the file:
-{% highlight js %}
-module.exports = function(grunt) {
+<pre><code class="language-js">module.exports = function(grunt) {
 grunt.initConfig({
   watch: {
     options: {
@@ -58,10 +54,9 @@ grunt.initConfig({
 
   grunt.loadNpmTasks('grunt-contrib-watch');
 };
-{% endhighlight %}
+</code></pre>
 Now having grunt setup for live reload, how does the browser no how to refresh? We can include a script at the bottom of our site:
-{% highlight html %}
-<script src="http://localhost:35729/livereload.js"></script>
+{% highlight html %}<script src="http://localhost:35729/livereload.js"></script>
 {% endhighlight %}
 or my prefered method, a chrome extension: [Chrome Live Reload](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en) as this doesn't require as adding additional code to our site.
 
@@ -70,6 +65,5 @@ or my prefered method, a chrome extension: [Chrome Live Reload](https://chrome.g
 After all that setup, let's run it.
 
 The following will work as we have 'default' set as a registerTask. Run this via command line in your project root:
-{% highlight js %}
-grunt
-{% endhighlight %}
+<pre><code class="language-bash">grunt
+</code></pre>
