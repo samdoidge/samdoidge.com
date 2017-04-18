@@ -1,0 +1,44 @@
+#header {
+	width: 760px;
+    margin: 20px auto;
+    margin-top: 60px;
+    padding-left: 0px;
+}
+
+#logo {
+	float: left;
+	margin-right: 66px;
+}
+
+.header-text {
+    margin-top: 20px;
+    float: left;
+}
+
+header h1 {
+	margin: 0;
+	text-decoration: none;
+    font-size: 26px;
+    color: #2C2C2C;
+    font-weight: bold;
+    overflow: hidden;
+    letter-spacing: 0.04em;
+    margin-bottom:0.1em;
+}
+
+header h1 a {
+    text-decoration: none;
+    font-size: 26px;
+    color: #2C2C2C;
+    font-weight: bold;
+    overflow: hidden;
+    letter-spacing: 0.04em;
+}
+
+header .description {
+    letter-spacing: 0.06em;
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom: 0;
+    -webkit-margin-before: 0;
+}

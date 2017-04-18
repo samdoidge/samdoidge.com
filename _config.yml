@@ -26,3 +26,7 @@ exclude:
 pages_list:       
   About: '/about'
   Archive: '/archive'
+
+sass:
+  sass_dir: /assets/css/
+  style: compressed
