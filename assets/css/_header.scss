@@ -1,19 +1,46 @@
+@import 'variables.scss';
+
 #header {
-	width: 760px;
+	max-width: 760px;
     margin: 20px auto;
-    margin-top: 60px;
-    padding-left: 0px;
 }
 
 #logo {
-	float: left;
-	margin-right: 66px;
+    float: left;
+    margin-right: 20px;
+}
+
+#logo img {
+    width: 70px;
+    height: 70px;
 }
 
 .header-text {
-    margin-top: 20px;
+    margin-top: 10px;
     float: left;
 }
+
+@media (min-width: $screen-sm) { 
+    #header {
+        margin-top: 60px;
+    }
+
+    #logo {
+        margin-right: 66px;
+    }
+
+    #logo img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .header-text {
+        margin-top: 20px;
+    }
+}
+
+
+
 
 header h1 {
 	margin: 0;

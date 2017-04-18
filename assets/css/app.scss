@@ -1,8 +1,17 @@
 ---
 ---
 
+@import 'normalize.scss';
+@import 'prism.scss';
+
+@import 'variables.scss';
 @import 'header.scss';
 @import 'sidebar.scss';
+
+// Defining values
+$screen-sm: 760px;
+$screen-md: 992px;
+$screen-lg: 1200px;
 
 body {
 	-webkit-font-smoothing: antialiased;
@@ -11,16 +20,35 @@ body {
 	color: #333;
 }
 
-.container {
-	width: 760px;
-    margin: 20px auto;
-}
-
 #content {
     padding-bottom: 100px;
     float: right;
-    width: 610px;
 }
+
+img {
+    width:100%
+}
+
+.container {
+    padding: 0px 20px;
+}
+
+@media (min-width: $screen-sm) { 
+    .container {
+        width: 760px;
+        margin: 20px auto;
+    }
+
+    #content {
+        width: 610px;
+    }
+
+    img {
+        max-width: 120%;
+    }
+}
+
+
 
 h1 a:hover, h2 a:hover {
     color: red;
@@ -88,9 +116,7 @@ article ul {
     padding-bottom: 10px;
 }
 
-img {
-    max-width: 120%;
-}
+
 
 time {
     color: #C6C6C6;
