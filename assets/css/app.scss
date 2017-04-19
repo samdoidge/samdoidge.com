@@ -35,7 +35,12 @@ img {
 
 .posts article {
     padding-bottom: 0px;
-    margin-top: 0px
+}
+
+article {
+    margin-top: 0px;
+    padding-bottom: 20px;
+    font-size: 17px;
 }
 
 @media (min-width: $screen-sm) { 
@@ -50,6 +55,10 @@ img {
 
     img {
         max-width: 120%;
+    }
+
+    article {
+        margin-top: 40px;
     }
 
     .posts article {
@@ -72,11 +81,7 @@ h1 a:hover, h2 a:hover {
     border-radius: 4px;
 }
 
-article {
-    margin-top: 40px;
-    padding-bottom: 20px;
-    font-size: 17px;
-}
+
 
 
 
