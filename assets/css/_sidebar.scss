@@ -1,16 +1,32 @@
+@import 'variables.scss';
+
 #sidebar {
-	margin-top: 40px;
-	float: left;
-	width: 150px;
+    float: left;
+    clear: both;
+    width: 100%;
 }
 
 #sidebar ul {
-	list-style: none;
-	padding: 0;
+    list-style: none;
+    padding: 0;
 }
 
 .page_item {
     width: 84px;
+    display: inline-block;
+    text-align: center;
+}
+
+@media (min-width: $screen-sm) {
+    #sidebar {
+        margin-top: 40px;
+        width: 150px;
+        text-align: left;
+    }
+
+    .page_item {
+        text-align: left;
+    }
 }
 
 .page_item a {

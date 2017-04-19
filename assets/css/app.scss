@@ -33,6 +33,11 @@ img {
     padding: 0px 15px;
 }
 
+.posts article {
+    padding-bottom: 0px;
+    margin-top: 0px
+}
+
 @media (min-width: $screen-sm) { 
     .container {
         width: 760px;
@@ -45,6 +50,10 @@ img {
 
     img {
         max-width: 120%;
+    }
+
+    .posts article {
+        margin-top: 40px;
     }
 }
 
@@ -69,9 +78,7 @@ article {
     font-size: 17px;
 }
 
-.posts article {
-    padding-bottom: 0px;
-}
+
 
 article h2, article h1 {
     font-weight: bold;
