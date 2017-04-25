@@ -26,7 +26,6 @@ exclude:
 pages_list:       
   About: '/about'
   Archive: '/archive'
-  Fresh: '/fresh'
 
 sass:
   sass_dir: /assets/css/
