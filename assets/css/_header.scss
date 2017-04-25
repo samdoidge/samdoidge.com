@@ -1,7 +1,7 @@
 @import 'variables.scss';
 
 #header {
-	max-width: 760px;
+	max-width: $max-width;
     margin: 20px auto;
 }
 
@@ -26,7 +26,7 @@
     }
 
     #logo {
-        margin-right: 66px;
+        margin-right: 65px;
     }
 
     #logo img {

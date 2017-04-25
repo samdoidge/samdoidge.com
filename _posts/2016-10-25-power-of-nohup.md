@@ -10,9 +10,7 @@ nohup allows is to run a command, close our connection, and still have the comma
 I've used this at times I know I have a command that will take a long time to run, but I need to close my laptop / go on lunch / carry on living life.
 
 How to run:
-{% highlight bash %}
-nohup [command] &
-{% endhighlight %}
+{% highlight bash %}nohup [command] &{% endhighlight %} 
 
 What is `&` ?- this is to run the command in the background (stops output text appearing in our terminal).
 

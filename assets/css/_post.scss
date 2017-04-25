@@ -1,0 +1,53 @@
+@import 'variables.scss';
+
+
+body .markdown-body {
+    padding: 0;
+    border: none;
+}
+
+.markdown-body h1 {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.posts h2 {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.page h1 {
+    margin-bottom: 0.5em;
+}
+
+.markdown-body a {
+    color: red;
+}
+
+.postmetadata {
+    margin-top: 0;
+    padding: 0;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+time {
+    color: #C6C6C6;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.comments-link {
+    padding-left: 20px;
+    background: url(/assets/img/note.png) no-repeat 0 4px;
+    margin-left: 8px;
+}
+
+a.comments-link {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #C6C6C6;
+}
