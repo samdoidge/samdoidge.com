@@ -14,8 +14,9 @@ I'm showing a couple of paintings I've found visually pleasing, again from the R
 ![Grasmere](/assets/lake.jpg)
 *George Fennel Robson, Grasmere, 1830.*
 
+![The Picnic](/assets/thepicnic.jpg)
+*Thomas Cole, The Picnic, 1846.*
+
 ![Looking Up the Yosemite Valley](/assets/mountainsfields.jpeg)
 *Bierstadt, Looking Up the Yosemite Valley, 1863.*
 
-![Looking Up the Yosemite Valley](/assets/thepicnic.jpg)
-*Thomas Cole, The Picnic, 1863.*
