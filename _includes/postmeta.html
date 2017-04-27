@@ -1,4 +1,4 @@
 <div class="postmetadata">
-		<time datetime="{{ page.date | date_to_rfc822 }}" pubdate class="updated">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
+		<time datetime="{{ page.date | date_to_xmlschema }}" pubdate class="updated">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
 		<a href="#respond" class="comments-link" title="{{ page.title }}">0</a>
 </div>
