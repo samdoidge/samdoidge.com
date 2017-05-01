@@ -18,6 +18,9 @@ body {
 	color: #333;
 }
 
+
+
+
 #content {
     float: right;
 }
@@ -41,6 +44,18 @@ article {
 }
 
 @media (min-width: $screen-sm) { 
+    img[src$="fifty"] {
+    max-width:50%;
+}
+
+img[src$="twentyfive"] {
+    max-width:25%;
+}
+
+img[src$="seventyfive"] {
+    max-width:75%;
+}
+
     .container {
         width: $max-width;
         margin: 20px auto;
