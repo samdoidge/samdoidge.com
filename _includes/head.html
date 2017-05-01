@@ -5,14 +5,18 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         {% if page.title == "Home" %}
         <title>Sam Doidge - Continual improvement.</title>
+        <meta property="og:title" content="Sam Doidge - Continual improvement." />
         {% else %}
         <title>{{ page.title }} - Sam Doidge</title>
+        <meta property="og:title" content="{{ page.title }} - Sam Doidge" />
         {% endif %}
 
         {% if page.description %}
         <meta name="description" content="{{ page.description }}" />
+        <meta property="og:description" content="{{ page.description }}" />
         {% else %}
         <meta name="description" content="{{ page.content | truncatewords:47 | strip_html }}" />
+        <meta property="og:description" content="{{ page.content | truncatewords:47 | strip_html }}" />
         {% endif %}
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -23,6 +27,21 @@
         <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/img/favicon-16x16.png?v1" sizes="16x16">
         <link rel="apple-touch-icon" href="/img/logo.png">
         <!-- Place favicon.ico in the root directory -->
+
+        <meta property="og:locale" content="en_GB" />
+
+        <meta property="og:type" content="article" />
+
+        
+        <meta property="og:url" content="{{ site.baseurl }}{{ page.url }}" />
+
+        <meta property="og:site_name" content="Sam Doidge - Continual improvement." />
+
+        {% if page.image %}
+        <meta property="og:image" content="{{ site.baseurl }}{{ page.image }}" />
+        {% else %}
+        <meta property="og:image" content="{{ site.baseurl }}/assets/img/logo.png" />
+        {% endif %}
 
         <link href="{{ "/assets/css/app.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}" rel="stylesheet">
 
