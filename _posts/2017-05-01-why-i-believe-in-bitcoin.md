@@ -46,7 +46,7 @@ I was initially skeptical of Bitcoin, as the a network for an identical coin cou
 
 #### Limited supply
 
-As there is an upper limit of the amount of bitcoins to be mined (~23 million) - new money cannot be printed unlike with traditional government issued currencies. Bitcoin will not be prone to the inflation other currencies have - the inflation of the money supply is predictable and limited.
+As there is an upper limit of the amount of bitcoins to be mined (~21 million) - new money cannot be printed unlike with traditional government issued currencies. Bitcoin will not be prone to the inflation other currencies have - the inflation of the money supply is predictable and limited.
 
 <p style="text-align: center">
 <a href="/assets/bitcoin-limit.png" target="_blank"><img src="/assets/bitcoin-limit.png?"></a>
@@ -75,7 +75,7 @@ Aside from the risks to bitcoin as a whole, the following is something everyone 
 
 #### Thoughts on price
 
-Bitcoin has a bias for an increasing value. There is a maximum limit of 23 million coins to be mined, over 16 million have already been mined. An estimated 1 million+ have already been lost. The total market cap of all bitcoins ever mined is [~$23 billion](https://coinmarketcap.com/currencies/) - this is still tiny compared to Gold: [~ $6 trillion](https://schiffgold.com/commentaries/just-how-big-is-the-gold-market/).
+Bitcoin has a bias for an increasing value. There is a maximum limit of 21 million coins to be mined, over 16 million have already been mined. An estimated 1 million+ have already been lost. The total market cap of all bitcoins ever mined is [~$23 billion](https://coinmarketcap.com/currencies/) - this is still tiny compared to Gold: [~ $6 trillion](https://schiffgold.com/commentaries/just-how-big-is-the-gold-market/).
 
-How many people know about or use, or have bitcoin right now? In a general public comparison - I think these numbers are still tiny, and ripe to grow. There is a limit of 23 million coins, the population of the planet is currently [7 billion+](http://www.worldometers.info/world-population/) - that's ~ 0.003 bitcoin per person.
+How many people know about or use, or have bitcoin right now? In a general public comparison - I think these numbers are still tiny, and ripe to grow. There is a limit of 21 million coins, the population of the planet is currently [7 billion+](http://www.worldometers.info/world-population/) - that's ~ 0.003 bitcoin per person.
 
