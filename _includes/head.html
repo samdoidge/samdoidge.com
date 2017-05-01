@@ -6,9 +6,11 @@
         {% if page.title == "Home" %}
         <title>Sam Doidge - Continual improvement.</title>
         <meta property="og:title" content="Sam Doidge - Continual improvement." />
+                <meta property="og:type" content="website" />
         {% else %}
         <title>{{ page.title }} - Sam Doidge</title>
         <meta property="og:title" content="{{ page.title }} - Sam Doidge" />
+                <meta property="og:type" content="article" />
         {% endif %}
 
         {% if page.description %}
@@ -30,9 +32,9 @@
 
         <meta property="og:locale" content="en_GB" />
 
-        <meta property="og:type" content="article" />
-
-        
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@samdoidge" />
+        <meta name="twitter:creator" content="@samdoidge" />
         <meta property="og:url" content="{{ site.baseurl }}{{ page.url | absolute_url }}" />
 
         <meta property="og:site_name" content="Sam Doidge - Continual improvement." />
