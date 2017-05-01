@@ -33,14 +33,14 @@
         <meta property="og:type" content="article" />
 
         
-        <meta property="og:url" content="{{ site.baseurl }}{{ page.url }}" />
+        <meta property="og:url" content="{{ site.baseurl }}{{ page.url | absolute_url }}" />
 
         <meta property="og:site_name" content="Sam Doidge - Continual improvement." />
 
         {% if page.image %}
-        <meta property="og:image" content="{{ site.baseurl }}{{ page.image }}" />
+        <meta property="og:image" content="{{ site.baseurl }}{{ page.image | absolute_url }}" />
         {% else %}
-        <meta property="og:image" content="{{ site.baseurl }}/assets/img/logo.png" />
+        <meta property="og:image" content="{{ site.baseurl }}{{ '/assets/img/logo.png' | absolute_url }}" />
         {% endif %}
 
         <link href="{{ "/assets/css/app.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}" rel="stylesheet">
