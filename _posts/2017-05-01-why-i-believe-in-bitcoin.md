@@ -33,7 +33,7 @@ Its decentralised nature ensures it cannot be manipulated, or censored.
 
 #### Network effects
 
-I was initially skeptical of Bitcoin, as the a network for an identical coin could be created very easily, however Bitcoin now has [network effects](https://en.wikipedia.org/wiki/Network_effect). Why buy $1000 of a similar currency, when you can buy $1000 of bitcoin which is accepted by more people? (This is not a dismissal of altcoins, as I believe some can prosper as well, just not those looking to mimic bitcoin). It has secured it's place and proven itself as the store of value in the digital and cryptocurrency world. [More places accept bitcoin](https://99bitcoins.com/who-accepts-bitcoins-payment-companies-stores-take-bitcoins/) than any other cryptocurrency by far, these include: Microsoft, Subway, Overstock.com, Steam, Dell, Whole Foods, Square and thousands more.
+I was initially skeptical of Bitcoin, as an identical coin could be created very easily, however Bitcoin now has [network effects](https://en.wikipedia.org/wiki/Network_effect). Why buy $1000 of a similar currency, when you can buy $1000 of bitcoin which is accepted by more people? (This is not a dismissal of altcoins, as I believe some can prosper as well, just not those looking to mimic bitcoin). It has secured its place and proven itself as the store of value in the digital and cryptocurrency world. [More places accept bitcoin](https://99bitcoins.com/who-accepts-bitcoins-payment-companies-stores-take-bitcoins/) than any other cryptocurrency by far, these include: Microsoft, Subway, Overstock.com, Steam, Dell, Whole Foods, Square and thousands more.
 
 <p style="text-align: center">
 <a href="/assets/btc-exchange.png" target="_blank"><img src="/assets/btc-exchange.png?style=fifty"></a>
@@ -77,5 +77,5 @@ Aside from the risks to bitcoin as a whole, the following is something everyone 
 
 Bitcoin has a bias for an increasing value. There is a maximum limit of 21 million coins to be mined, over 16 million have already been mined. An estimated 1 million+ have already been lost. The total market cap of all bitcoins ever mined is [~$23 billion](https://coinmarketcap.com/currencies/) - this is still tiny compared to Gold: [~ $6 trillion](https://schiffgold.com/commentaries/just-how-big-is-the-gold-market/).
 
-How many people know about or use, or have bitcoin right now? In a general public comparison - I think these numbers are still tiny, and ripe to grow. There is a limit of 21 million coins, the population of the planet is currently [7 billion+](http://www.worldometers.info/world-population/) - that's ~ 0.003 bitcoin per person.
+How many people know of, use, or have bitcoin right now? In a general public comparison - I think these numbers are still tiny, and ripe to grow. There is a limit of 21 million coins, the population of the planet is currently [7 billion+](http://www.worldometers.info/world-population/) - that's ~ 0.003 bitcoin per person.
 
