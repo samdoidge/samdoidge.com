@@ -12,7 +12,7 @@ Outside of the internet some of my interests include: playing football, rowing (
 
 * [beforesteam.com](https://beforesteam.com) - A price comparison site for Steam games. Millions of price points tracked. Records price history for thousands of games in multiple vendors and mulitple currencies. ~40 IP's used for polling data without hitting limits. Amazon S3 for image hosting, cloudflare as a CDN at the front of it all.
 
-* [textiler.com](http://textiler.com) - A joint project where I was responsible for the development. Design & print custom digital fabrics. Makes use of canvas / fabric.js and node.js 
+* [textiler.com](http://textiler.com) - A joint project where I was responsible for the development. Design & print custom digital fabrics. Makes use of canvas / fabric.js and node.js
 
 * [freshfollowers.com](https://www.youtube.com/watch?v=xeT1d2AJ7os) - Based off of research into the best way to increase an Instagram following, this application gives the highest rate of acquisition for genuine followers based on their interests. This was not opened to everyone due to Instagrams strict acceptance policy.
 
@@ -50,3 +50,11 @@ Email me: [sam@samdoidge.com](mailto:sam@samdoidge.com)
 
 ![sam shanghai](/assets/sam-shanghai.jpg)
 *Shanghai '13*
+
+#### Misc Milestones
+
+* Freshers Men's Eight - Bournemouth University Rowing Club
+
+* Middle School Chess Champion - Loughton School
+
+* Represented Denbigh School at UK Maths Challenge
