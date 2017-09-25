@@ -58,3 +58,5 @@ Email me: [sam@samdoidge.com](mailto:sam@samdoidge.com)
 * Middle School Chess Champion - Loughton School
 
 * Represented Denbigh School at UK Maths Challenge
+
+My brother's website: [Tom Doidge](http://tomdoidge.com/about)
