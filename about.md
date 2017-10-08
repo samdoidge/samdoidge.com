@@ -10,7 +10,7 @@ Outside of the internet some of my interests include: playing football, rowing (
 
 ### Personal projects
 
-* [contentlord.com](https://contentlord.com) - A stream of content is fed from social websites and posted to social media platforms. A Slack integration allows for curation - the user can choose to post or ignore the content. Currently supports posting to Instagram, Facebook and Twitter. Content can be read from Reddit and Pinterest. (Used on [Bitcoin Memes](https://www.facebook.com/bitcoinmeme))
+* [contentlord.com](https://contentlord.com) - A stream of content is fed from social websites and posted to social media platforms. A Slack integration allows for curation - the user can choose to post or ignore the content. Currently supports posting to Instagram, Facebook and Twitter. (In use on [facebook.com/bitcoinmeme](https://www.facebook.com/bitcoinmeme))
 
 * [beforesteam.com](https://beforesteam.com) - A price comparison site for Steam games. Millions of price points tracked. Records price history for thousands of games in multiple vendors and mulitple currencies. ~40 IP's used for polling data without hitting limits. Amazon S3 for image hosting, cloudflare as a CDN at the front of it all.
 
