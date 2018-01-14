@@ -19,51 +19,51 @@ body {
 }
 
 #content {
-    float: right;
-    padding-bottom: 60px;
+	float: right;
+	padding-bottom: 60px;
 }
 
 img {
-    width:100%
+	width:100%
 }
 
 .container {
-    padding: 0px 15px;
+	padding: 0px 15px;
 }
 
 .markdown-body>*:first-child {
-    margin-top:0.5em !important;
+	margin-top:0.5em !important;
 }
 
 article {
-    margin-top: 0px;
-    padding-bottom: 20px;
-    font-size: 17px;
+	margin-top: 0px;
+	padding-bottom: 20px;
+	font-size: 17px;
 }
 
-@media (min-width: $screen-sm) { 
-    img[src$="fifty"] {
-    max-width:50%;
-}
+@media (min-width: $screen-sm) {
+	img[src$="fifty"] {
+		max-width:50%;
+	}
 
-img[src$="twentyfive"] {
-    max-width:25%;
-}
+	img[src$="twentyfive"] {
+		max-width:25%;
+	}
 
-img[src$="seventyfive"] {
-    max-width:75%;
-}
+	img[src$="seventyfive"] {
+		max-width:75%;
+	}
 
-    .container {
-        width: $max-width;
-        margin: 20px auto;
-    }
+	.container {
+		width: $max-width;
+		margin: 20px auto;
+	}
 
-    #content {
-        width: 610px;
-    }
+	#content {
+		width: 610px;
+	}
 
-    img {
-        max-width: 120%;
-    }
+	img {
+		max-width: 120%;
+	}
 }

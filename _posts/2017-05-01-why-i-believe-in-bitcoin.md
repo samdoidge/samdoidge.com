@@ -3,6 +3,7 @@ layout: post
 title: 'Why I believe in Bitcoin'
 image: /assets/bitcoin.png
 comments: True
+is_popular: True
 ---
 
 <p style="text-align: center">
@@ -17,19 +18,19 @@ I've been meaning to write this down for a while. As Bitcoin hits the $1400 USD 
 
 #### Core strengths
 
-* Decentralised 
+* Decentralised
 
-* Censorship-free 
+* Censorship-free
 
 
-I view Bitcoin's current position as very similar to gold - but with more utility, due to its digital nature. I do not expect Bitcoin to be used for every transaction, as it is not the fastest, nor the cheapest, but these are not its strengths. Its strengths are being censorship free, and decentralised. It may be used to top up accounts or purchase other currencies which have better benefits, but if you wish to store value, I'm not sure there is anything better. 
+I view Bitcoin's current position as very similar to gold - but with more utility, due to its digital nature. I do not expect Bitcoin to be used for every transaction, as it is not the fastest, nor the cheapest, but these are not its strengths. Its strengths are being censorship free, and decentralised. It may be used to top up accounts or purchase other currencies which have better benefits, but if you wish to store value, I'm not sure there is anything better.
 
 There is a market for a currency that cannot be censored, or be frozen by a government:
 
 * [Barclays took my £440,000 and put me through hell](https://www.theguardian.com/money/2017/jan/22/barclays-took-my-440000-customers-caught-up-banks-de-risking-money-laundering-laws)
 * [3,800 Dutch-linked accounts investigated following a tip-off](http://www.bbc.co.uk/news/world-europe-39452778)
 
-Its decentralised nature ensures it cannot be manipulated, or censored. 
+Its decentralised nature ensures it cannot be manipulated, or censored.
 
 #### Network effects
 
@@ -78,4 +79,3 @@ Aside from the risks to bitcoin as a whole, the following is something everyone 
 Bitcoin has a bias for an increasing value. There is a maximum limit of 21 million coins to be mined, over 16 million have already been mined. An estimated 1 million+ have already been lost. The total market cap of all bitcoins ever mined is [~$23 billion](https://coinmarketcap.com/currencies/) - this is still tiny compared to Gold: [~ $6 trillion](https://schiffgold.com/commentaries/just-how-big-is-the-gold-market/).
 
 How many people know of, use, or have bitcoin right now? In a general public comparison - I think these numbers are still tiny, and ripe to grow. There is a limit of 21 million coins, the population of the planet is currently [7 billion+](http://www.worldometers.info/world-population/) - that's ~ 0.003 bitcoin per person.
-

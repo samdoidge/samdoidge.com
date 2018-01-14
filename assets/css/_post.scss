@@ -41,8 +41,23 @@ time {
 
 .comments-link {
     padding-left: 20px;
+    margin-left: 8px;
+}
+
+.love {
+    margin-left: 0 !important;
+    font-size:14px;
+    font-weight:bold;
+    margin-bottom:0 !important;
+    color: #C6C6C6;
+    padding-left: 20px;
     background: url(/assets/img/note.png) no-repeat 0 4px;
     margin-left: 8px;
+}
+
+.love-inline {
+    background-position-y: 3px;
+    margin-left: 4px !important;
 }
 
 a.comments-link {
