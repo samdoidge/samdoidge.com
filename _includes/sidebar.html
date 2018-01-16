@@ -1,33 +1,15 @@
 <div id="sidebar">
-    <ul>
 
+    <ul>
 		{% for p in site.pages_list %}
-	    <li class="page_item {% if page.title == p[0] %}current_page_item{% endif %}">
-	        <a href="{{ p[1] }}">{{ p[0] }}</a>
-	    </li>
+    	    <li class="page_item {% if page.title == p[0] %}current_page_item{% endif %}">
+    	        <a href="{{ p[1] }}">{{ p[0] }}</a>
+    	    </li>
 		{% endfor %}
 
 		<li class="page_item {% if page.url != '/about/' and page.url !='/archive/' %}current_page_item{% endif %}">
 	        <a href="/">Blog</a>
 	    </li>
     </ul>
-<!--
- <div id="categories-2" class="widget widget_categories"><h2> </h2>     <ul>
-
-
-{% for category in site.categories %}
-	{% assign counter = 0 %}
-	{% for p in category[1] %}
-		{% assign counter = counter | plus: 1 %}
-		
-
-	{% endfor %}
-	<li class="cat-item cat-item-3"><a href="/category/{{ category[0] | slugize | downcase }}" title="View all posts filed under Design">{{ category[0] }}</a> ({{ counter }})
-	{% assign counter = 0 %}
-{% endfor %}
-
-        </ul>
-
-</div-->    
 
 </div>
