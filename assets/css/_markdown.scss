@@ -359,8 +359,8 @@ pre {
 .markdown-body dl,
 .markdown-body table,
 .markdown-body pre {
-  margin-top: 0;
-  margin-bottom: 16px;
+  margin-top: 16px;
+  margin-bottom: 0;
 }
 
 .markdown-body hr {
@@ -511,6 +511,11 @@ pre {
   word-wrap: normal;
   background-color: transparent;
   border: 0;
+  white-space: pre-wrap;       /* css-3 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;
 }
 
 .markdown-body pre code:before,
