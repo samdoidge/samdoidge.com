@@ -23,7 +23,7 @@ exclude:
   - Gemfile.lock
 
 # Custom header pages
-pages_list:       
+pages_list:
   About: '/about'
   Archive: '/archive'
 
