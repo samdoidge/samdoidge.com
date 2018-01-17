@@ -17,6 +17,7 @@ permalink: /:title
 gems:
   - jekyll-feed
   - jekyll-sitemap
+  - jemoji
 
 exclude:
   - Gemfile

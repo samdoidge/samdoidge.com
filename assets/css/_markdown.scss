@@ -452,6 +452,12 @@ pre {
   background-color: #fff;
 }
 
+.markdown-body img.emoji {
+  width:20px;
+  box-sizing: content-box;
+  background-color: #fff;
+}
+
 .markdown-body code {
   padding: 0;
   padding-top: 0.2em;
