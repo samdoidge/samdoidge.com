@@ -7,15 +7,15 @@ description: I've put fun, open is fun in that a new window pops up over your te
 
 I've put fun - ```open``` is fun in that a new window pops up over your terminal showing you the files you are browsing visually, and drag-ablly. History is just useful!
 
-To open a finder window in the current directory you are browsing in terminal, use: 
-{% highlight css %}
+To open a finder window in the current directory you are browsing in terminal, use:
+``` bash
 open .
-{% endhighlight %}
+```
 
 To search your previously used commands, combine ```history``` and ```grep```:
 
-{% highlight css %}
+``` bash
 history | grep foo
-{% endhighlight %}
+```
 
 This will search your last 500 commands that contained 'foo'.

@@ -28,18 +28,21 @@ grunt-contrib-watch is the plugin we will use, install on your system with:
 Grunt needs 2 files for use in a project - ```package.json``` and ```Gruntfile.js```
 
 You will need to add ```grunt-contrib-watch``` to your ```package.json``` so your file contains the following:
-<pre><code class="language-js">"devDependencies": {
+``` js
+"devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-watch": "^0.6.1"
   }
-</code></pre>
+```
 
 With the plugin as a dependancy in package.json, you can now install the dependency for your project by running the following command:
-<pre><code class="language-bash">npm install
-</code></pre>
+``` bash
+npm install
+```
 
 The last step of the plugin installation is to configure your ```Gruntfile.js```. I am watching all css and php files within the directory and have included our plugin at the bottom of the file, contents of the file:
-<pre><code class="language-js">module.exports = function(grunt) {
+``` js
+module.exports = function(grunt) {
 grunt.initConfig({
   watch: {
     options: {
@@ -54,10 +57,12 @@ grunt.initConfig({
 
   grunt.loadNpmTasks('grunt-contrib-watch');
 };
-</code></pre>
+```
+
 Now having grunt setup for live reload, how does the browser no how to refresh? We can include a script at the bottom of our site:
-{% highlight html %}<script src="http://localhost:35729/livereload.js"></script>
-{% endhighlight %}
+``` html
+<script src="http://localhost:35729/livereload.js"></script>
+```
 or my prefered method, a chrome extension: [Chrome Live Reload](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en) as this doesn't require as adding additional code to our site.
 
 ### Run the thing! ###

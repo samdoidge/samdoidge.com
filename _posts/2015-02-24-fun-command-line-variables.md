@@ -19,7 +19,7 @@ Paste them into the command line. You don't have to have type out a huge command
 
 We have a bash script to do the following: Connect via FTP and create a new directory.
 
-{% highlight bash %}
+``` bash
 #!/bin/bash
 FTPHOST='ftp.example.com'
 USR='sam'
@@ -31,7 +31,7 @@ mkdir new_dir
 quit
 EOF
 exit 0
-{% endhighlight %}
+```
 
 We can paste this in the command line:
 ![no-margin](/assets/cl-vars.png)
@@ -39,11 +39,12 @@ We can paste this in the command line:
 You can check they are set with the ```echo``` command:
 ![no-margin](/assets/echo.jpg)
 
-Then paste your command: 
+Then paste your command:
 ![no-margin](/assets/paste-command.jpg)
 
-Forgive the ugly multi-line command. It doesn't work due to the credentials, but otherwise you would be connecting to a FTP server. 
+Forgive the ugly multi-line command. It doesn't work due to the credentials, but otherwise you would be connecting to a FTP server.
 
 This may be obvious to some, as it's a bash script - you can run the contents in the bash command line! But if you are learning you may not have thought to use this previously (like me).
 
-```PRO-TIP: Don't leave spaces around = when setting your variables```
+#### Pro Tip: ####
+Don't leave spaces around ```=``` when setting your variables.

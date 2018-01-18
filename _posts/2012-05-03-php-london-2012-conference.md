@@ -20,6 +20,6 @@ Derick Rethans shows us some profiling in PHP – and he was honest and frankly 
 
 The final panel also included Hugh Williams from Ebay – and he said how almost any user on the site is going to be in some sort of experiment – the site they have presented to them will often differ to another user in a slight way. I found this really interesting – and efficient – more large sites will have to take this approach with users to stay ahead. Not testing or analysing a users visit is a wasted opportunity to improve the website as a whole.
 
-####Conclusion ###
+#### Conclusion
 
 Insightful, thought provoking stuff: just make sure you choose what talks you goto well.

@@ -12,35 +12,35 @@ Admittedly Sass has been out for years now, but I did'nt feel an urgent need to 
 
 
 Sass lets you use variables in your style, which is really handy for things like colours and fonts:
-{% highlight css %}
+``` css
 $highlight-colour: #f7901e;
 $font-primary: Tahoma, Geneva, sans-serif;
 $font-secondary: 'Nunito', sans-serif;
-{% endhighlight %}
+```
 
 
-It also prevents you repeating style code across your declarations with mix-ins: 
-{% highlight css %}
+It also prevents you repeating style code across your declarations with mix-ins:
+``` css
 @mixin box-shadow() {
   -webkit-box-shadow: inset 4px 4px 8px 0px rgba(0, 0, 0, 1);
   -moz-box-shadow:    inset 4px 4px 8px 0px rgba(0, 0, 0, 1);
   box-shadow:         inset 3px 3px 8px 0px rgba(0, 0, 0, 1);
 }
-{% endhighlight %}
+```
 
 You can then use the like so:
 
-{% highlight css %}
+``` css
 .style-example {
   @include box-shadow();
 }
-{% endhighlight %}
+```
 
 ### Why use? ###
 
 To answer the question, on anything more complex than a one page site it is worth using Sass. There is a tiny learning curve, native CSS works in Sass, Sass just adds to CSS.
 
-Once you have setup a compiler for Sass to CSS, you should use on every project with possible exceptions for single pages and prototyping. It is easier to maintain and can help reduce the size of your css files. 
+Once you have setup a compiler for Sass to CSS, you should use on every project with possible exceptions for single pages and prototyping. It is easier to maintain and can help reduce the size of your css files.
 
 ### Drawbacks ###
 

@@ -9,9 +9,10 @@ Useful commands for use with the Shell / Terminal. Spotlight tool - > 'terminal'
 PHP used in this case, replace 'php' with the file extension of your choice.
 
 Find and replace a string across many files on MAC OS:
-
-    find . -name "*.php" -print | xargs sed -i "" 's/string to replace/replacement string/g'
-
+``` bash
+find . -name "*.php" -print | xargs sed -i "" 's/string to replace/replacement string/g'
+```
 Find and replace a string across many files on LINUX:
-
-    find . -name "*.php" -print | xargs sed -i 's/string to replace/replacement string/g'
+``` bash
+find . -name "*.php" -print | xargs sed -i 's/string to replace/replacement string/g'
+```

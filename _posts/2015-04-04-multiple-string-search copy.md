@@ -16,7 +16,9 @@ We will use the find command combined with grep and a few other flags to search 
 
 Our command:
 
-```find . -type f -exec grep -iHFf search_terms.txt {} +```
+``` bash
+find . -type f -exec grep -iHFf search_terms.txt {} +
+```
 
 The resulting matches are output into the command line.
 

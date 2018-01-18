@@ -5,7 +5,7 @@ comments: True
 description: To answer the question, on anything more complex than a one page site it is worth using Sass. There is a tiny learning curve, native CSS works in Sass, Sass just adds to CSS.
 ---
 
-Not the most interesting post but essential for OOP PHP development: 
+Not the most interesting post but essential for OOP PHP development:
 
 * <code>public</code> scope to make that variable/function available from anywhere, other classes and instances of the object.
 
@@ -17,7 +17,7 @@ Not the most interesting post but essential for OOP PHP development:
 
 Our first class:
 
-{% highlight php %}
+``` php
 <?php
 Class Plant {
 	public $height = 'Tall';
@@ -25,38 +25,37 @@ Class Plant {
 	protected $colour = 'Green';
 }
 ?>
+```
 
-{% endhighlight %}
+
 
 If we try accessing the properties, we get the following:
-{% highlight php %}
+``` php
 <?php
-$plant = new Plant; 
+$plant = new Plant;
 echo $plant->height;
 ?>
 // Output: 'Tall'
-{% endhighlight %}
-
-{% highlight php %}
+```
+``` php
 <?php
-$plant = new Plant; 
+$plant = new Plant;
 echo $plant->leaves;
 ?>
 // Output: Fatal error:  Cannot access private property Plant::$leaves on line
-{% endhighlight %}
+```
 
-{% highlight php %}
+``` php
 <?php
-$plant = new Plant; 
+$plant = new Plant;
 echo $plant->colour;
 ?>
 // Output: Fatal error:  Cannot access protected property Plant::$colour on line
-{% endhighlight %}
+```
 
+To show how the scope setting works with extended classes, we extend our Plant class with Flower and create a function to display our variables.
 
-To show how the scope setting works with extended classes, we extend our Plant class with Flower and create a function to display our variables. 
-
-{% highlight php %}
+``` php
 <?php
 Class Flower extends Plant {
 
@@ -65,21 +64,21 @@ Class Flower extends Plant {
 	}
 }
 ?>
-{% endhighlight %}
+```
 
 Using out function we get the following:
-{% highlight php %}
+``` php
 <?php
-$flower = new Flower; 
+$flower = new Flower;
 echo $flower->display();
 ?>
 // Output: 'Tall'
-{% endhighlight %}
+```
+
 
 Changing our echo'd variable in the function display() to ```$this->leaves``` we get nothing echo'd - as the variable is ```private``` - only available to the class it is declared in.
 
-
-{% highlight php %}
+``` php
 <?php
 Class Flower extends Plant {
 
@@ -88,14 +87,11 @@ Class Flower extends Plant {
 	}
 }
 
-$flower = new Flower; 
+$flower = new Flower;
 echo $flower->display();
 ?>
 // Output: 'Green'
-{% endhighlight %}
-
-
-
+```
 
 ### Basically ###
 <code>public</code> can be accessed and changed from outside the class. This cannot happen with <code>private</code> or <code>protected</code> :)

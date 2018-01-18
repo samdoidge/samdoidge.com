@@ -11,16 +11,21 @@ I had a lot of files to transfer, little bandwith from my laptop and limited tim
 My VPS has more bandwith than my current location. I needed to FTP the files, a little research and I settled on lftp. I use debian-based linux, so `apt-get install lftp` to get the program, and then.
 ```cd``` to my files location.
 
-If you are in the current directory of your files, you will use the following command: 
+If you are in the current directory of your files, you will use the following command:
 
 
-```lftp -e 'mirror -R . /TARGET/PATH' -u USERNAME,PASSWORD HOSTNAME```
+``` bash
+lftp -e 'mirror -R . /TARGET/PATH' -u USERNAME,PASSWORD HOSTNAME
+```
 
 I've used mirror option with the -R flag mirrors the target path to match the local files. The -e flag deletes target files matching source files if they exist.
 
-To make this command run in the background you need to put ampersand: ```&``` at the end; so your command becomes: ```lftp -e 'mirror -R . /TARGET/PATH' -u USERNAME,PASSWORD HOSTNAME &```
+To make this command run in the background you need to put ampersand: ```&``` at the end; so your command becomes:
+``` bash
+lftp -e 'mirror -R . /TARGET/PATH' -u USERNAME,PASSWORD HOSTNAME &
+```
 
-The transfer is now running in the background - confirm this by typing ```top``` ( a list of running processes consuming the most resources) -lftp should be here. 
+The transfer is now running in the background - confirm this by typing ```top``` ( a list of running processes consuming the most resources) -lftp should be here.
 
 This allowed me to close my laptop and hit the gym while I'm uploading ~2GB of files, brilliant.
 

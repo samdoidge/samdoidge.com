@@ -12,77 +12,78 @@ comments: True
 I wanted to update curl, but the version available on 16.04 of Ubuntu was `7.47.0`, (not the latest `7.57.0`) so the nice `apt-get` method wasn't an option.
 
 Download the latest release from <a href="http://curl.haxx.se/download.html">http://curl.haxx.se/download.html</a> to your home directory:
-
-	wget http://curl.haxx.se/download/curl-7.57.0.tar.gz
-
+``` bash
+wget http://curl.haxx.se/download/curl-7.57.0.tar.gz
+```
 
 
 <p>Install the tools to compile this release:</p>
 
-	apt-get install libtool
-	apt-get install make
-
+``` bash
+apt-get install libtool
+apt-get install make
+```
 
 Unpack the source code:
-
-	tar -xvf curl-7.57.0.tar.gz
-
+``` bash
+tar -xvf curl-7.57.0.tar.gz
+```
 
 Compile:
-
-	cd curl-7.57.0 # enter the directory where curl was unpacked
-	./buildconf
-	./configure --with-ssl
-	make
-	make install
-
+``` bash
+cd curl-7.57.0 # enter the directory where curl was unpacked
+./buildconf
+./configure --with-ssl
+make
+make install
+```
 
 Update the system’s binaries:
-
-	mv /usr/bin/curl /usr/bin/curl.bak
-	cp /usr/local/bin/curl /usr/bin/curl
-
+``` bash
+mv /usr/bin/curl /usr/bin/curl.bak
+cp /usr/local/bin/curl /usr/bin/curl
+```
 
 You are done :bowtie:! The following will display your version of curl.
-
-	curl -Vv
-
+``` bash
+curl -Vv
+```
 
 If you are using this in PHP, you should restart:
-
-	service apache2 restart # if using apache
-	service php7.1-fpm restart # depending on your version
-
+``` bash
+service apache2 restart # if using apache
+service php7.1-fpm restart # depending on your version
+```
 
 #### Issues
 I should add my initial run of this did not produce a curl that could handle https (!) or handle some common encodings. The first issue was solved with:
-
-	sudo apt install libssl-dev
-
+``` bash
+sudo apt install libssl-dev
+```
 and appending --with-ssl to the ./configure command used in compiling above.
-
-	./configure --with-ssl
-
+``` bash
+./configure --with-ssl
+```
 
 
 The second through downloading [zlib](https://zlib.net/) and compiling:
-
-	wget http://www.zlib.net/zlib-1.2.11.tar.gz
-	tar -xvf zlib-1.2.11.tar.gz
-	cd zlib-1.2.11/
-	./configure
-	make
-	make install
-
+``` bash
+wget http://www.zlib.net/zlib-1.2.11.tar.gz
+tar -xvf zlib-1.2.11.tar.gz
+cd zlib-1.2.11/
+./configure
+make
+make install
+```
  I then continued with the initial install from the compile section, using:
-
-	./configure --with-ssl --with-zlib
-
+``` bash
+./configure --with-ssl --with-zlib
+```
 
 This time I could confirm they were both installed by having the https protocol present, and a zlib version displaying on the first line of:
-
-	 curl -Vv
-
+``` bash
+curl -Vv
+```
 
 #### Sources
 
