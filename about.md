@@ -6,7 +6,7 @@ permalink: about/
 
 Contract availability: <a href="mailto:sam@samdoidge.com" class="available">available :white_check_mark:</a>
 
-I'm a web developer based in the UK, currently contracting for a finance company. In my free time I like to think of ideas and execute them. I continually look to learn and I try not to impose limits on myself.
+I'm a web developer based in the UK. I've recently been contracting for a <a href="https://www.castletrust.co.uk/">finance company</a>, and developing a <a href="https://coininterest.co">Bitcoin investment website</a>. In my free time I like to think of ideas and execute them. I continually look to learn and I try not to impose limits on myself.
 
 Outside of the internet some of my interests include: playing football, rowing (now only in the gym), design and reading.
 
