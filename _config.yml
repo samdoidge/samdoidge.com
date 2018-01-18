@@ -11,10 +11,10 @@ disqusid: samdoidge
 
 # Build settings
 markdown: kramdown
-theme: samdoidge-jekyll-theme
+
 permalink: /:title
 
-gems:
+plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jemoji
