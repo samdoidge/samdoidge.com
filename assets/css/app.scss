@@ -46,6 +46,15 @@ article {
 	margin-bottom:16px;
 }
 
+.available {
+	font-weight: bold;
+	color: #0ea611 !important;
+}
+
+.available img {
+	margin-bottom: -3px;
+}
+
 @media (min-width: $screen-sm) {
 	img[src$="fifty"] {
 		max-width:50%;

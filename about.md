@@ -4,6 +4,8 @@ title: About
 permalink: about/
 ---
 
+Contract availability: <a href="mailto:sam@samdoidge.com" class="available">available :white_check_mark:</a>
+
 I'm a web developer based in the UK, currently contracting for a finance company. In my free time I like to think of ideas and execute them. I continually look to learn and I try not to impose limits on myself.
 
 Outside of the internet some of my interests include: playing football, rowing (now only in the gym), design and reading.
@@ -40,7 +42,6 @@ You can find me on:
 
 Change something on the site by creating [a GitHub issue](https://github.com/samdoidge/samdoidge.github.io/issues)
 
-Email me: [sam@samdoidge.com](mailto:sam@samdoidge.com)
 
 ![sam dubai](/assets/vue-conf.jpg)
 *Wrocław '17*
