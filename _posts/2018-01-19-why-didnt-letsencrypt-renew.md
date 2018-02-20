@@ -1,11 +1,15 @@
 ---
 layout: post
 title: "Why didn't Let's Encrypt auto renew?"
-image: /assets/php-logo.png
+image: /assets/le-logo-wide.png
 comments: True
 ---
+<p style="text-align: center">
+	<img src="/assets/le-logo-wide.png">
+</p>
 
-I accessed one of my sites recently to find the SSL is invalid. Rookie error I thought; I had probably just forgotten to setup a cron for auto renewing the SSL certificate for Let's Encrypt... So I goto run the command manually,
+
+I accessed one of my sites recently to find the SSL is invalid. Rookie error, I thought! I had probably just forgotten to setup a cron for auto renewing the SSL certificate for Let's Encrypt... So I goto run the command manually,
 ``` bash
 sudo certbot renew
 ```
