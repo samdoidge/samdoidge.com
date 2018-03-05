@@ -6,7 +6,7 @@ layout: default
 
 <div class="posts home markdown-body">
 
-    {% for page in site.posts limit:5  %}
+    {% for page in site.posts %}
         {% if page.is_popular == true %}
         <p class="comments-link love" aria-hidden="true">Popular</p>
 
