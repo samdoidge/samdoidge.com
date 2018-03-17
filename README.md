@@ -28,7 +28,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, and/or sass.
+From the project folder, run ```bundle exec jekyll serve``` to serve locally.
 
 ## Contributing
 

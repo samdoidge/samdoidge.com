@@ -4,7 +4,7 @@ title: About
 permalink: about/
 ---
 
-Contract availability: <a href="mailto:sam@samdoidge.com" class="available">available :white_check_mark:</a>
+Contract availability: <a href="mailto:sam@samdoidge.com" class="available">available ✅</a>
 
 I'm a web developer based in the UK. I've recently been contracting for a <a href="https://www.castletrust.co.uk/">finance company</a>, and developing a <a href="https://coininterest.co">Bitcoin investment website</a>. In my free time I like to think of ideas and execute them. I continually look to learn and I try not to impose limits on myself.
 
@@ -36,9 +36,7 @@ You can find me on:
 * [Facebook](http://facebook.com/samdoidge) - Pour mes amis
 * [Instagram](http://instagram.com/samdoidge) - Occasional vanity
 
-
 ### Contact
-
 
 Change something on the site by creating [a GitHub issue](https://github.com/samdoidge/samdoidge.github.io/issues)
 
@@ -46,10 +44,8 @@ Change something on the site by creating [a GitHub issue](https://github.com/sam
 ![sam dubai](/assets/vue-conf.jpg)
 *Wrocław '17*
 
-
 ![sam dubai](/assets/sam-dubai.jpg)
 *Dubai '17*
-
 
 ![sam shanghai](/assets/sam-shanghai.jpg)
 *Shanghai '13*

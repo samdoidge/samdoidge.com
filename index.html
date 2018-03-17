@@ -8,31 +8,32 @@ layout: default
 
     {% for page in site.posts %}
         {% if page.is_popular == true %}
-        <p class="comments-link love" aria-hidden="true">Popular</p>
 
-        <h2 class="post-title" style="margin-top:0;">
-            <a href="{{ page.url }}">
-                {{ page.title }}
-            </a>
-        </h2>
+            <p class="comments-link love" aria-hidden="true">Popular</p>
+            <h2 class="post-title" style="margin-top:0;">
+                <a href="{{ page.url }}">
+                    {{ page.title }}
+                </a>
+            </h2>
 
-        {% include postmeta.html %}
-        <div class="entry"><p>{{ page.content | truncatewords:47 | strip_html }}</p></div>
-
+            {% include postmeta.html %}
+            <div class="entry"><p>{{ page.content | truncatewords:47 | strip_html }}</p></div>
+            
         {% endif %}
     {% endfor %}
 
     {% for page in site.posts limit:5  %}
         {% unless page.is_popular %}
-        <h2 class="post-title">
-            <a href="{{ page.url }}">
-                {{ page.title }}
-            </a>
-        </h2>
 
-        {% include postmeta.html %}
+            <h2 class="post-title">
+                <a href="{{ page.url }}">
+                    {{ page.title }}
+                </a>
+            </h2>
 
-        <div class="entry"><p>{{ page.content | truncatewords:47 | strip_html }}</p></div>
+            {% include postmeta.html %}
+            <div class="entry"><p>{{ page.content | truncatewords:47 | strip_html }}</p></div>
+
         {% endunless %}
     {% endfor %}
 
