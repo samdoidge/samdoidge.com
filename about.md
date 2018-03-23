@@ -4,9 +4,11 @@ title: About
 permalink: about/
 ---
 
-Contract availability: <a href="mailto:sam@samdoidge.com" class="available">available ✅</a>
+Contract availability: <a href="mailto:sam@samdoidge.com" class="unavailable">unavailable 🚫</a>
 
-I'm a web developer based in the UK. I've recently been contracting for a <a href="https://www.castletrust.co.uk/">finance company</a>, and developing a <a href="https://coininterest.co">Bitcoin investment website</a>. In my free time I like to think of ideas and execute them. I continually look to learn and I try not to impose limits on myself.
+<!--a href="mailto:sam@samdoidge.com" class="available">available ✅</a-->
+
+I'm a web developer based in the UK, currently working for a cryptocurrency startup. I've recently been contracting for a <a href="https://www.castletrust.co.uk/">finance company</a>, and developing a <a href="https://coininterest.co">Bitcoin investment website</a>. In my free time I like to think of ideas and execute them. I continually look to learn and I try not to impose limits on myself.
 
 Outside of the internet some of my interests include: playing football, rowing (now only in the gym), design and reading.
 

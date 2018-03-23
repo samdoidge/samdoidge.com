@@ -51,8 +51,9 @@ article {
 	color: #0ea611 !important;
 }
 
-.available img {
-	margin-bottom: -3px;
+.unavailable {
+	font-weight: bold;
+	color: red !important;
 }
 
 @media (min-width: $screen-sm) {
