@@ -9,7 +9,8 @@ Rather than write a time-consuming post, I thought I would try a video. I've gon
 
 
 <p style="text-align: center">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/zQfACQufFnE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	<div class='embed-container'><iframe  src="https://www.youtube.com/embed/zQfACQufFnE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	</div>
 </p>
 
 I will try more of these in future.

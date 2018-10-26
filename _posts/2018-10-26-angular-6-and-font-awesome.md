@@ -7,7 +7,7 @@ comments: True
 Continuing with my screencast 'series' - the best way to integrate Font Awesome and Angular, this is simple and quick, shown on a fresh installation.
 
 <p style="text-align: center">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/HCCos5odyqg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class='embed-container'><iframe src='https://www.youtube.com/embed/HCCos5odyqg' frameborder='0' allowfullscreen></iframe></div>
 </p>
 
 
