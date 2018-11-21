@@ -11,5 +11,5 @@ This is a project me and a friend, Ben, have been working on. We're using React 
 'Football Club Chairman' will probably be the release title - we have a UI to do and a few features to add / clean up, but it should be a fun game with much room for expansion. If you like football simulation games, or football in general, you might like this!
 
 <p style="text-align: center">
-<div class='embed-container'><iframe src='https://youtu.be/7d1QztwpekM' frameborder='0' allowfullscreen></iframe></div>
+<div class='embed-container'><iframe src='https://www.youtube.com/embed/7d1QztwpekM' frameborder='0' allowfullscreen></iframe></div>
 </p>
