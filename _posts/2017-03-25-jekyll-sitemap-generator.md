@@ -5,6 +5,7 @@ description: 'Sitemaps are still important for SEO, perhaps one of the most impr
 
 An XML Sitemap is now really easy to setup in Jekyll - easier than Wordpress, even.'
 comments: True
+tags: [tech]
 ---
 
 Sitemaps are still important for SEO, perhaps one of the most improtant things.
@@ -13,7 +14,7 @@ An XML Sitemap is now really easy to setup in Jekyll - easier than Wordpress, ev
 
 * Simply add `gem 'jekyll-sitemap'` to your GemFile* and then run `bundle`.
 
-* Add the following to your site's _config.yml: 
+* Add the following to your site's _config.yml:
 
 ```yaml
 gems:
@@ -28,5 +29,3 @@ A massive thanks to the brilliant creators of the plugin used above: [Jekyll Sit
 
 
 **(If you do not have a GemFile, create one looking something like [mine](https://github.com/samdoidge/samdoidge.com/blob/master/GemFile).)*
-
-

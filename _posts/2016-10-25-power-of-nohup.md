@@ -3,6 +3,7 @@ layout: post
 title: 'The Power of nohup'
 comments: True
 description: 'nohup allows is to run a command, close our connection, and still have the command run on the server - very powerful.'
+tags: [tech]
 ---
 
 nohup allows is to run a command, close our connection, and still have the command run on the server - very powerful.

@@ -3,6 +3,7 @@ layout: post
 title: Multiple String Search
 comments: True
 description: I had a lot of files to transfer, and little bandwidth in my current location
+tags: [tech]
 ---
 
 ```grep``` is a great tool for searching multiple files and directories for a string - but what if we have a list of strings we are looking for?

@@ -2,6 +2,7 @@
 layout: post
 title: "Lazy Loading in Angular 6"
 comments: True
+tags: [tech]
 ---
 
 This is a quick video of lazy loading working for Angular 6 routes. It is used when routing to feature modules, and stops the modules being initiliased before they are needed.

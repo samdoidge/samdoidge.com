@@ -4,6 +4,7 @@ title: 'Why I believe in Bitcoin'
 image: /assets/bitcoin.png
 comments: True
 is_popular: True
+tags: [other]
 ---
 
 <p style="text-align: center">

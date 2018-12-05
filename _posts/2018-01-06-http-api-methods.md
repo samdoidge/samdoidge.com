@@ -3,6 +3,7 @@ layout: post
 title: 'HTTP API Methods'
 image: /assets/php-logo.png
 comments: True
+tags: [tech]
 ---
 
 <p style="text-align: center">
@@ -25,7 +26,7 @@ Key to the architecture are the methods. Listed below are the HTTP verbs with th
 | POST	| Create     |
 | PUT     | Update -> Replace       |
 | PATCH	| Update -> Modify     |
-| DELETE	| Delete     |  
+| DELETE	| Delete     |
 
 The URL used for a REST API will typically be something like: `/products/{id}` for specific items, or entire collections through `/products/`.
 

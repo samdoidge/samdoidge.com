@@ -2,6 +2,7 @@
 layout: post
 title: Find and replace a string across many files with Shell / Terminal
 comments: True
+tags: [tech]
 ---
 
 Useful commands for use with the Shell / Terminal. Spotlight tool - > 'terminal' to find on Mac OS.

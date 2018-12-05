@@ -1,0 +1,44 @@
+@import 'variables';
+
+.menu {
+  margin: 15px 0;
+  margin-bottom: 0;
+  padding: 0;
+
+  &__item {
+    display: inline-block;
+    margin-right: 8px;
+    text-align: center;
+  }
+
+  &__link {
+    color: $light-blue;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 15px 8px;
+    position: relative;
+    text-decoration: none;
+
+    &--current {
+      background: $darker-grey;
+      border-radius: 14px;
+      color: $white;
+    }
+  }
+}
+
+@media (min-width: $screen-sm) {
+  .menu {
+    &__item {
+      display: block;
+      margin-right: 0;
+      text-align: left;
+      width: 84px;
+    }
+
+    &__link {
+      padding: 6px 11px 8px;
+    }
+  }
+}

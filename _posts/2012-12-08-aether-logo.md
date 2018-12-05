@@ -2,6 +2,7 @@
 layout: post
 title: Aether Logo
 comments: True
+tags: [other]
 ---
 
 ![urgigs](/assets/aether-logo.png)

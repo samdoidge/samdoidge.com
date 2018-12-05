@@ -2,6 +2,7 @@
 layout: post
 title: Pro-shell-tips
 comments: True
+tags: [tech]
 ---
 ``` bash
 cp -r /source-folder /destination-folder

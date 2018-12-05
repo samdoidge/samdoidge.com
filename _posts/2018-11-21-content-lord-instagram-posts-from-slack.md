@@ -2,6 +2,7 @@
 layout: post
 title: "Content Lord - Instagram posts from Slack"
 comments: True
+tags: [tech]
 ---
 
 I just wanted to show what this little application looks like from my side, as I've been using it for almost a year now and I'm quite pleased with it.

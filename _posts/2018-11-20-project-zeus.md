@@ -2,6 +2,7 @@
 layout: post
 title: "Project Zeus"
 comments: True
+tags: [tech]
 ---
 
 This title pays homage to the brilliant <a href="http://peepshow.wikia.com/wiki/Conference">Peep Show</a>.

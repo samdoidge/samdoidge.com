@@ -2,6 +2,7 @@
 layout: post
 title: Auto reload with Grunt
 comments: True
+tags: [tech]
 ---
 
 ![no-margin](/assets/grunt-logo.png)

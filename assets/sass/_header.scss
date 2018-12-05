@@ -1,7 +1,7 @@
 @import 'variables.scss';
 
 #header {
-	max-width: $max-width;
+	max-width: $screen-sm;
     margin: 20px auto;
 }
 
@@ -20,7 +20,7 @@
     float: left;
 }
 
-@media (min-width: $screen-sm) { 
+@media (min-width: $screen-sm) {
     #header {
         margin-top: 60px;
     }

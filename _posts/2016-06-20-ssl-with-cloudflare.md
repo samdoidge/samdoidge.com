@@ -3,6 +3,7 @@ layout: post
 title: SSL / HTTPS with Cloudflare
 comments: True
 description: SSL / HTTPS with Cloudflare
+tags: [tech]
 ---
 
 I get asked a lot of questions (I don't ). Here's a how-to on SSL with Cloudflare (they now provide this on their free plan):
@@ -14,4 +15,3 @@ If you are only using Flexible SSL (HTTPS between cloudflare and end user) you d
 Goto the Page Rule section:
 
 ![no-margin](/assets/ssl-pagerule.png)
-

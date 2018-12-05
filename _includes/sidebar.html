@@ -1,15 +1,24 @@
-<div id="sidebar">
+<div class="sidebar">
 
-    <ul>
-		{% for p in site.pages_list %}
-    	    <li class="page_item {% if page.title == p[0] %}current_page_item{% endif %}">
-    	        <a href="{{ p[1] }}">{{ p[0] }}</a>
-    	    </li>
-		{% endfor %}
+    <ul class="menu">
+        {% for p in site.pages_list %}
+        <li class="menu__item">
+            <a class="menu__link {% if page.title == p[0] %}menu__link--current{% endif %}" href="{{ p[1] }}">{{ p[0] }}</a>
+        </li>
+        {% endfor %}
 
-		<li class="page_item {% if page.url != '/about/' and page.url !='/archive/' %}current_page_item{% endif %}">
-	        <a href="/">Blog</a>
-	    </li>
+        <li class="menu__item">
+            <a class="menu__link {% if page.url != '/about/' and page.url !='/archive/' %}menu__link--current{% endif %}" href="/">Blog</a>
+        </li>
     </ul>
 
+    {% if  page.url != '/about/' and page.url !='/archive/' %}
+    <ul class="tags">
+        {% for tag in site.tags_list %}
+        <li class="tag__item">
+            <a class="tag__link {% if page.url == tag[1] %}tag__link--current{% endif %}" href="{{ tag[1] }}">{{ tag[0] }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
 </div>

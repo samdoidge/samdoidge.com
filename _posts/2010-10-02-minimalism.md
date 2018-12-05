@@ -2,6 +2,7 @@
 layout: post
 title: Minimalism
 comments: True
+tags: [other]
 ---
 
 I’ve been making my room more minimalist.

@@ -2,6 +2,7 @@
 layout: post
 title: ur.gigs Website
 comments: True
+tags: [tech, other]
 ---
 
 ![urgigs](/assets/urgigshome.jpg)

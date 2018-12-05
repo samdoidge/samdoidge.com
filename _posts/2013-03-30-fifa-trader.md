@@ -2,6 +2,7 @@
 layout: post
 title: Fifa Trader
 comments: True
+tags: [tech, other]
 ---
 
 Fifa Trader connects to Fifa 13′s unpublished API to allow automated bidding and selling of Ultimate Team cards. Connection to FIFA servers possible from work done by numerous others on GitGub, my GitHub fork contains a current working app for ps3 accounts: [https://github.com/samdoidge/FIFA13-Ultimate-Team-Search](https://github.com/samdoidge/FIFA13-Ultimate-Team-Search).

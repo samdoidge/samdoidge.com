@@ -2,6 +2,7 @@
 layout: post
 title: "Laradock, Laravel, Sequel Pro Demo"
 comments: True
+tags: [tech]
 ---
 
 Rather than write a time-consuming post, I thought I would try a video. I've gone with a screen-cast, and despite having to do this twice as the Quicktime recording alerted me nothing had been recorded at the end, I think it was a lot easier than a long post. This is the solution I've reached with Laradock, and it's quick and easy:

@@ -1,15 +1,17 @@
 ---
 ---
 
-@import 'normalize.scss';
+@import 'normalize';
 
-@import 'variables.scss';
-@import 'header.scss';
-@import 'sidebar.scss';
+@import 'variables';
+@import 'header';
+@import 'sidebar';
+@import 'menu';
+@import 'tags';
 
-@import 'markdown.scss';
-@import 'post.scss';
-@import 'prism.scss';
+@import 'markdown';
+@import 'post';
+@import 'prism';
 
 body {
 	-webkit-font-smoothing: antialiased;
@@ -76,7 +78,7 @@ article {
 	}
 
 	.container {
-		width: $max-width;
+		width: $screen-sm;
 		margin: 20px auto;
 	}
 

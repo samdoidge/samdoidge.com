@@ -2,6 +2,7 @@
 layout: post
 title: Speedy Laravel Development
 comments: True
+tags: [tech]
 ---
 
 This is a quick post to share a small tool ([Laravel-4-Generators-Bootstrap-3](https://github.com/wdollar/Laravel-4-Generators-Bootstrap-3)) to quickly generate your database tables, controller with CRUD functions and scaffolding views connecting all this with one command:

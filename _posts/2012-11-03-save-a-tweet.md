@@ -2,6 +2,7 @@
 layout: post
 title: Save a Tweet
 comments: True
+tags: [tech]
 ---
 <code>Excuse the ugly design, this was a prototype image :)</code>
 ![saveatweet](/assets/saveatweet.png)

@@ -3,6 +3,7 @@ layout: post
 title: 'PHP Interfaces and Abstract classes'
 image: /assets/php-logo.png
 comments: True
+tags: [tech]
 ---
 
 <p style="text-align: center">

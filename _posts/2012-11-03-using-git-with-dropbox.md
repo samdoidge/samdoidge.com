@@ -2,6 +2,7 @@
 layout: post
 title: Using Git with Dropbox
 comments: True
+tags: [tech]
 ---
 
 <code>
@@ -36,7 +37,7 @@ git pull dropbox master
 ```
 To take a clone a copy of your project to your current directory:
 ``` bash
-git clone -o dropbox ~/Dropbox/Sites/your-repo-name/  
+git clone -o dropbox ~/Dropbox/Sites/your-repo-name/
 ```
 The one downside to this is not being able to clone-to or pull from your repo on a remote server. For this I simply scp from my local to remote server for deployment.
 ``` bash

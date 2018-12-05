@@ -2,6 +2,7 @@
 layout: post
 title: "Angular 6 and Font Awesome"
 comments: True
+tags: [tech]
 ---
 
 Continuing with my screencast 'series' - the best way to integrate Font Awesome and Angular, this is simple and quick, shown on a fresh installation.

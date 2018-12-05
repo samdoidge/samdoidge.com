@@ -2,6 +2,7 @@
 layout: post
 title: Fraser Island does not have more sand than the Sahara desert
 comments: True
+tags: [other]
 ---
 
 My friend Neil mentioned the claim 'Fraser Island has more sand than the Sahara desert' when viewing footage of Fraser Island tonight, it sounded almost unbelievable.
@@ -25,7 +26,7 @@ More Googling and some back-of-the-envelope calculations:
 
 The Sahara Desert's sand area is over 1000 times large than Fraser island and for Fraser Island to have more sand would have to be over (1000~ * 150m) 150km deep.
 
-Continental crust is around 50km thick. I realise these are rough figures but I think I can say Fraser Island does not have more sand than the Sahara desert. 
+Continental crust is around 50km thick. I realise these are rough figures but I think I can say Fraser Island does not have more sand than the Sahara desert.
 
 <b>Myth Busted.</b>
 
@@ -34,11 +35,3 @@ Continental crust is around 50km thick. I realise these are rough figures but I 
 - [Geology.com](http://geology.com/records/largest-desert.shtml)
 - [Sand Facts](http://piecubed.co.uk/sand-facts/)
 - [FraserIsland.net](http://www.fraserisland.net/)
-
-
-
-
-
-
-
-

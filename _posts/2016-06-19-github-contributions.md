@@ -3,6 +3,7 @@ layout: post
 title: GitHub Contributions
 comments: True
 description: Github missing Contributions
+tags: [tech]
 ---
 
 You've pushed code and realised your contribution isn't showing up!
