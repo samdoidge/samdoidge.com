@@ -6,7 +6,7 @@ layout: default
 
 <div class="posts home markdown-body">
 
-<h1>Technology Posts</h1>
+<h2>Technology Posts</h2>
     {% for page in site.tags.tech %}
 
         <h2 class="post-title">
