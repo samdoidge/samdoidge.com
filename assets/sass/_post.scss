@@ -1,9 +1,9 @@
-@import 'variables.scss';
+@import 'variables';
 
 
 body .markdown-body {
-    padding: 0;
     border: none;
+    padding: 0;
 }
 
 .markdown-body h1 {
