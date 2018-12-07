@@ -1,0 +1,22 @@
+@import 'variables';
+
+.logo {
+  float: left;
+  margin-right: 20px;
+
+  &__img {
+    height: 48px;
+    width: 48px;
+  }
+}
+
+@media (min-width: $screen-sm) {
+  .logo {
+    margin-right: 65px;
+
+    &__img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
