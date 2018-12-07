@@ -1,6 +1,6 @@
-<div class="postmetadata">
-	<time datetime="{{ page.date | date_to_xmlschema }}" pubdate class="updated">{{ page.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
+<div class="metadata">
+	<time class="metadata__time" datetime="{{ page.date | date_to_xmlschema }}" pubdate class="updated">{{ page.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
 	{% if page.is_popular == true %}
-		<span href="/" class="love love-inline" aria-hidden="true"></span>
+		<span href="/" class="love love--inline" aria-hidden="true"></span>
 	{% endif %}
 </div>

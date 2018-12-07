@@ -1,9 +1,29 @@
 @import 'variables';
 
+.post {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  padding: 0;
+  margin: 0 2%;
+  border: 0;
 
-body .markdown-body {
-    border: none;
-    padding: 0;
+  &__title {
+    margin-top: 15px !important;
+  }
+
+  &--small {
+    padding-top: 20px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 14px;
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
 }
 
 .markdown-body h1 {
@@ -18,51 +38,14 @@ body .markdown-body {
     margin-bottom: 0;
 }
 
-.page h1 {
-    margin-bottom: 0.5em;
-}
 
-.markdown-body a {
-    color: red;
-}
+@media (min-width: $screen-sm) {
+  .post {
+    margin: 0;
 
-.postmetadata {
-    margin-top: 0;
-    padding: 0;
-    padding-top: 0px;
-    padding-bottom: 10px;
-}
+    &--small {
+      padding: 10px 25px;
+    }
+  }
 
-time {
-    color: $light-grey;
-    font-weight: bold;
-    font-size: 14px;
-}
-
-.comments-link {
-    padding-left: 20px;
-    margin-left: 8px;
-}
-
-.love {
-    margin-left: 0 !important;
-    font-size:14px;
-    font-weight:bold;
-    margin-bottom:0 !important;
-    color: #C6C6C6;
-    padding-left: 22px;
-    background: url(/assets/img/note.png) no-repeat 0 4px;
-    margin-left: 8px;
-}
-
-.love-inline {
-    background-position-y: 3px;
-    margin-left: 4px !important;
-}
-
-a.comments-link {
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: bold;
-    color: #C6C6C6;
 }

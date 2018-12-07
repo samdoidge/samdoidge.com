@@ -1,0 +1,25 @@
+@import 'variables';
+
+
+.container {
+	padding: 0px 15px;
+}
+
+#content {
+	float: right;
+  padding-bottom: 60px;
+  margin-top: 10px;
+}
+
+@media (min-width: $screen-sm) {
+
+	.container {
+		width: 830px;
+		margin: 20px auto;
+	}
+
+	#content {
+    width: 650px;
+    margin-top: 0;
+	}
+}

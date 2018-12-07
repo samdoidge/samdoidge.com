@@ -1,15 +1,7 @@
-@import 'variables.scss';
+@import 'variables';
+
 * {
     box-sizing: border-box;
-}
-
-
-
-body .markdown-body {
-    padding: 45px;
-    border: 1px solid #ddd;
-    border-radius: 3px;
-    word-break:break-word;
 }
 
 pre {
@@ -17,6 +9,10 @@ pre {
 }
 
 .markdown-body {
+  padding: 45px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  word-break:break-word;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   color: #333;
@@ -28,6 +24,7 @@ pre {
 
 .markdown-body a {
   background-color: transparent;
+  color: $red;
 }
 
 .markdown-body a:active,
@@ -98,7 +95,7 @@ pre {
 }
 
 .markdown-body a {
-  color: #4078c0;
+  color: $red;
   text-decoration: none;
 }
 

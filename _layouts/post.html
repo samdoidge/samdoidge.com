@@ -2,16 +2,15 @@
 layout: default
 ---
 
-<article class="markdown-body">
+<article class="post markdown-body">
 
-	<h1>{{ page.title }}</h1>
+    <h1>{{ page.title }}</h1>
 
-	{% include postmeta.html %}
+    {% include postmeta.html %}
 
     <div class="entry">
         {{ content }}
     </div>
 
-    {% include comments.html %}
-
 </article>
+{% include comments.html %}

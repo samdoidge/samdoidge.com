@@ -6,9 +6,9 @@ layout: default
 
 <div class="posts home markdown-body">
 
-<h2>Technology Posts</h2>
+    <h2 style="margin-bottom:10px;">Technology Posts</h2>
     {% for page in site.tags.tech %}
-
+    <div class="post--small">
         <h2 class="post-title">
             <a href="{{ page.url }}">
                 {{ page.title }}
@@ -17,7 +17,7 @@ layout: default
 
         {% include postmeta.html %}
         <div class="entry"><p>{{ page.content | truncatewords:47 | strip_html }}</p></div>
-
+    </div>
     {% endfor %}
 
     <p class="rss-subscribe">

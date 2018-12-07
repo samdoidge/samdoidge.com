@@ -13,13 +13,13 @@ var disqus_identifier = "{{ site.disqusid }}{{ page.url | replace:'index.html','
 
 /* * * DON'T EDIT BELOW THIS LINE * * */
 function loadDisqus() {
-
+  disqusLoaded = true;
   var dsq = document.createElement('script');
   dsq.type = 'text/javascript';
   dsq.async = true;
   dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  disqusLoaded = true;
+
 }
 
 //Get the offset of an object
@@ -33,14 +33,22 @@ function findTop(obj) {
   }
 }
 
-if(window.location.hash.indexOf('#comments') > 0)
-  loadDisqus();
+if(window.location.hash.indexOf('#comments') > 0) {
+    loadDisqus();
+}
 
-if(comments) {
+
+if(comments  && !disqusLoaded) {
   var commentsOffset = findTop(comments);
 
+    if (commentsOffset <= 1000) {
+        loadDisqus();
+    }
   window.onscroll = function() {
-    if(!disqusLoaded && window.pageYOffset > commentsOffset - 1000)
+      console.log(disqusLoaded)
+
+        if(!disqusLoaded && window.pageYOffset > commentsOffset - 1000)
+
       loadDisqus();
   }
 }

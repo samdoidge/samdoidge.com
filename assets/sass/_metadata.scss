@@ -1,0 +1,14 @@
+@import 'variables';
+
+.metadata {
+  margin-top: 0;
+  padding: 0;
+  padding-bottom: 10px;
+  padding-top: 0;
+
+  &__time {
+    color: $light-grey;
+    font-size: 14px;
+    font-weight: bold;
+  }
+}

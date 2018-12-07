@@ -1,0 +1,16 @@
+@import 'variables';
+
+.love {
+  background: url('/assets/img/note.png') no-repeat 0 4px;
+  color: $light-grey;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-left: 8;
+  padding-left: 22px;
+
+  &--inline {
+    background-position-y: 3px;
+    margin-left: 4px;
+  }
+}

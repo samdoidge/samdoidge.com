@@ -2,13 +2,19 @@
 ---
 
 @import 'normalize';
-
 @import 'variables';
+
+@import 'content';
 @import 'header';
-@import 'sidebar';
+
 @import 'menu';
-@import 'tags';
+@import 'layout';
 @import 'logo';
+@import 'love';
+@import 'metadata';
+@import 'page';
+@import 'sidebar';
+@import 'tags';
 
 @import 'markdown';
 @import 'post';
@@ -21,17 +27,19 @@ body {
 	color: #333;
 }
 
-#content {
-	float: right;
-	padding-bottom: 60px;
+.home {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+	color: $red;
+	text-decoration: none;
 }
 
 img {
 	width:100%
-}
-
-.container {
-	padding: 0px 15px;
 }
 
 .markdown-body>*:first-child {
@@ -76,15 +84,6 @@ article {
 
 	img[src$="seventyfive"] {
 		max-width:75%;
-	}
-
-	.container {
-		width: $screen-sm;
-		margin: 20px auto;
-	}
-
-	#content {
-		width: 610px;
 	}
 
 	img {
