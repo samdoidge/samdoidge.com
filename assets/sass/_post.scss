@@ -1,4 +1,4 @@
-@import 'variables';
+@import "variables";
 
 .post {
   padding-top: 20px;
@@ -13,8 +13,6 @@
 
   &--small {
     padding-top: 20px;
-    padding: 10px 20px;
-    border: 1px solid #ddd;
     border-radius: 14px;
     margin-bottom: 20px;
   }
@@ -27,25 +25,22 @@
 }
 
 .markdown-body h1 {
-    border-bottom: 0;
-    padding-bottom: 0;
-    margin-bottom: 0;
+  border-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .posts h2 {
-    border-bottom: 0;
-    padding-bottom: 0;
-    margin-bottom: 0;
+  border-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
-
 
 @media (min-width: $screen-sm) {
   .post {
     margin: 0;
 
     &--small {
-      padding: 10px 25px;
     }
   }
-
 }
