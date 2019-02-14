@@ -8,7 +8,7 @@ Contracting availability: <a href="mailto:sam@samdoidge.com" class="unavailable"
 
 I can be emailed via the link above, at `sam@samdoidge.com`.
 
-I'm a web developer based in the UK, currently working for an innovative organisation. I've recently been developing a football simulation game for the App Store, and previously I was contracting for a cryptocurrency startup. I have also developed a <a href="https://coininterest.co">Bitcoin investment website</a>, and worked at a <a href="https://www.castletrust.co.uk/">financial company</a>.
+I'm a web developer based in the UK, currently working for an innovative organisation. I've recently been developing a football simulation game for the App Store, and previously I was contracting for a cryptocurrency startup. I have also developed a <a href="https://coininterest.co">Bitcoin investment application</a>, and worked at a <a href="https://www.castletrust.co.uk/">finance company</a>.
 
 In my free time I like to think of ideas and execute them. I continually look to learn and I try not to impose limits on myself.
 
