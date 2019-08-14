@@ -16,6 +16,8 @@ Outside of the internet some of my interests include: playing football, rowing (
 
 ### Personal projects
 
+- [Football Club Owner](https://apps.apple.com/gb/app/football-club-owner/id1460395593) - Now on the App Store. This is football management game with some unique elements, such as player rarity. It featured the creation of an extensive match engine which gives realistic scores, taking into account each players ability rating. This was built with React Native, Typescript, Realm for storage, and Mocha for tests.
+
 - [contentlord.com](https://contentlord.com) - A stream of content is fed from social websites and posted to social media platforms. A Slack integration allows for curation - the user can choose to post or ignore the content. Currently supports posting to Instagram, Facebook and Twitter. Powers [Bitcoin Memes](https://www.instagram.com/bitcoinmemes).
 
 - [beforesteam.com](https://samdoidge.com/beforesteam) - A price comparison site for Steam games. Millions of price points tracked. Records price history for thousands of games in multiple vendors and multiple currencies. ~40 IP's used for polling data without hitting limits. Amazon S3 for image hosting, Cloudflare as a CDN at the front of it all.
