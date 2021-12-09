@@ -25,12 +25,12 @@ services:
 ```
 
 I did run into errors, such as:
-```
+```sh
 find_spec_for_exe': Could not find 'bundler' (1.16.4) required by your /srv/jekyll/Gemfile.lock.
 ```
 and
 
-```
+```sh
 Bundler could not find compatible versions for gem "bundler":
     In Gemfile:
       bundler (~> 1.12)
