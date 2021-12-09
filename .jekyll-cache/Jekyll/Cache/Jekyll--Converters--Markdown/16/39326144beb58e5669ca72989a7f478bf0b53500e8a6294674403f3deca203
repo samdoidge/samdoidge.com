@@ -1,0 +1,17 @@
+I"ú<p><code class="language-plaintext highlighter-rouge">grep</code> is a great tool for searching multiple files and directories for a string - but what if we have a list of strings we are looking for?</p>
+
+<p>A great solution for this is to enter the strings into a file - one per line.</p>
+
+<p>We will use the find command combined with grep and a few other flags to search our current directory recursively for all the string in our text file:</p>
+
+<p><img src="/assets/string-list.jpg" alt="no-margin" /></p>
+
+<p>Our command:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>find <span class="nb">.</span> <span class="nt">-type</span> f <span class="nt">-exec</span> <span class="nb">grep</span> <span class="nt">-iHFf</span> search_terms.txt <span class="o">{}</span> +
+</code></pre></div></div>
+
+<p>The resulting matches are output into the command line.</p>
+
+<p>I found this while googling and canâ€™t find the URL again, but thank you internet stranger.</p>
+:ET

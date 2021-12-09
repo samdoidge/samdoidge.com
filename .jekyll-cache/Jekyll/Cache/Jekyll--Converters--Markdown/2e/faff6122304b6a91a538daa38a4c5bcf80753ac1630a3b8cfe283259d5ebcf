@@ -1,0 +1,10 @@
+I"�<p>Fans spinning to a human audible level indicates your Mac is hot and your CPU is probably working hard. I recently updated to the powerful 2018 MacBook Pro 15”, so was surprised to hear them, with little more than Docker, VS Code, and <a href="https://angular.io/">Angular</a>’s <code class="language-plaintext highlighter-rouge">ng serve</code> running :thinking:.</p>
+
+<p style="text-align: center">
+	<img src="/assets/ng-serve-hot.png" />
+</p>
+
+<p>A little Googling as usual, and I found this issue. <code class="language-plaintext highlighter-rouge">npm i fsevents</code>, as suggested - reduced my CPU load from ~12% to ~2%, and quickly stopped the audible fan noise. This is specific to Mac, but I thought should be shared, as I was worried there was a heat issue with my Mac, or all new Macs in general.</p>
+
+<p>As the user @PyroSA kindly assumes, this is due to anguarl-cli now being subscribed to File System Events, instead of directly polling files to check for changes.</p>
+:ET

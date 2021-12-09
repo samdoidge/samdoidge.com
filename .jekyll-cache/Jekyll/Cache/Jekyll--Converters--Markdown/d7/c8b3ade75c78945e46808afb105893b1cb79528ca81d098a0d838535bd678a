@@ -1,0 +1,20 @@
+I"¨<p>Conflicts â€“ if you just want to choose one version of the file or the other, you can use:</p>
+
+<pre><code class="language-bash">git checkout --ours filename.c
+</code></pre>
+<p>or</p>
+<pre><code class="language-bash">git checkout --theirs filename.c
+</code></pre>
+
+<p>Then mark as resolved and commit through:</p>
+<pre><code class="language-bash">git add filename.c
+git commit -m "using theirs"
+</code></pre>
+
+<p>Copying a specific commit from one branch to another, goto the the branch you want to bring the commit into, and reference the commit hash:</p>
+<pre><code class="language-bash">git add filename.c
+git cherry-pick e87568fa
+</code></pre>
+
+<p>And you are done :)</p>
+:ET

@@ -1,0 +1,13 @@
+I"�<p>I’ve put fun - <code class="language-plaintext highlighter-rouge">open</code> is fun in that a new window pops up over your terminal showing you the files you are browsing visually, and drag-ablly. History is just useful!</p>
+
+<p>To open a finder window in the current directory you are browsing in terminal, use:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>open <span class="nb">.</span>
+</code></pre></div></div>
+
+<p>To search your previously used commands, combine <code class="language-plaintext highlighter-rouge">history</code> and <code class="language-plaintext highlighter-rouge">grep</code>:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">history</span> | <span class="nb">grep </span>foo
+</code></pre></div></div>
+
+<p>This will search your last 500 commands that contained ‘foo’.</p>
+:ET

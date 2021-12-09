@@ -1,0 +1,878 @@
+I"p�<div class="posts home markdown-body">
+
+    <h2 style="margin-bottom:10px;">Technology Posts</h2>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/jekyll-with-docker">
+                Jekyll with Docker
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2021-12-09T00:00:00-06:00" pubdate="">Dec 9, 2021</time>
+	
+</div>
+
+        <div class="entry"><p>Since moving to a new Mac, pulling down my blog to make a post - I really didn’t want to deal with configuring the environment to run Jekyll locally again. It won’t be the last machine I have to configure this on, and it’s not a systematic...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/football-club-owner-second-update">
+                Football Club Owner Second Update
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2019-08-14T00:00:00-05:00" pubdate="">Aug 14, 2019</time>
+	
+</div>
+
+        <div class="entry"><p>This is an update on Football Club Owner, the football simulation game I was working on, written in React Native. It is far from perfect, but it has been live on the App Store for some time now. I’m very appreciative of the constructive feedback and...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/football-club-owner-ui-update">
+                Football Club Owner Second Date
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2019-01-27T00:00:00-06:00" pubdate="">Jan 27, 2019</time>
+	
+</div>
+
+        <div class="entry"><p>This is an update on Football Club Owner, the football simulation game I was working on, written in React Native. It is far from perfect, but it now live on the (App Store)[https://apps.apple.com/gb/app/football-club-owner/id1460395593]
+
+
+
+
+</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/angular-6-with-scss">
+                Angular 6 with SCSS
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2019-01-18T00:00:00-06:00" pubdate="">Jan 18, 2019</time>
+	
+</div>
+
+        <div class="entry"><p>This is a quick demonstration of how to create a project with SCSS as default ng new projectname --style=scss or the slightly more involved solution for changing an existing project to use scss.
+
+
+
+
+</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/sass-lint-visual-studio-code-extension">
+                Sass Lint Visual Studio Code Extension
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2018-12-06T00:00:00-06:00" pubdate="">Dec 6, 2018</time>
+	
+</div>
+
+        <div class="entry"><p>This is a great Visual Studio Code extension I found when looking to tidy up my SCSS files. It will notify you of incorrect property order, alert you when you should use variables, and much more. You will need to install the sass-lint npm package with...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/express-api-hello-world">
+                Express API Hello World
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2018-11-28T00:00:00-06:00" pubdate="">Nov 28, 2018</time>
+	
+</div>
+
+        <div class="entry"><p>This is a demo at the most basic level for creating an API in Node using the Express framework. You will need node and npm to run this. My preferred option is via Homebrew. brew install node should then give you node and...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/angular-lazy-loading">
+                Lazy Loading in Angular 6
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2018-11-22T00:00:00-06:00" pubdate="">Nov 22, 2018</time>
+	
+</div>
+
+        <div class="entry"><p>This is a quick video of lazy loading working for Angular 6 routes. It is used when routing to feature modules, and stops the modules being initiliased before they are needed. const routes: Routes = [ { path: 'customers', loadChildren: './customers/customers.module#CustomersModule' } ] Is how...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/content-lord-instagram-posts-from-slack">
+                Content Lord - Instagram posts from Slack
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2018-11-21T00:00:00-06:00" pubdate="">Nov 21, 2018</time>
+	
+</div>
+
+        <div class="entry"><p>I just wanted to show what this little application looks like from my side, as I’ve been using it for almost a year now and I’m quite pleased with it. https://instagram.com/bitcoinmemes is the Meme page I post images to with this. The fact I had just...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/project-zeus">
+                Project Zeus
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2018-11-20T00:00:00-06:00" pubdate="">Nov 20, 2018</time>
+	
+</div>
+
+        <div class="entry"><p>This title pays homage to the brilliant Peep Show. This is a project me and a friend, Ben, have been working on. We’re using React Native and Typescript to have just one codebase we can quickly create tests in, and also develop for mobile from. ‘Football...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/google-lighthouse-for-seo">
+                Using Google Lighthouse for SEO
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2018-10-30T00:00:00-05:00" pubdate="">Oct 30, 2018</time>
+	
+</div>
+
+        <div class="entry"><p>I debated creating this post, but it’s a useful tool you may not be aware of, and very easy to use. Lighthouse is an open-source, automated tool for improving the quality of web pages. You can run it against any web page, public or requiring...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/laravel-inreverse-seed-generator">
+                Laravel Inverse Seed Generator
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2018-10-27T00:00:00-05:00" pubdate="">Oct 27, 2018</time>
+	
+</div>
+
+        <div class="entry"><p>This is a cool tool, and automates some of which I had been doing manually - creating seeds for data. With one command, it will create a seed for a given table (or tables) using the data already within that table - beautiful. https://github.com/orangehill/iseed ...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/angular-6-and-font-awesome">
+                Angular 6 and Font Awesome
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2018-10-26T00:00:00-05:00" pubdate="">Oct 26, 2018</time>
+	
+</div>
+
+        <div class="entry"><p>Continuing with my screencast ‘series’ - the best way to integrate Font Awesome and Angular, this is simple and quick, shown on a fresh installation.    Install the Font Awesome packages: npm install @fortawesome/fontawesome-svg-core --save\nnpm install @fortawesome/free-solid-svg-icons...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/laradock-laravel-sequel-pro-demo">
+                Laradock, Laravel, Sequel Pro Demo
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2018-10-20T00:00:00-05:00" pubdate="">Oct 20, 2018</time>
+	
+</div>
+
+        <div class="entry"><p>Rather than write a time-consuming post, I thought I would try a video. I’ve gone with a screen-cast, and despite having to do this twice as the Quicktime recording alerted me nothing had been recorded at the end, I think it was a lot easier than a...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/fsevents">
+                MacBook Pro fans spinning while serving Angular
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2018-09-02T00:00:00-05:00" pubdate="">Sep 2, 2018</time>
+	
+</div>
+
+        <div class="entry"><p>Fans spinning to a human audible level indicates your Mac is hot and your CPU is probably working hard. I recently updated to the powerful 2018 MacBook Pro 15”, so was surprised to hear them, with little more than Docker, VS Code, and Angular’s &lt;code class="language-plaintext...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/beforesteam">
+                beforeSteam
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2018-02-24T00:00:00-06:00" pubdate="">Feb 24, 2018</time>
+	
+</div>
+
+        <div class="entry"><p>   beforeSteam is a price comparison site for Steam games. Millions of price points tracked. Records price history for thousands of games in multiple vendors and multiple currencies. ~40 IP’s used for polling data without hitting limits. Amazon S3 for image...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/why-didnt-letsencrypt-renew">
+                Why didn't Let's Encrypt auto renew?
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2018-02-13T00:00:00-06:00" pubdate="">Feb 13, 2018</time>
+	
+</div>
+
+        <div class="entry"><p>   I accessed one of my sites recently to find the SSL is invalid. Rookie error, I thought! I had probably just forgotten to setup a cron for auto renewing the SSL certificate for Let’s Encrypt… So I goto run the...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/differences-across-php-versions">
+                Differences across PHP versions
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2018-01-19T00:00:00-06:00" pubdate="">Jan 19, 2018</time>
+	
+</div>
+
+        <div class="entry"><p>   Now PHP 7.2 has arrived, and the previous versions are still in use, as shown above [1], I thought I would cover the differences between the versions now out there. I will be highlighting what I see as the...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/updating-curl-manually-ubuntu">
+                Updating curl manually on Ubuntu
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2018-01-14T00:00:00-06:00" pubdate="">Jan 14, 2018</time>
+	
+</div>
+
+        <div class="entry"><p>   I wanted to update curl, but the version available on 16.04 of Ubuntu was 7.47.0, (not the latest 7.57.0) so the nice apt-get method wasn’t an option. Download the latest release from http://curl.haxx.se/download.html...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/http-api-methods">
+                HTTP API Methods
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2018-01-06T00:00:00-06:00" pubdate="">Jan 6, 2018</time>
+	
+</div>
+
+        <div class="entry"><p>   I thought I would go over REST HTTP methods as things have changed slightly since I first started implementing them. REST (Representational State Transfer) advocates that web applications should use HTTP as it was originally envisioned, and this architecture overtook...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/php-classes-and-interfaces">
+                PHP Interfaces and Abstract classes
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2018-01-03T00:00:00-06:00" pubdate="">Jan 3, 2018</time>
+	
+</div>
+
+        <div class="entry"><p>   This is a post to run through some of language features PHP provides for object oriented programming. Interfaces  Object interfaces allow you to create code which specifies which methods a class must implement, without having to define...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/seo-links">
+                SEO Links
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2017-05-01T00:00:00-05:00" pubdate="">May 1, 2017</time>
+	
+</div>
+
+        <div class="entry"><p>I’m interested in SEO / Marketing as I genuinely believe the difference between a successful product and a unsuccessful product is often just down to SEO / marketing. I also believe many people have a lot to offer the world, but lack marketing. Below are some guides...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/italian-fields">
+                Italian Fields
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2017-04-12T00:00:00-05:00" pubdate="">Apr 12, 2017</time>
+	
+</div>
+
+        <div class="entry"><p>Another new design. I’m placing the Italian farm/fields image below as a monument to my last design. This is actually an old design of mine, as seen on the Internet Archive.  Italian fields Remaining tasks There are several tasks remaining...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/jekyll-sitemap-generator">
+                Jekyll XML Sitemap Generator
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2017-03-25T00:00:00-05:00" pubdate="">Mar 25, 2017</time>
+	
+</div>
+
+        <div class="entry"><p>Sitemaps are still important for SEO, perhaps one of the most improtant things. An XML Sitemap is now really easy to setup in Jekyll - easier than Wordpress, even. Here is my Sitemap.   Simply add gem 'jekyll-sitemap' to your GemFile* and then...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/hyper-vs-iterm2">
+                Hyper vs iTerm2
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2017-03-18T00:00:00-05:00" pubdate="">Mar 18, 2017</time>
+	
+</div>
+
+        <div class="entry"><p>I recently saw a colleague using a shiny new terminal called Hyper. I liked the beautiful look, and the number of Github Stars - so I installed, and Googled comparisons.  While it is nice to look at, installed fonts are still...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/power-of-nohup">
+                The Power of nohup
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2016-10-25T00:00:00-05:00" pubdate="">Oct 25, 2016</time>
+	
+</div>
+
+        <div class="entry"><p>nohup allows is to run a command, close our connection, and still have the command run on the server - very powerful. I’ve used this at times I know I have a command that will take a long time to run, but I need to close my...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/swap-file">
+                Digital Ocean Swap File
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2016-10-19T00:00:00-05:00" pubdate="">Oct 19, 2016</time>
+	
+</div>
+
+        <div class="entry"><p>Digital Ocean is a great service, but by default no swap file is set on their droplets. I first realised this issue when my droplet was killing my composer update process. This can lead you to thinking you need a more powerful Droplet, but simply...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/lazy-load-disqus-comments">
+                Lazy load Disqus comments
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2016-06-22T00:00:00-05:00" pubdate="">Jun 22, 2016</time>
+	
+</div>
+
+        <div class="entry"><p>I’ve implemented lazy loading of Disqus comments, it’s just a better way of handling comments loaded via javascript I believe. There is one potential drawback on SEO, but on the plus side there is faster page loads (better for SEO). I also like the fact I only...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/ssl-with-cloudflare">
+                SSL / HTTPS with Cloudflare
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2016-06-20T00:00:00-05:00" pubdate="">Jun 20, 2016</time>
+	
+</div>
+
+        <div class="entry"><p>I get asked a lot of questions (I don’t ). Here’s a how-to on SSL with Cloudflare (they now provide this on their free plan): If you are only using Flexible SSL (HTTPS between cloudflare and end user) you do not want a redirect in htaccess /...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/github-contributions">
+                GitHub Contributions
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2016-06-19T00:00:00-05:00" pubdate="">Jun 19, 2016</time>
+	
+</div>
+
+        <div class="entry"><p>You’ve pushed code and realised your contribution isn’t showing up! git config --global user.email  Does this match your GitHub email? I’m guessing not - set it with git config --global user.email "your_email@example.com"  You’re welcome....</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/redesign">
+                Redesign
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2015-09-05T00:00:00-05:00" pubdate="">Sep 5, 2015</time>
+	
+</div>
+
+        <div class="entry"><p>Evolution, not revolution is the approach I have taken. I was inpsired by the view of the future and software / technology in the brilliant film Her.  Something I wanted from a redesign was to increase simplicity and remove unnecessary css transitions...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/multiple-string-search-copy">
+                Multiple String Search
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2015-04-04T00:00:00-05:00" pubdate="">Apr 4, 2015</time>
+	
+</div>
+
+        <div class="entry"><p>grep is a great tool for searching multiple files and directories for a string - but what if we have a list of strings we are looking for? A great solution for this is to enter the strings into a file - one per line....</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/background-server-ftp-transfer-copy">
+                Background Server FTP Transfer
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2015-03-12T00:00:00-05:00" pubdate="">Mar 12, 2015</time>
+	
+</div>
+
+        <div class="entry"><p>I had a lot of files to transfer, little bandwith from my laptop and limited timed. Can I have my server transfering the files in the background? Yes. My VPS has more bandwith than my current location. I needed to FTP the files, a little research and...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/fun-command-line-variables">
+                Fun Command Line Variables
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2015-02-24T00:00:00-06:00" pubdate="">Feb 24, 2015</time>
+	
+</div>
+
+        <div class="entry"><p>Since my last post was such a success  I’ve decided to continue the series. Command Line Variables You have a bash script that needs to FTP somewhere and want to test part of the script works outside of the whole script? Run...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/fun-osx-terminal-commands">
+                Fun OSX Terminal Commands
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2015-02-08T00:00:00-06:00" pubdate="">Feb 8, 2015</time>
+	
+</div>
+
+        <div class="entry"><p>I’ve put fun - open is fun in that a new window pops up over your terminal showing you the files you are browsing visually, and drag-ablly. History is just useful! To open a finder window in the current directory you are browsing in terminal,...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/public-private-protected-php">
+                Public, private and protected in PHP
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2014-12-21T00:00:00-06:00" pubdate="">Dec 21, 2014</time>
+	
+</div>
+
+        <div class="entry"><p>Not the most interesting post but essential for OOP PHP development:   public scope to make that variable/function available from anywhere, other classes and instances of the object.   private scope when you want your variable/function to be visible in its own class only. ...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/why-use-sass">
+                Why use Sass?
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2014-12-17T00:00:00-06:00" pubdate="">Dec 17, 2014</time>
+	
+</div>
+
+        <div class="entry"><p> Admittedly Sass has been out for years now, but I did’nt feel an urgent need to write about, until now. On small projects CSS can seem fine. On large projects they can quickly become difficult to maintain. Want to change a colour used...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/grunt-auto-reload">
+                Auto reload with Grunt
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2014-11-09T00:00:00-06:00" pubdate="">Nov 9, 2014</time>
+	
+</div>
+
+        <div class="entry"><p> What is Grunt? A ‘task runner’ - it helps us with reptitive tasks through automation, running from the command line. Why use Grunt? Reloading web pages after an code change does not take long but the time and extra actoins required...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/do-not-use-domain-name-as-hostname-plesk">
+                Do not use your domain name as a Hostname in Plesk
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2014-09-25T00:00:00-05:00" pubdate="">Sep 25, 2014</time>
+	
+</div>
+
+        <div class="entry"><p>Cautionary tale: Do not use your domain name as a hostname. I installed a new version of Ubuntu with Plesk on my VPS again lately, and decided to use my domain name as a hostname within Plesk - thinking it would seem nice and orderly. Cue: an...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/quick-laravel-development">
+                Speedy Laravel Development
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2014-09-05T00:00:00-05:00" pubdate="">Sep 5, 2014</time>
+	
+</div>
+
+        <div class="entry"><p>This is a quick post to share a small tool (Laravel-4-Generators-Bootstrap-3) to quickly generate your database tables, controller with CRUD functions and scaffolding views connecting all this with one command: php artisan generate:scaffold tweet --fields="author:string, body:text"  &lt;code class="language-plaintext...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/setup-local-sites-os-x-mavericks">
+                Setup local sites with OS X Mavericks
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2014-08-05T00:00:00-05:00" pubdate="">Aug 5, 2014</time>
+	
+</div>
+
+        <div class="entry"><p>You’ve just installed Mavericks on your lovely Mac, and want to do some web development, probably with PHP. Things are made simple for us in this version. I’m on 10.9.4 - others may need some other changes on anything older releases of Mavericks. I like to have...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/hello-jekyll">
+                Hello Jekyll
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2014-07-25T00:00:00-05:00" pubdate="">Jul 25, 2014</time>
+	
+</div>
+
+        <div class="entry"><p>I’m now using Jekyll - a tool which transforms your markdown into static html. Following a great tutorial from Joshua Landa I was able to setup site relatively pain free (This is a lie. On OS X Lion I had a nightmare even installing Jekyll...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/levenshtein-distance">
+                Levenshtein Distance
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2013-06-09T00:00:00-05:00" pubdate="">Jun 9, 2013</time>
+	
+</div>
+
+        <div class="entry"><p>The Levenshtein distance between two words is the minimum number of single-character edits (insertion, deletion, substitution) required to change one word into the other. – Wikipedia To implement in MySQL, use the following function – if using phpmyadmin you will need to set a different delimiter...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/fifa-trader">
+                Fifa Trader
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2013-03-30T00:00:00-05:00" pubdate="">Mar 30, 2013</time>
+	
+</div>
+
+        <div class="entry"><p>Fifa Trader connects to Fifa 13′s unpublished API to allow automated bidding and selling of Ultimate Team cards. Connection to FIFA servers possible from work done by numerous others on GitGub, my GitHub fork contains a current working app for ps3 accounts: https://github.com/samdoidge/FIFA13-Ultimate-Team-Search. Search screen once...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/mongodb">
+                mongoDB
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2013-03-23T00:00:00-05:00" pubdate="">Mar 23, 2013</time>
+	
+</div>
+
+        <div class="entry"><p>I created a site to test mongoDB, with Save a Tweet – storing my data in one ‘blob’. I like the simplicity, and not having to worry about relationships or changing the scheme down the line. I won’t be using this in place of MySQL on most...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/svn-tips">
+                SVN Tips
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2013-03-14T00:00:00-05:00" pubdate="">Mar 14, 2013</time>
+	
+</div>
+
+        <div class="entry"><p>SVN is still around, some things I have found useful Add all files to SVN within current directory (recursively) svn add . --force  Remove files from an add, within a folder (before commit) svn revert &lt;span...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/git-tips">
+                Git Tips
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2012-12-12T00:00:00-06:00" pubdate="">Dec 12, 2012</time>
+	
+</div>
+
+        <div class="entry"><p>Conflicts – if you just want to choose one version of the file or the other, you can use: git checkout --ours filename.c  or git checkout --theirs filename.c  Then mark as resolved and commit through: git add filename.c git commit -m "using...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/pro-shell-tips">
+                Pro-shell-tips
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2012-12-05T00:00:00-06:00" pubdate="">Dec 5, 2012</time>
+	
+</div>
+
+        <div class="entry"><p>cp -r /source-folder /destination-folder  will not preserve permissions - you want to preverse permissions if backing up folder on a live server. cp -a /source-folder /destination-folder  does the backup you want :) using...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/using-git-with-dropbox">
+                Using Git with Dropbox
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2012-11-03T00:00:00-05:00" pubdate="">Nov 3, 2012</time>
+	
+</div>
+
+        <div class="entry"><p> **2014:** I now just use Bitbucket.  note: I’ve set this up on Mac OS X. I’ve cancelled my beanstalkapp subscription, gone for a paid Dropbox one, and am moving my repos to Dropbox. cd ~/Dropbox mkdir -p Sites/your-repo-name/your-repo-name.git...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/save-a-tweet">
+                Save a Tweet
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2012-11-03T00:00:00-05:00" pubdate="">Nov 3, 2012</time>
+	
+</div>
+
+        <div class="entry"><p>Excuse the ugly design, this was a prototype image :)  I’ve created Save a Tweet as a quick hack to experiment with mongoDB. With so many people saying something controversial, then deleting them, and a news article vaguely stating what was said, this...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/database-backups-to-dropbox">
+                Database backups to Dropbox
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2012-07-11T00:00:00-05:00" pubdate="">Jul 11, 2012</time>
+	
+</div>
+
+        <div class="entry"><p>I’m automating my database backups and storing them with Dropbox. You need Dropbox running on your server for this - it’s a great guide, but note one key point : when ‘This client is not linked to any account…’ appears - leave the service open, do...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/php-london-2012-conference">
+                PHP London 2012 Conference
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2012-05-03T00:00:00-05:00" pubdate="">May 3, 2012</time>
+	
+</div>
+
+        <div class="entry"><p>Roundup: Was it worth going? Yes. There is a lot to take in and it got my brain working. As programming conferences goes it was a riot ;) I was impressed with Rasmus Lerdof’s answers on the panel at the end of the Friday (the day I...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/unix-shell-terminal-commands">
+                Find and replace a string across many files with Shell / Terminal
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2012-05-02T00:00:00-05:00" pubdate="">May 2, 2012</time>
+	
+</div>
+
+        <div class="entry"><p>Useful commands for use with the Shell / Terminal. Spotlight tool - &gt; ‘terminal’ to find on Mac OS. PHP used in this case, replace ‘php’ with the file extension of your choice. Find and replace a string across many files on MAC OS: &lt;div...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/wordpress-vs-tumblr-vs-posterous">
+                WordPress vs Tumblr vs Posterous
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2012-03-30T00:00:00-05:00" pubdate="">Mar 30, 2012</time>
+	
+</div>
+
+        <div class="entry"><p> **2014:** Posterous is now dead, I'm using Jekyll  I’ve come back to the blog world and had to choose a platform to write my words. For me the choice was WordPress. Tumblr They have really carved their own space in the blogging world by...</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/pintbet">
+                PintBet
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2010-03-09T00:00:00-06:00" pubdate="">Mar 9, 2010</time>
+	
+</div>
+
+        <div class="entry"><p>
+Pintbet logo and strap line on the home screen.
+
+
+Users screen with ‘sparkline’ graph showing profit trend.
+
+
+Events Screen
+
+
+Tip Screen
+</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/wikidtutorials">
+                wikidtutorials
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2009-10-23T00:00:00-05:00" pubdate="">Oct 23, 2009</time>
+	
+</div>
+
+        <div class="entry"><p>
+
+This was a concept for a collaborative user-created tutorial site (and still a good idea), hence the wiki.
+</p></div>
+    </div>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/urgigs-website">
+                ur.gigs Website
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2008-11-02T00:00:00-05:00" pubdate="">Nov 2, 2008</time>
+	
+</div>
+
+        <div class="entry"><p>
+This was produced as part of a university assignment - A user contributed gig review site built in PHP and using the last.fm API.  I went with a simple, and clean visual style.
+
+
+</p></div>
+    </div>
+    
+
+    <p class="rss-subscribe">
+        <a href="/archive">View more</a>
+    </p>
+</div>
+:ET

@@ -1,0 +1,12 @@
+I"L<p>You’ve pushed code and realised your contribution isn’t showing up!</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config <span class="nt">--global</span> user.email
+</code></pre></div></div>
+
+<p>Does this match your GitHub email? I’m guessing not - set it with</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config <span class="nt">--global</span> user.email <span class="s2">"your_email@example.com"</span>
+</code></pre></div></div>
+
+<p>You’re welcome.</p>
+:ET

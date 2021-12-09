@@ -1,0 +1,35 @@
+I"�<p><img src="/assets/sass.png" alt="no-margin" /></p>
+
+<p>Admittedly Sass has been out for years now, but I did’nt feel an urgent need to write about, until now. On small projects CSS can seem fine. On large projects they can quickly become difficult to maintain. Want to change a colour used throughout your site? At best it’s a mass search and replace, at worst you are browsing each style declaration, check where it is used and then changing the HEX value.</p>
+
+<p>Sass lets you use variables in your style, which is really handy for things like colours and fonts:</p>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">$</span><span class="nt">highlight-colour</span><span class="o">:</span> <span class="nf">#f7901e</span><span class="o">;</span>
+<span class="err">$</span><span class="nt">font-primary</span><span class="o">:</span> <span class="nt">Tahoma</span><span class="o">,</span> <span class="nt">Geneva</span><span class="o">,</span> <span class="nt">sans-serif</span><span class="o">;</span>
+<span class="err">$</span><span class="nt">font-secondary</span><span class="o">:</span> <span class="s2">'Nunito'</span><span class="o">,</span> <span class="nt">sans-serif</span><span class="o">;</span>
+</code></pre></div></div>
+
+<p>It also prevents you repeating style code across your declarations with mix-ins:</p>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">@mixin</span> <span class="n">box-shadow</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nl">-webkit-box-shadow</span><span class="p">:</span> <span class="nb">inset</span> <span class="m">4px</span> <span class="m">4px</span> <span class="m">8px</span> <span class="m">0px</span> <span class="n">rgba</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">1</span><span class="p">);</span>
+  <span class="nl">-moz-box-shadow</span><span class="p">:</span>    <span class="nb">inset</span> <span class="m">4px</span> <span class="m">4px</span> <span class="m">8px</span> <span class="m">0px</span> <span class="n">rgba</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">1</span><span class="p">);</span>
+  <span class="nl">box-shadow</span><span class="p">:</span>         <span class="nb">inset</span> <span class="m">3px</span> <span class="m">3px</span> <span class="m">8px</span> <span class="m">0px</span> <span class="n">rgba</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">1</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>You can then use the like so:</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.style-example</span> <span class="p">{</span>
+  <span class="err">@include</span> <span class="err">box-shadow();</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="why-use">Why use?</h3>
+
+<p>To answer the question, on anything more complex than a one page site it is worth using Sass. There is a tiny learning curve, native CSS works in Sass, Sass just adds to CSS.</p>
+
+<p>Once you have setup a compiler for Sass to CSS, you should use on every project with possible exceptions for single pages and prototyping. It is easier to maintain and can help reduce the size of your css files.</p>
+
+<h3 id="drawbacks">Drawbacks</h3>
+
+<p>Sass needs to be compiled into CSS - browsers cannot use it natively. You can setup grunt to automatically convert Sass to CSS on saving - but this involves some setup. You can also do the compiling with a command line tool.</p>
+:ET

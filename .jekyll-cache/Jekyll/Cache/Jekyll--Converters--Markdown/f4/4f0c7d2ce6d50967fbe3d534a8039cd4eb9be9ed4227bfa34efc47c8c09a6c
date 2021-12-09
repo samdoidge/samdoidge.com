@@ -1,0 +1,14 @@
+I"Š<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cp</span> <span class="nt">-r</span> /source-folder /destination-folder
+</code></pre></div></div>
+<p>will not preserve permissions - you want to preverse permissions if backing up folder on a live server.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cp</span> <span class="nt">-a</span> /source-folder /destination-folder
+</code></pre></div></div>
+<p>does the backup you want :)</p>
+
+<p>using wildcard in a transfer ignores hidden files.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rsync <span class="nt">-avz</span> <span class="k">*</span> /dest/folder
+</code></pre></div></div>
+<p>will ignore your .htaccess and any other hidden files, just copy the directory or use . within the directory, not * to transfer all.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rsync <span class="nt">-avz</span> <span class="nb">.</span> /dest/folder
+</code></pre></div></div>
+:ET

@@ -1,0 +1,11 @@
+I"T<p>Useful commands for use with the Shell / Terminal. Spotlight tool - &gt; ‘terminal’ to find on Mac OS.</p>
+
+<p>PHP used in this case, replace ‘php’ with the file extension of your choice.</p>
+
+<p>Find and replace a string across many files on MAC OS:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>find <span class="nb">.</span> <span class="nt">-name</span> <span class="s2">"*.php"</span> <span class="nt">-print</span> | xargs <span class="nb">sed</span> <span class="nt">-i</span> <span class="s2">""</span> <span class="s1">'s/string to replace/replacement string/g'</span>
+</code></pre></div></div>
+<p>Find and replace a string across many files on LINUX:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>find <span class="nb">.</span> <span class="nt">-name</span> <span class="s2">"*.php"</span> <span class="nt">-print</span> | xargs <span class="nb">sed</span> <span class="nt">-i</span> <span class="s1">'s/string to replace/replacement string/g'</span>
+</code></pre></div></div>
+:ET

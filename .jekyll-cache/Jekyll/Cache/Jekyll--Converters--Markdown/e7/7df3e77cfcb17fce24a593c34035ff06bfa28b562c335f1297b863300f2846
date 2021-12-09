@@ -1,0 +1,56 @@
+I"'<p>The Levenshtein distance between two words is the minimum number of single-character edits (insertion, deletion, substitution) required to change one word into the other. – <a href="http://en.wikipedia.org/wiki/Levenshtein_distance">Wikipedia</a></p>
+
+<p>To implement in MySQL, use the following function – if using phpmyadmin you will need to set a different delimiter such as ‘$’ instead of ‘;’ to create this function.</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">CREATE</span> <span class="k">FUNCTION</span> <span class="n">levenshtein</span><span class="p">(</span> <span class="n">s1</span> <span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">255</span><span class="p">),</span> <span class="n">s2</span> <span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">255</span><span class="p">)</span> <span class="p">)</span>
+  <span class="k">RETURNS</span> <span class="nb">INT</span>
+  <span class="k">DETERMINISTIC</span>
+  <span class="k">BEGIN</span>
+    <span class="k">DECLARE</span> <span class="n">s1len</span><span class="p">,</span> <span class="n">s2len</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">,</span> <span class="k">c</span><span class="p">,</span> <span class="n">ctemp</span><span class="p">,</span> <span class="n">cost</span> <span class="nb">INT</span><span class="p">;</span>
+    <span class="k">DECLARE</span> <span class="n">s1char</span> <span class="nb">CHAR</span><span class="p">;</span>
+    <span class="c1">-- max strlen=255</span>
+    <span class="k">DECLARE</span> <span class="n">cv0</span><span class="p">,</span> <span class="n">cv1</span> <span class="nb">VARBINARY</span><span class="p">(</span><span class="mi">256</span><span class="p">);</span>
+    <span class="k">SET</span> <span class="n">s1len</span> <span class="o">=</span> <span class="n">CHARLENGTH</span><span class="p">(</span><span class="n">s1</span><span class="p">),</span> <span class="n">s2len</span> <span class="o">=</span> <span class="n">CHARLENGTH</span><span class="p">(</span><span class="n">s2</span><span class="p">),</span> <span class="n">cv1</span> <span class="o">=</span> <span class="mi">0</span><span class="n">x00</span><span class="p">,</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="k">c</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="n">IF</span> <span class="n">s1</span> <span class="o">=</span> <span class="n">s2</span> <span class="k">THEN</span>
+      <span class="k">RETURN</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="n">ELSEIF</span> <span class="n">s1len</span> <span class="o">=</span> <span class="mi">0</span> <span class="k">THEN</span>
+      <span class="k">RETURN</span> <span class="n">s2len</span><span class="p">;</span>
+    <span class="n">ELSEIF</span> <span class="n">s2len</span> <span class="o">=</span> <span class="mi">0</span> <span class="k">THEN</span>
+      <span class="k">RETURN</span> <span class="n">s1len</span><span class="p">;</span>
+    <span class="k">ELSE</span>
+      <span class="n">WHILE</span> <span class="n">j</span> <span class="o">&lt;=</span> <span class="n">s2len</span> <span class="k">DO</span>
+        <span class="k">SET</span> <span class="n">cv1</span> <span class="o">=</span> <span class="n">CONCAT</span><span class="p">(</span><span class="n">cv1</span><span class="p">,</span> <span class="n">UNHEX</span><span class="p">(</span><span class="n">HEX</span><span class="p">(</span><span class="n">j</span><span class="p">))),</span> <span class="n">j</span> <span class="o">=</span> <span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="k">END</span> <span class="n">WHILE</span><span class="p">;</span>
+      <span class="n">WHILE</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">s1len</span> <span class="k">DO</span>
+        <span class="k">SET</span> <span class="n">s1char</span> <span class="o">=</span> <span class="k">SUBSTRING</span><span class="p">(</span><span class="n">s1</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="k">c</span> <span class="o">=</span> <span class="n">i</span><span class="p">,</span> <span class="n">cv0</span> <span class="o">=</span> <span class="n">UNHEX</span><span class="p">(</span><span class="n">HEX</span><span class="p">(</span><span class="n">i</span><span class="p">)),</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+        <span class="n">WHILE</span> <span class="n">j</span> <span class="o">&lt;=</span> <span class="n">s2len</span> <span class="k">DO</span>
+          <span class="k">SET</span> <span class="k">c</span> <span class="o">=</span> <span class="k">c</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+          <span class="n">IF</span> <span class="n">s1char</span> <span class="o">=</span> <span class="k">SUBSTRING</span><span class="p">(</span><span class="n">s2</span><span class="p">,</span> <span class="n">j</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span> <span class="k">THEN</span>
+
+            <span class="k">SET</span> <span class="n">cost</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="k">ELSE</span> <span class="k">SET</span> <span class="n">cost</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+          <span class="k">END</span> <span class="n">IF</span><span class="p">;</span>
+          <span class="k">SET</span> <span class="n">ctemp</span> <span class="o">=</span> <span class="n">CONV</span><span class="p">(</span><span class="n">HEX</span><span class="p">(</span><span class="k">SUBSTRING</span><span class="p">(</span><span class="n">cv1</span><span class="p">,</span> <span class="n">j</span><span class="p">,</span> <span class="mi">1</span><span class="p">)),</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span> <span class="o">+</span> <span class="n">cost</span><span class="p">;</span>
+          <span class="n">IF</span> <span class="k">c</span> <span class="o">&gt;</span> <span class="n">ctemp</span> <span class="k">THEN</span> <span class="k">SET</span> <span class="k">c</span> <span class="o">=</span> <span class="n">ctemp</span><span class="p">;</span> <span class="k">END</span> <span class="n">IF</span><span class="p">;</span>
+            <span class="k">SET</span> <span class="n">ctemp</span> <span class="o">=</span> <span class="n">CONV</span><span class="p">(</span><span class="n">HEX</span><span class="p">(</span><span class="k">SUBSTRING</span><span class="p">(</span><span class="n">cv1</span><span class="p">,</span> <span class="n">j</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)),</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+            <span class="n">IF</span> <span class="k">c</span> <span class="o">&gt;</span> <span class="n">ctemp</span> <span class="k">THEN</span>
+
+              <span class="k">SET</span> <span class="k">c</span> <span class="o">=</span> <span class="n">c_temp</span><span class="p">;</span>
+
+            <span class="k">END</span> <span class="n">IF</span><span class="p">;</span>
+            <span class="k">SET</span> <span class="n">cv0</span> <span class="o">=</span> <span class="n">CONCAT</span><span class="p">(</span><span class="n">cv0</span><span class="p">,</span> <span class="n">UNHEX</span><span class="p">(</span><span class="n">HEX</span><span class="p">(</span><span class="k">c</span><span class="p">))),</span> <span class="n">j</span> <span class="o">=</span> <span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+        <span class="k">END</span> <span class="n">WHILE</span><span class="p">;</span>
+        <span class="k">SET</span> <span class="n">cv1</span> <span class="o">=</span> <span class="n">cv0</span><span class="p">,</span> <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="k">END</span> <span class="n">WHILE</span><span class="p">;</span>
+    <span class="k">END</span> <span class="n">IF</span><span class="p">;</span>
+    <span class="k">RETURN</span> <span class="k">c</span><span class="p">;</span>
+  <span class="k">END</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>-<a href="http://www.artfulsoftware.com/infotree/qrytip.php?id=552">Artful Software</a></p>
+
+<p>The following is example usage – it returns the name column ordered by the Levenshtein distance – the lowest number is the closest match.</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">SELECT</span> <span class="n">name</span><span class="p">,</span> <span class="n">LEVENSHTEIN</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="s1">'string'</span><span class="p">)</span> <span class="k">AS</span> <span class="n">distance</span>
+        <span class="k">FROM</span> <span class="k">table</span> <span class="k">ORDER</span> <span class="k">BY</span> <span class="n">distance</span> <span class="k">ASC</span>
+</code></pre></div></div>
+:ET

@@ -1,0 +1,14 @@
+I"<p>This is a quick video of lazy loading working for Angular 6 routes. It is used when routing to feature modules, and stops the modules being initiliased before they are needed.</p>
+
+<p><code class="language-plaintext highlighter-rouge">const routes: Routes = [
+  {
+    path: 'customers',
+    loadChildren: './customers/customers.module#CustomersModule'
+  }
+  ]</code></p>
+
+<p>Is how a lazy loaded <code class="language-plaintext highlighter-rouge">CustomersModule</code> would look - the key is the loadChildren, and a the path to the to the feature module you want to lazy loaded being entered as a string.</p>
+<p style="text-align: center">
+<div class="embed-container"><iframe src="https://www.youtube.com/embed/8YclmiVy5Uw" frameborder="0" allowfullscreen=""></iframe></div>
+</p>
+:ET

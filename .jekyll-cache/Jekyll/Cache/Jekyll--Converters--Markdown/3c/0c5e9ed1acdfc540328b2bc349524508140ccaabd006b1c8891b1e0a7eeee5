@@ -1,0 +1,8 @@
+I"¯<p>I recently saw a colleague using a shiny new terminal called <a href="https://hyper.is/">Hyper</a>. I liked the beautiful look, and the number of Github Stars - so I installed, and Googled comparisons.</p>
+
+<p><img src="/assets/hyperwebsite.png" alt="Hyper website" /></p>
+
+<p>While it is nice to look at, installed fonts are still an issue (not much of one) but the reason I am not using it is speed / performance. This was a negative highlighted in <a href="https://www.slant.co/topics/525/versus/~iterm2_vs_terminal-app_vs_hyper">comparisons</a> - so I ran a recursive <code class="language-plaintext highlighter-rouge">grep</code> across thousands of files. Hyper proceeded to lockup - I had to force quit the program. iTerm2 ran the search without issue, and I was able to exit out of the search within the terminal at any point. This made it an easy decision for me - iTerm2.</p>
+
+<p><img src="/assets/iterm2.png" alt="iterm2" /></p>
+:ET

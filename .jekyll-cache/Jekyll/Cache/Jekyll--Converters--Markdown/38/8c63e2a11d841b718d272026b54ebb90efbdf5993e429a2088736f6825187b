@@ -1,0 +1,70 @@
+I"�<p style="text-align: center">
+	<img src="/assets/curl-logo.svg?style=fifty" />
+</p>
+
+<p>I wanted to update curl, but the version available on 16.04 of Ubuntu was <code class="language-plaintext highlighter-rouge">7.47.0</code>, (not the latest <code class="language-plaintext highlighter-rouge">7.57.0</code>) so the nice <code class="language-plaintext highlighter-rouge">apt-get</code> method wasn’t an option.</p>
+
+<p>Download the latest release from <a href="http://curl.haxx.se/download.html">http://curl.haxx.se/download.html</a> to your home directory:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget http://curl.haxx.se/download/curl-7.57.0.tar.gz
+</code></pre></div></div>
+
+<p>Install the tools to compile this release:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt-get <span class="nb">install </span>libtool
+apt-get <span class="nb">install </span>make
+</code></pre></div></div>
+
+<p>Unpack the source code:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">tar</span> <span class="nt">-xvf</span> curl-7.57.0.tar.gz
+</code></pre></div></div>
+
+<p>Compile:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>curl-7.57.0 <span class="c"># enter the directory where curl was unpacked</span>
+./buildconf
+./configure <span class="nt">--with-ssl</span>
+make
+make <span class="nb">install</span>
+</code></pre></div></div>
+
+<p>Update the system’s binaries:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mv</span> /usr/bin/curl /usr/bin/curl.bak
+<span class="nb">cp</span> /usr/local/bin/curl /usr/bin/curl
+</code></pre></div></div>
+
+<p>You are done :bowtie:! The following will display your version of curl.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">-Vv</span>
+</code></pre></div></div>
+
+<p>If you are using this in PHP, you should restart:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>service apache2 restart <span class="c"># if using apache</span>
+service php7.1-fpm restart <span class="c"># depending on your version</span>
+</code></pre></div></div>
+
+<h4 id="issues">Issues</h4>
+<p>I should add my initial run of this did not produce a curl that could handle https (!) or handle some common encodings. The first issue was solved with:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt <span class="nb">install </span>libssl-dev
+</code></pre></div></div>
+<p>and appending –with-ssl to the ./configure command used in compiling above.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./configure <span class="nt">--with-ssl</span>
+</code></pre></div></div>
+
+<p>The second through downloading <a href="https://zlib.net/">zlib</a> and compiling:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget http://www.zlib.net/zlib-1.2.11.tar.gz
+<span class="nb">tar</span> <span class="nt">-xvf</span> zlib-1.2.11.tar.gz
+<span class="nb">cd </span>zlib-1.2.11/
+./configure
+make
+make <span class="nb">install</span>
+</code></pre></div></div>
+<p>I then continued with the initial install from the compile section, using:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./configure <span class="nt">--with-ssl</span> <span class="nt">--with-zlib</span>
+</code></pre></div></div>
+
+<p>This time I could confirm they were both installed by having the https protocol present, and a zlib version displaying on the first line of:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">-Vv</span>
+</code></pre></div></div>
+
+<h4 id="sources">Sources</h4>
+
+<p><a href="http://pavelpolyakov.com/2014/11/17/updating-php-curl-on-ubuntu/">Updating curl on Ubuntu</a></p>
+:ET

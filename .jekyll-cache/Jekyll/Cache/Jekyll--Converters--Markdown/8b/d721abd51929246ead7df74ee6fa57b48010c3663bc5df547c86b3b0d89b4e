@@ -1,0 +1,297 @@
+I"q]<p style="text-align: center">
+	<img src="/assets/php-versions-composer-2017-02.png?style=seventyfive" />
+</p>
+
+<p>Now PHP 7.2 has arrived, and the previous versions are still in use, as shown above [<a href="#sources">1</a>], I thought I would cover the differences between the versions now out there. I will be highlighting what I see as the most relevant changes to a PHP developer across the versions, and not a full comprehensive list.</p>
+
+<h3 id="php-70">PHP 7.0</h3>
+<hr />
+<p>PHP 7.0 was a long awaited update, introducing a huge speed increase (100% faster on Wordpress-based benchmarks) and many helpful language features.</p>
+
+<h4 id="new-type-hints">New Type Hints</h4>
+<p>The new type hints were: <code class="language-plaintext highlighter-rouge">int</code>, <code class="language-plaintext highlighter-rouge">float</code>, <code class="language-plaintext highlighter-rouge">string</code>, and <code class="language-plaintext highlighter-rouge">bool</code>, in addition to the existing <code class="language-plaintext highlighter-rouge">array</code> and class name hints.</p>
+
+<p>They are used as below:</p>
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">function</span> <span class="n">getTotal</span><span class="p">(</span><span class="kt">float</span> <span class="nv">$a</span><span class="p">,</span> <span class="kt">float</span> <span class="nv">$b</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">return</span> <span class="nv">$a</span> <span class="o">+</span> <span class="nv">$b</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>These Type Declarations can make code easier to read and forces things to be used in the way they were intended.</p>
+
+<p>The above example tells us the function requires two float arguments to be passed. We can pass a string ‘2’ here and this will be used as Strict Type has not been set before this function. If we had set it, as below:</p>
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">declare</span><span class="p">(</span><span class="n">strict_types</span><span class="o">=</span><span class="mi">1</span><span class="p">);</span>
+</code></pre></div></div>
+<p>Passing a string of <code class="language-plaintext highlighter-rouge">'hi'</code> into this function would have thrown a <code class="language-plaintext highlighter-rouge">TypeError</code>. Strict is determined by the file in which the call to a function is made, not the file in which the function is defined. By default, scalar type-declarations are non-strict, which means they will attempt to change the original type to match the type specified by the type-declaration.</p>
+
+<h4 id="return-type-declarations">Return Type Declarations</h4>
+
+<p>You can now set the type a function should return. The same types used in arguments are available here. If strict typing is not set, it will try and convert the return type to an int in the below example, throwing a <code class="language-plaintext highlighter-rouge">TypeError</code> if this is not possible.</p>
+
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">function</span> <span class="n">getTotal</span><span class="p">(</span><span class="kt">float</span> <span class="nv">$a</span><span class="p">,</span> <span class="kt">float</span> <span class="nv">$b</span><span class="p">)</span> <span class="p">:</span> <span class="kt">int</span> <span class="p">{</span>
+</code></pre></div></div>
+
+<h4 id="error-handling">Error Handling</h4>
+
+<p>PHP 7 now allows some fatal errors to be caught, which was not the case in PHP 5.x.</p>
+
+<p>Fatal errors still exist for certain conditions, such as running out of memory, and still behave as before by immediately stopping the script. An uncaught exception will also continue to be a fatal error in PHP 7. This means if an exception thrown from an error that was fatal in PHP 5 goes uncaught, it will still be a fatal error in PHP 7.</p>
+
+<p>In PHP 7, Error and Exception both implement the new Throwable class. This means you can now use Throwable in try/catch blocks to catch both Exception and Error objects.
+Below is a catch-all block to catch Errors and Exceptions.</p>
+
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">try</span> <span class="p">{</span>
+   <span class="c1">// Code that may throw an Exception or Error.</span>
+<span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nc">Throwable</span> <span class="nv">$t</span><span class="p">)</span> <span class="p">{</span>
+   <span class="c1">// Executed only in PHP 7</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h4 id="new-operators">New Operators</h4>
+
+<h5 id="the-spaceship-operator---">The spaceship operator <code class="language-plaintext highlighter-rouge">&lt; = &gt;</code></h5>
+
+<p>The spaceship operator can do 3 checks in one operator, returning a different value depending on which check is met. These are the standard: less than, equals, and greater than operators. <code class="language-plaintext highlighter-rouge">-1</code>, <code class="language-plaintext highlighter-rouge">0</code>, and <code class="language-plaintext highlighter-rouge">1</code> are returned respectively, depending which check is passed:</p>
+
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$compare</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">&lt;=&gt;</span> <span class="mi">1</span>
+<span class="c1">// 2 &lt; 1? return -1</span>
+<span class="c1">// 2 = 1? return 0</span>
+<span class="c1">// 2 &gt; 1? return 1</span>
+</code></pre></div></div>
+
+<h5 id="the-null-coalesce-operator-">The null coalesce operator <code class="language-plaintext highlighter-rouge">??</code></h5>
+
+<p>If $firstName is set and not null, it will assign this variable to the $name variable, otherwise ‘Guest’ will be used. This saves writing code with if statements to achieve the same result</p>
+
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$name</span> <span class="o">=</span> <span class="nv">$firstName</span> <span class="o">??</span>  <span class="s2">"Guest"</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>They can also be stacked to check multiple variables!</p>
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$name</span> <span class="o">=</span> <span class="nv">$firstName</span> <span class="o">??</span> <span class="nv">$username</span> <span class="o">??</span> <span class="nv">$placeholder</span> <span class="o">??</span> <span class="err">“</span><span class="nc">Guest</span><span class="err">”</span><span class="p">;</span>
+</code></pre></div></div>
+<p>This operator looks explicitly for <code class="language-plaintext highlighter-rouge">null</code> or does not exist. It will pick up an empty string.</p>
+
+<h4 id="cryptographically-secure-pseudorandom-number-generator">Cryptographically Secure PseudoRandom Number Generator</h4>
+
+<p>There are random number generators in PHP, rand() for instance, but none of the options in version 5 are very secure. In PHP 7, they put together a system interface to the operating system’s random number generator. Because we can now use the operating system’s random number generator, if that gets hacked we have bigger problems. It probably means your entire system is compromised and there is a flaw in the operating system itself.</p>
+
+<p>Below are the two secure random functions:</p>
+
+<h5 id="random_int">random_int</h5>
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">random_int</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>Returns a random int between and including 1 and 10.</p>
+
+<h5 id="random_byte">random_byte</h5>
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">random_bytes</span><span class="p">(</span><span class="mi">5</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>This will return a string of the length specified. You will probably want to combine with another function to produce a more legible string.</p>
+
+<p>These are not all the changes listed in PHP 7.0, but the ones I most make used of. Additional data can be found on the php.net website [<a href="#sources">2</a>].</p>
+
+<h3 id="php-71">PHP 7.1</h3>
+<hr />
+<h4 id="nullable-types">Nullable Types</h4>
+
+<p>Types can now return null or something else if preceded with a question mark, this work for return types and arguments:</p>
+
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">function</span> <span class="n">answer</span><span class="p">():</span> <span class="kt">?int</span>  <span class="p">{</span>
+    <span class="k">return</span> <span class="kc">null</span><span class="p">;</span> <span class="c1">//ok</span>
+<span class="p">}</span>
+
+<span class="k">function</span> <span class="n">answer</span><span class="p">():</span> <span class="kt">?int</span>  <span class="p">{</span>
+    <span class="k">return</span> <span class="mi">42</span><span class="p">;</span> <span class="c1">// ok</span>
+<span class="p">}</span>
+
+<span class="k">function</span> <span class="n">answer</span><span class="p">():</span> <span class="kt">?int</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="k">new</span> <span class="nc">stdclass</span><span class="p">();</span> <span class="c1">// error</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Another thing you should keep in mind is that when overriding or implementing methods, you can’t add the nullable type to the return type, but you’re allowed to remove it. And the reverse is true for arguments, you can’t remove the nullable type from arguments, but you’re allowed to add it!</p>
+
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">interface</span> <span class="nc">Fooable</span> <span class="p">{</span>
+    <span class="k">function</span> <span class="n">foo</span><span class="p">():</span> <span class="kt">?Fooable</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="kd">interface</span> <span class="nc">StrictFooable</span> <span class="kd">extends</span> <span class="nc">Fooable</span> <span class="p">{</span>
+    <span class="k">function</span> <span class="n">foo</span><span class="p">():</span> <span class="kt">Fooable</span><span class="p">;</span> <span class="c1">// valid</span>
+<span class="p">}</span>
+
+<span class="kd">interface</span> <span class="nc">Fooable</span> <span class="p">{</span>
+    <span class="k">function</span> <span class="n">foo</span><span class="p">():</span> <span class="kt">Fooable</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="kd">interface</span> <span class="nc">LooseFooable</span> <span class="kd">extends</span> <span class="nc">Fooable</span> <span class="p">{</span>
+    <span class="k">function</span> <span class="n">foo</span><span class="p">():</span> <span class="kt">?Fooable</span><span class="p">;</span> <span class="c1">// invalid</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h4 id="void-return-type">Void Return Type</h4>
+
+<p>This is my favourite addition with this release. Instead of not declaring a return type for functions that return nothing, you can now specify <code class="language-plaintext highlighter-rouge">void</code>:</p>
+
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">function</span> <span class="n">should_return_nothing</span><span class="p">():</span> <span class="kt">void</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="mi">1</span><span class="p">;</span> <span class="c1">// Fatal error: A void function must not return a value</span>
+<span class="p">}</span>
+
+<span class="k">function</span> <span class="n">lacks_return</span><span class="p">():</span> <span class="kt">void</span> <span class="p">{</span>
+    <span class="c1">// valid</span>
+<span class="p">}</span>
+
+<span class="k">function</span> <span class="n">returns_nothing</span><span class="p">():</span> <span class="kt">void</span> <span class="p">{</span>
+    <span class="k">return</span><span class="p">;</span> <span class="c1">// valid</span>
+<span class="p">}</span>
+
+<span class="k">function</span> <span class="n">returns_null</span><span class="p">():</span> <span class="kt">void</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="kc">null</span><span class="p">;</span> <span class="c1">// Fatal error: A void function must not return a value</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h4 id="class-constant-visibility">Class Constant Visibility</h4>
+
+<p>We can now specify <code class="language-plaintext highlighter-rouge">public</code>, <code class="language-plaintext highlighter-rouge">private</code>, <code class="language-plaintext highlighter-rouge">protected</code> on class constants, just like class properties.</p>
+
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">Token</span> <span class="p">{</span>
+    <span class="c1">// Constants default to public</span>
+    <span class="k">const</span> <span class="no">PUBLIC_CONST</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+    <span class="c1">// Constants then also can have a defined visibility</span>
+    <span class="k">private</span> <span class="k">const</span> <span class="no">PRIVATE_CONST</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="k">protected</span> <span class="k">const</span> <span class="no">PROTECTED_CONST</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="k">public</span> <span class="k">const</span> <span class="no">PUBLIC_CONST_TWO</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+    <span class="c1">//Constants can only have one visibility declaration list</span>
+    <span class="k">private</span> <span class="k">const</span> <span class="no">FOO</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="no">BAR</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h4 id="argumentcounterror-exception">ArgumentCountError Exception</h4>
+<p>Calling a function without the correct number of arguments will now throw an ArgumentCountError exception, instead of a warning.</p>
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="k">function</span> <span class="n">sum</span><span class="p">(</span><span class="nv">$a</span><span class="p">,</span> <span class="nv">$b</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">return</span> <span class="nv">$a</span> <span class="o">+</span> <span class="nv">$b</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nb">var_dump</span><span class="p">(</span><span class="nf">sum</span><span class="p">(</span><span class="kc">null</span><span class="p">,</span> <span class="kc">null</span><span class="p">));</span> <span class="c1">// NULL</span>
+<span class="nb">var_dump</span><span class="p">(</span><span class="nf">sum</span><span class="p">());</span> <span class="nc">Uncaught</span> <span class="nc">ArgumentCountError</span><span class="o">:</span> <span class="nc">Too</span> <span class="n">few</span> <span class="n">arguments</span> <span class="n">to</span> <span class="k">function</span> <span class="n">sum</span><span class="p">()</span><span class="mf">..</span>
+</code></pre></div></div>
+
+<h4 id="catching-multiple-return-types">Catching Multiple Return Types</h4>
+
+<p>The new catch block syntax allows multiple catches, separated with <code class="language-plaintext highlighter-rouge">|</code>:</p>
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">try</span> <span class="p">{</span>
+    <span class="nv">$user</span><span class="o">-&gt;</span><span class="nf">payMonth</span><span class="p">(</span><span class="nv">$month</span><span class="p">);</span>
+<span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nc">PaidMonthException</span> <span class="o">|</span> <span class="nc">UserSuspendedException</span> <span class="nv">$ex</span><span class="p">)</span> <span class="p">{</span>
+    <span class="no">DB</span><span class="o">::</span><span class="nf">rollBack</span><span class="p">();</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h4 id="invalid-string-arithmetics">Invalid String Arithmetics</h4>
+
+<p>7.1 will now give warnings for Arithmetics with strings which are not well formatted.</p>
+
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s2">"1"</span> <span class="o">+</span> <span class="s2">"a string"</span><span class="p">);</span> <span class="c1">// Warning: A non-numeric value encountered...</span>
+<span class="nb">var_dump</span><span class="p">(</span><span class="s2">"1"</span> <span class="o">+</span> <span class="s2">"2  with a string"</span><span class="p">);</span> <span class="c1">// Notice: A non well formed numeric value encountered...</span>
+</code></pre></div></div>
+
+<h4 id="deprecated-features">Deprecated features</h4>
+
+<h5 id="mcrypt">mcrypt</h5>
+<p>The mcrypt extension has been abandonware for nearly a decade now, and was also fairly complex to use. It has therefore been deprecated in favour of OpenSSL, where it will be removed from the core and into PECL in PHP 7.2.</p>
+
+<p>This is quite a big change, as frameworks such as Laravel currently require this extension.</p>
+
+<h3 id="php-72">PHP 7.2</h3>
+<hr />
+<h4 id="new-type-declaration">New Type Declaration</h4>
+
+<p><code class="language-plaintext highlighter-rouge">object</code> has been added as an type, available for argument type declaration and return type declaration. Useful if you do not want to specify specific class names.</p>
+
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">function</span> <span class="n">test</span><span class="p">(</span><span class="kt">object</span> <span class="nv">$obj</span><span class="p">)</span> <span class="p">:</span> <span class="kt">object</span>
+<span class="p">{</span>
+    <span class="k">return</span> <span class="k">new</span> <span class="nc">SplQueue</span><span class="p">();</span>
+<span class="p">}</span>
+
+<span class="nf">test</span><span class="p">(</span><span class="k">new</span> <span class="nc">StdClass</span><span class="p">());</span>
+</code></pre></div></div>
+
+<h4 id="abstract-method-overriding">Abstract Method Overriding</h4>
+
+<p>Abstract methods can now be overridden when an abstract class extends another abstract class. Contravariance allows widening of the accepted argument types as classes are extended down from the parent. Contravariance allows the narrowing of accepted types as classes are inherited.</p>
+
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
+
+<span class="k">abstract</span> <span class="kd">class</span> <span class="nc">A</span>
+<span class="p">{</span>
+    <span class="k">abstract</span> <span class="k">function</span> <span class="n">test</span><span class="p">(</span><span class="kt">string</span> <span class="nv">$s</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="k">abstract</span> <span class="kd">class</span> <span class="nc">B</span> <span class="kd">extends</span> <span class="nc">A</span>
+<span class="p">{</span>
+    <span class="c1">// overridden - still maintaining contravariance for parameters and covariance for return</span>
+    <span class="k">abstract</span> <span class="k">function</span> <span class="n">test</span><span class="p">(</span><span class="nv">$s</span><span class="p">)</span> <span class="p">:</span> <span class="kt">int</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h4 id="parameter-type-widening">Parameter Type Widening</h4>
+
+<p>Parameter types from overridden methods and from interface implementations may now be omitted. This means we don’t need to specify argument types in classes extending a parent class.</p>
+
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
+
+<span class="kd">interface</span> <span class="nc">A</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="k">function</span> <span class="n">Test</span><span class="p">(</span><span class="kt">array</span> <span class="nv">$input</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kd">class</span> <span class="nc">B</span> <span class="kd">implements</span> <span class="nc">A</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="k">function</span> <span class="n">Test</span><span class="p">(</span><span class="nv">$input</span><span class="p">){}</span> <span class="c1">// type omitted for $input</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h4 id="deprecated-features-1">Deprecated Features</h4>
+
+<h5 id="unquoted-strings">Unquoted Strings</h5>
+
+<p>Unquoted strings that are non-existent global constants are taken to be strings of themselves. This behaviour used to emit an E_NOTICE, but will now emit an E_WARNING. In the next major version of PHP, an Error exception will be thrown instead.</p>
+
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
+
+<span class="nb">var_dump</span><span class="p">(</span><span class="no">NONEXISTENT</span><span class="p">);</span>
+
+<span class="cm">/* Output:
+Warning: Use of undefined constant NONEXISTENT - assumed 'NONEXISTENT' (this will throw an Error in a future version of PHP) in %s on line %d
+string(11) "NONEXISTENT"
+*/</span>
+</code></pre></div></div>
+
+<h4 id="sources">Sources</h4>
+<hr />
+
+<p>I thank my sources below, as I have borrowed heavily from some. Comprehensive changes are available from the PHP documentation website.</p>
+
+<ol>
+  <li>
+    <p><a href="https://seld.be/notes/php-versions-stats-2017-2-edition">PHP Versions Stats - 2017.2 Edition</a></p>
+  </li>
+  <li>
+    <p><a href="http://php.net/manual/en/migration70.new-features.php">PHP 7.0 - New Features</a></p>
+  </li>
+  <li>
+    <p><a href="http://blog.teamtreehouse.com/5-new-features-php-7">5 New Features in PHP 7</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.sitepoint.com/whats-new-and-exciting-in-php-7-1/">What’s new and exciting in PHP 7.1</a></p>
+  </li>
+  <li>
+    <p><a href="https://laravel-news.com/php-7-1">PHP 7.1</a></p>
+  </li>
+  <li>
+    <p><a href="https://wiki.php.net/rfc/parameter-no-type-variance">PHP RFC: Parameter Type Widening</a></p>
+  </li>
+  <li>
+    <p><a href="https://kinsta.com/blog/php-7-2/">What’s New in PHP 7.2</a></p>
+  </li>
+</ol>
+:ET

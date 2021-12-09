@@ -1,0 +1,10 @@
+I"û<p>This is a great Visual Studio Code extension I found when looking to tidy up my SCSS files. It will notify you of incorrect property order, alert you when you should use variables, and much more.</p>
+
+<p>You will need to install the <a href="https://github.com/sasstools/sass-lint">sass-lint</a> npm package with the following command <code class="language-plaintext highlighter-rouge">npm install -g sass-lint</code>. The extension should then automatically detect this. Find it under <code class="language-plaintext highlighter-rouge">Sass Lint</code> within Visual Code Extensions (Command + Ctrl + x to bring up).</p>
+
+<p>To configure the rules Sass Lint uses, you can create a <code class="language-plaintext highlighter-rouge">.sass-lint.yml</code> file within the root of your project. More details are on the sass-lint gitub page.</p>
+
+<p style="text-align: center">
+<div class="embed-container"><iframe src="https://www.youtube.com/embed/zGAevaUdhvM" frameborder="0" allowfullscreen=""></iframe></div>
+</p>
+:ET

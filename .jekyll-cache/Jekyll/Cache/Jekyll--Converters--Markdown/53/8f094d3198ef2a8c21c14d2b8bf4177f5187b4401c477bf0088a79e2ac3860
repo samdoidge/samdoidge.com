@@ -1,0 +1,10 @@
+I"5<p>SVN is still around, some things I have found useful</p>
+
+<p>Add all files to SVN within current directory (recursively)</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>svn add <span class="nb">.</span> <span class="nt">--force</span>
+</code></pre></div></div>
+<p>Remove files from an add, within a folder (before commit)</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>svn revert <span class="nt">--recursive</span> folder_name
+</code></pre></div></div>
+:ET
