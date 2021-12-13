@@ -1,3 +1,6 @@
+@import 'variables';
+
+
 .highlight  { width: 100%; overflow: auto; background: #ffffff; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
@@ -65,7 +68,7 @@
 .lineno::selection {background-color: transparent;} /* Other major browsers */
 
 pre.highlight {
-	background-color: #f6f8fa ;
+	background-color: $highlight-colour;
 	border-radius: 6px;
 	font-size: 85%;
 	line-height: 1.45;
