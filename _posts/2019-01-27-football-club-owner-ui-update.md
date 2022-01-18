@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Football Club Owner Second Date"
+title: "Football Club Owner UI Update"
 comments: True
 tags: [tech]
 ---
