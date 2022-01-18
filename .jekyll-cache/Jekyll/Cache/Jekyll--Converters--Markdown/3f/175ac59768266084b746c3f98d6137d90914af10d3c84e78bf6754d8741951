@@ -1,6 +1,21 @@
-I"a(<div class="posts home markdown-body">
+I"+<div class="posts home markdown-body">
 
     <h2 style="margin-bottom:10px;">Other Posts</h2>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/you-should-probably-stop-consuming-seed-oils">
+                You Should Probably Stop Consuming Seed Oils
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2022-01-17T00:00:00-06:00" pubdate="">Jan 17, 2022</time>
+	
+</div>
+
+        <div class="entry"><p>After indulging over the Christmas period, and contracting Covid, I was feeling not-great. This led me to more diet research, and to seed oils which I had seen mentioned as being bad for you on various places across the internet. An evening of research later, I embarked...</p></div>
+    </div>
     
     <div class="post--small">
         <h2 class="post-title">
