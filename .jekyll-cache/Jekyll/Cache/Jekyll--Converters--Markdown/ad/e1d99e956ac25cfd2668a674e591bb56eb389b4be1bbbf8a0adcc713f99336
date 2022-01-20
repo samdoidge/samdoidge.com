@@ -1,6 +1,24 @@
-I"n‡<div class="posts home markdown-body">
+I"z‰<div class="posts home markdown-body">
 
     <h2 style="margin-bottom:10px;">Technology Posts</h2>
+    
+    <div class="post--small">
+        <h2 class="post-title">
+            <a href="/football-club-owner">
+                Football Club Owner
+            </a>
+        </h2>
+
+        <div class="metadata">
+	<time class="updated" datetime="2022-01-20T00:00:00-06:00" pubdate="">Jan 20, 2022</time>
+	
+</div>
+
+        <div class="entry"><p>
+
+Football Club Owner was a football management game on the App Store. It recieved thousands of downloads and many favourable reviews. Built using React Native.
+</p></div>
+    </div>
     
     <div class="post--small">
         <h2 class="post-title">
