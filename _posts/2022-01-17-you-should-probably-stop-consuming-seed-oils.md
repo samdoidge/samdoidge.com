@@ -33,6 +33,11 @@ Dr Catherine Shanahan has an interesting article on the topic and [identifies hi
 
 #### Atheletic performance:
 
+> In summary, this study demonstrates a specific contribution of n-6 PUFA-rich oils like CO to the loss of spontaneous physical activity and insulin sensitivity in mice. If these data hold true for humans, this study could provide a novel link between recent increases in dietary n-6 PUFA to sedentary behavior and the development of insulin resistance in the Western world.
+
+[A high-fat diet rich in corn oil reduces spontaneous locomotor activity and induces insulin resistance in mice](https://www.sciencedirect.com/science/article/abs/pii/S0955286314002472?via%3Dihub)
+
+
 > Sports nutritionists would benefit by paying attention to PUFA. These polyunsaturated fatty acids build up in athletes body fat over the years, and at a certain concentration cause problems.
 
 [Sports Nutrition: Ditching High PUFA Seed Oil (aka Vegetable Oil) Will Help Athletes Perform Better](https://www.youtube.com/watch?v=iky9iFpUAx4)
