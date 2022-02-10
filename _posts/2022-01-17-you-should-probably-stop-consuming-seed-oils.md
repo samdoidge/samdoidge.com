@@ -7,7 +7,7 @@ tags: [other]
 
 After indulging over the Christmas period, and contracting Covid, I was feeling not-great. This led me to more diet research, and to seed oils which I had seen mentioned as being bad for you on various platforms across the Internet. Hours of research later, I embarked on removing them from my diet. I've since felt like I have more energy, and have been dropping some fat which I needed to lose.
 
-As for the actual mechanism, people like Tucker Goodridge explain why in the videos below, but in essence it seems to be the key component in the modern western diet that has us experience massive increases in obesity and diabetes etc vs 150 years ago. These polyunsaturated fatty oils do have a perceived positive impact on cholesterol levels, but in studies metnioned in the second video below, actual mortality increases with the use of them. We have seen carbohydrate consumption decrease in recent years, but obesity levels are not going down.
+As for the actual mechanism, people like Tucker Goodrich explain why in the videos below, but in essence it seems to be the key component in the modern western diet that has us experience massive increases in obesity and diabetes etc vs 150 years ago. These polyunsaturated fatty oils do have a perceived positive impact on cholesterol levels, but in studies metnioned in the second video below, actual mortality increases with the use of them. We have seen carbohydrate consumption decrease in recent years, but obesity levels are not going down.
 
 
 The below is the best video to start with:
@@ -31,8 +31,15 @@ High linoleic acid diet = seed oils in the above.
 
 Dr Catherine Shanahan has an interesting article on the topic and [identifies high polyunsaturated seed oils](https://drcate.com/the-hateful-eight-enemy-fats-that-destroy-your-health/)
 
+#### Atheletic performance:
 
-Which oils? Ones containing high polyunsaturated fats (PUFAs):
+> Sports nutritionists would benefit by paying attention to PUFA. These polyunsaturated fatty acids build up in athletes body fat over the years, and at a certain concentration cause problems.
+
+[Sports Nutrition: Ditching High PUFA Seed Oil (aka Vegetable Oil) Will Help Athletes Perform Better](https://www.youtube.com/watch?v=iky9iFpUAx4)
+
+
+#### Which oils to avoid?
+Those containing high polyunsaturated fats (PUFAs):
 * Grapeseed oil
 * Rapeseed oil
 * Safflower
@@ -41,15 +48,15 @@ Which oils? Ones containing high polyunsaturated fats (PUFAs):
 * Sunflower oil
 
 
-What should you have instead?
+#### What should you have instead?
 * Butter
 * Coconut oil
 * Olive oil (within reason - it still has a decent amount of polyunsaturated fats)
 
 One thing to watch out for is a something being called one thing, but containing something else. I had an 'Olive oil spray', which of course was around 50% soya oil..
 
-
 As for where we can find these oils? Nearly everywhere. Biscuits, granola, Beyond Meat burgers, crisps, every brand of gluten-free bread, etc.
+
 
 Other interesting links:
 
