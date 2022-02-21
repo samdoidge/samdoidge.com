@@ -66,3 +66,4 @@ As for where we can find these oils? Nearly everywhere. Biscuits, granola, Beyon
 Other interesting links:
 
 * [5 Reasons Vegetable Oil is Worse Than Sugar](https://www.eatthis.com/vegetable-oil-dangers/)
+* [Increase in Adipose Tissue Linoleic Acid of US Adults in the Last Half Century](https://academic.oup.com/advances/article/6/6/660/4555155)

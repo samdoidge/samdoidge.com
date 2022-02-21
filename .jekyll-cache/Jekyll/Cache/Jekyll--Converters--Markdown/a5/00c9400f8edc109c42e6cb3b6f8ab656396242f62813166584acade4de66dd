@@ -1,9 +1,0 @@
-I"�<p>This is a quick post to share a small tool (<a href="https://github.com/wdollar/Laravel-4-Generators-Bootstrap-3">Laravel-4-Generators-Bootstrap-3</a>) to quickly generate your database tables, controller with CRUD functions and scaffolding views connecting all this with one command:</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>php artisan generate:scaffold tweet <span class="nt">--fields</span><span class="o">=</span><span class="s2">"author:string, body:text"</span>
-</code></pre></div></div>
-
-<p><code class="language-plaintext highlighter-rouge">scaffold</code> is the powerful option to generate the connecting view and controller in a Bootstrap 3 format. In the below example a table ‘tweets’ will be created with a controller named TweetsController</p>
-
-<p>Thanks to Wes Dollar and Jeffrey Way, with all the open source contributors :)</p>
-:ET

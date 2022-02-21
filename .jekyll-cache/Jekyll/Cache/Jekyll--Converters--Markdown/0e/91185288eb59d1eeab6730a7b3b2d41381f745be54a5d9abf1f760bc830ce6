@@ -1,6 +1,0 @@
-I"±<p>This is a quick demonstration of how to create a project with SCSS as default <code class="language-plaintext highlighter-rouge">ng new projectname --style=scss</code> or the slightly more involved solution for changing an existing project to use scss.</p>
-
-<p style="text-align: center">
-<div class="embed-container"><iframe src="https://www.youtube.com/embed/RQGsQ7978hY" frameborder="0" allowfullscreen=""></iframe></div>
-</p>
-:ET

@@ -1,8 +1,0 @@
-I"�<p>I created a site to test mongoDB, with Save a Tweet – storing my data in one ‘blob’. I like the simplicity, and not having to worry about relationships or changing the scheme down the line. I won’t be using this in place of MySQL on most projects but the use case is large storage of data than can be clumped together logically, and for that it is great.</p>
-
-<p>Negatives? On my Ubuntu VPS, the mongod process stops. Has happened twice over a few months and I’m not sure why, probably down to my VPS restarting but it’s always a headache to fix. For my reference, and anyone else:</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mongod <span class="nt">--fork</span> <span class="nt">--dbpath</span> /var/lib/mongodb <span class="nt">--logpath</span> /var/log/mongodb.log
-</code></pre></div></div>
-<p>to have mongo running as a process again, specifying my dbpath was required. A mongod –repair may have been needed in here as well.</p>
-:ET
