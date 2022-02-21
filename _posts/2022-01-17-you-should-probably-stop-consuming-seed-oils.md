@@ -12,7 +12,9 @@ As for the actual mechanism, people like Tucker Goodrich explain why in the vide
 
 The below is the best video to start with:
 
+<div class='embed-container'>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A472KZtxI5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Tucker's breakdown of a recent paper show that [seed oils are likely to be the what makes the potato category so fattening](https://yelling-stop.blogspot.com/2021/10/whats-most-fattening-food.html), as normal potatoes which aren't fried are listening as far less fattening.
 
@@ -25,8 +27,9 @@ The next video is interesting as it explains how seed oils negatively impact you
 High linoleic acid diet = seed oils in the above.
 
 
+<div class='embed-container'>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DyVwn0kRGJs?start=4517" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+</div>
 
 
 Dr Catherine Shanahan has an interesting article on the topic and [identifies high polyunsaturated seed oils](https://drcate.com/the-hateful-eight-enemy-fats-that-destroy-your-health/)

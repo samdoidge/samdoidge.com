@@ -8,14 +8,11 @@ layout: default
     <div class="post--small">
     {% for page in site.posts %}
         {% if page.is_popular == true %}
-
-            <p class="love" aria-hidden="true">Popular</p>
             <h2 class="post__title">
                 <a href="{{ page.url }}">
                     {{ page.title }}
                 </a>
             </h2>
-
             {% include postmeta.html %}
             <div class="entry"><p>{{ page.content | truncatewords:47 | strip_html }}</p></div>
 

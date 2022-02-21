@@ -1,6 +1,7 @@
 @import 'variables';
 
 .header {
+  display: flex;
   margin-top: 20px;
   max-width: $screen-sm;
 
@@ -38,6 +39,7 @@
 
 @media (min-width: $screen-sm) {
   .header {
+    display: block;
     margin-top: 60px;
 
     &__text {

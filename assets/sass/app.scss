@@ -1,30 +1,30 @@
 ---
 ---
 
-@import 'normalize';
-@import 'variables';
+@import "normalize";
+@import "variables";
 
-@import 'content';
-@import 'header';
+@import "content";
+@import "header";
 
-@import 'menu';
-@import 'layout';
-@import 'logo';
-@import 'love';
-@import 'metadata';
-@import 'page';
-@import 'sidebar';
-@import 'tags';
+@import "menu";
+@import "layout";
+@import "logo";
+@import "love";
+@import "metadata";
+@import "page";
+@import "sidebar";
+@import "tags";
 
-@import 'markdown';
-@import 'post';
-@import 'prism';
+@import "markdown";
+@import "post";
+@import "prism";
 
 body {
-	-webkit-font-smoothing: antialiased;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	margin: 0;
-	color: #333;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  color: #333;
 }
 
 .home {
@@ -34,59 +34,74 @@ body {
 }
 
 a {
-	color: $red;
-	text-decoration: none;
+  color: $red;
+  text-decoration: none;
 }
 
 img {
-	width:100%
-}
-
-.markdown-body>*:first-child {
-	margin-top:0.5em !important;
+  width: 100%;
 }
 
 article {
-	margin-top: 0px;
-	padding-bottom: 20px;
-	font-size: 17px;
+  margin-top: 0px;
+  padding-bottom: 20px;
+  font-size: 17px;
 }
 
 #disqus_thread {
-	margin-top: 50px;
+  margin-top: 50px;
 }
 
 .home p {
-	margin-top:0;
-	margin-bottom:16px;
+  margin-top: 0;
+  margin-bottom: 16px;
 }
 
 .available {
-	font-weight: bold;
-	color: #0ea611 !important;
+  font-weight: bold;
+  color: #0ea611 !important;
 }
 
 .unavailable {
-	font-weight: bold;
-	color: red !important;
+  font-weight: bold;
+  color: red !important;
 }
 
-.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+embed {
+	width: 100% !important;
+}
 
 @media (min-width: $screen-sm) {
-	img[src$="fifty"] {
-		max-width:50%;
-	}
+  img[src$="fifty"] {
+    max-width: 50%;
+  }
 
-	img[src$="twentyfive"] {
-		max-width:25%;
-	}
+  img[src$="twentyfive"] {
+    max-width: 25%;
+  }
 
-	img[src$="seventyfive"] {
-		max-width:75%;
-	}
+  img[src$="seventyfive"] {
+    max-width: 75%;
+  }
 
-	img {
-		max-width: 120%;
-	}
+  img {
+    max-width: 120%;
+  }
 }
