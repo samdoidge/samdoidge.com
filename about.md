@@ -4,11 +4,7 @@ title: About
 permalink: about/
 ---
 
-Contracting availability:
-<!-- <a href="mailto:sam@samdoidge.com" class="unavailable">unavailable 🚫</a> -->
-<a href="mailto:sam@samdoidge.com" class="available">available ✅</a>
-
-I can be emailed via the link above, at `sam@samdoidge.com`.
+I can be emailed via `sam@samdoidge.com`.
 
 I'm currently working on <a href="https://propertywisdom.io">PropertyWisdom.io</a> - a site providing key data to help people make the best investments in the UK property market.
 
