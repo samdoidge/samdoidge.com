@@ -1,8 +1,10 @@
 # samdoidge.com
 
-`Updated Feb 2022.`
+`Updated Aug 2022.`
 
-This website uses [Docker](https://www.docker.com/).
+## Running locally
+
+Prerequisites: [Docker](https://www.docker.com/).
 
 1. Clone the repository.
 2. Navigate to the folder and run `docker-compose up`.
