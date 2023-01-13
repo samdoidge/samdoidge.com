@@ -4,7 +4,7 @@ title: About
 permalink: about/
 ---
 
-I can be emailed via `sam@samdoidge.com`.
+I can be emailed via sam@samdoidge.com.
 
 I'm currently working on <a href="https://propertywisdom.io">PropertyWisdom.io</a> - a site providing key data to help people make the best investments in the UK property market.
 

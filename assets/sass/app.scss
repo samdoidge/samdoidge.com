@@ -1,28 +1,28 @@
 ---
 ---
 
-@import "normalize";
-@import "variables";
+@import 'normalize';
+@import 'variables';
 
-@import "content";
-@import "header";
+@import 'content';
+@import 'header';
 
-@import "menu";
-@import "layout";
-@import "logo";
-@import "love";
-@import "metadata";
-@import "page";
-@import "sidebar";
-@import "tags";
+@import 'menu';
+@import 'layout';
+@import 'logo';
+@import 'love';
+@import 'metadata';
+@import 'page';
+@import 'sidebar';
+@import 'tags';
 
-@import "markdown";
-@import "post";
-@import "prism";
+@import 'markdown';
+@import 'post';
+@import 'prism';
 
 body {
   -webkit-font-smoothing: antialiased;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 0;
   color: #333;
 }
@@ -31,6 +31,11 @@ body {
   border: 0;
   margin: 0;
   padding: 0;
+
+  p {
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
 }
 
 a {
@@ -52,21 +57,6 @@ article {
   margin-top: 50px;
 }
 
-.home p {
-  margin-top: 0;
-  margin-bottom: 16px;
-}
-
-.available {
-  font-weight: bold;
-  color: #0ea611 !important;
-}
-
-.unavailable {
-  font-weight: bold;
-  color: red !important;
-}
-
 .embed-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -85,19 +75,19 @@ article {
 }
 
 embed {
-	width: 100% !important;
+  width: 100% !important;
 }
 
 @media (min-width: $screen-sm) {
-  img[src$="fifty"] {
+  img[src$='fifty'] {
     max-width: 50%;
   }
 
-  img[src$="twentyfive"] {
+  img[src$='twentyfive'] {
     max-width: 25%;
   }
 
-  img[src$="seventyfive"] {
+  img[src$='seventyfive'] {
     max-width: 75%;
   }
 

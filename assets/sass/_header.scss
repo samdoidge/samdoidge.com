@@ -1,4 +1,4 @@
-@import 'variables';
+@import "variables";
 
 .header {
   display: flex;
@@ -12,7 +12,7 @@
 
   &__description {
     font-size: 17px;
-    letter-spacing: .06em;
+    letter-spacing: 0.06em;
     margin-bottom: 0;
     margin-top: 0;
   }
@@ -20,9 +20,9 @@
   &__title {
     color: $light-black;
     font-size: 26px;
-    letter-spacing: .04em;
+    letter-spacing: 0.04em;
     margin: 0;
-    margin-bottom: .1em;
+    margin-bottom: 0.1em;
     overflow: hidden;
     text-decoration: none;
   }
@@ -31,7 +31,7 @@
     color: $light-black;
     font-size: 26px;
     font-weight: bold;
-    letter-spacing: .04em;
+    letter-spacing: 0.04em;
     overflow: hidden;
     text-decoration: none;
   }
