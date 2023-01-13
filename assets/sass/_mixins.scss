@@ -1,0 +1,22 @@
+// Screen sizes
+$screen-sm: 790px;
+$screen-md: 992px;
+$screen-lg: 1200px;
+
+@mixin screen-sm {
+  @media (min-width: #{$screen-sm}) {
+    @content;
+  }
+}
+
+@mixin screen-md {
+  @media (min-width: #{$screen-md}) {
+    @content;
+  }
+}
+
+@mixin screen-md {
+  @media (min-width: #{$screen-lg}) {
+    @content;
+  }
+}

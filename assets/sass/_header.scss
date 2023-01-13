@@ -1,4 +1,5 @@
-@import "variables";
+@import 'mixins';
+@import 'variables';
 
 .header {
   display: flex;
@@ -35,10 +36,8 @@
     overflow: hidden;
     text-decoration: none;
   }
-}
 
-@media (min-width: $screen-sm) {
-  .header {
+  @include screen-sm {
     display: block;
     margin-top: 60px;
 

@@ -24,9 +24,9 @@ Outside of the internet some of my interests include: playing football, rowing (
 
 - [textiler.com](http://web.archive.org/web/20190312025846/http://textiler.com/) - A joint project where I was responsible for the development. Design & print custom digital fabrics. Makes use of canvas / fabric.js and node.js
 
-- [freshfollowers.com](https://www.youtube.com/watch?v=xeT1d2AJ7os) - Based off of research into the best way to increase an Instagram following, this application gives the highest rate of acquisition for genuine followers based on their interests. This was not opened to everyone due to Instagrams strict acceptance policy.
+- [freshfollowers.com](https://www.youtube.com/watch?v=xeT1d2AJ7os) - Based off of research into the best way to increase an Instagram following, this application gives the highest rate of acquisition for genuine followers based on their interests. This was not opened to everyone due to Instagram'ss strict acceptance policy.
 
-- [fifatrader.com](http://fifatrader.com) - Automatically buy and sell players from EA's FIFA at a users set prices. Has received 100's of signups with no promotion.
+- [fifatrader.com](http://fifatrader.com) - This domain is now for sale. Automatically buy and sell players from EA's FIFA at a users set prices. Has received 100's of signups with no promotion.
 
 - [pintbet.com](https://samdoidge.com/pintbet) - A site for sports betting tips which tracks real bookmaker odds and records user performance with play money.
 

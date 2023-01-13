@@ -1,4 +1,5 @@
-@import "variables";
+@import 'mixins';
+@import 'variables';
 
 .post {
   padding-top: 20px;
@@ -22,6 +23,10 @@
     margin-bottom: 0;
     padding-bottom: 0;
   }
+
+  @include screen-sm {
+    margin: 0;
+  }
 }
 
 .markdown-body h1 {
@@ -34,10 +39,4 @@
   border-bottom: 0;
   padding-bottom: 0;
   margin-bottom: 0;
-}
-
-@media (min-width: $screen-sm) {
-  .post {
-    margin: 0;
-  }
 }

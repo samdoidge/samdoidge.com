@@ -1,3 +1,4 @@
+@import 'mixins';
 @import 'variables';
 
 .logo {
@@ -7,16 +8,14 @@
   &__img {
     height: 48px;
     width: 48px;
-  }
-}
 
-@media (min-width: $screen-sm) {
-  .logo {
-    margin-right: 65px;
-
-    &__img {
+    @include screen-sm {
       height: 100%;
       width: 100%;
     }
+  }
+
+  @include screen-sm {
+    margin-right: 65px;
   }
 }

@@ -1,13 +1,12 @@
+@import "mixins";
 @import "variables";
 
 .sidebar {
   clear: both;
   margin-top: 12px;
   width: 100%;
-}
 
-@media (min-width: $screen-sm) {
-  .sidebar {
+  @include screen-sm {
     float: left;
     margin: 0;
     margin-top: 40px;
