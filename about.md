@@ -4,10 +4,6 @@ title: About
 permalink: about/
 ---
 
-
-
-
-
 I like to think of ideas and execute them. I continually look to learn and I try not to impose limits on myself.
 
 I'm currently working on <a href="https://propertywisdom.io">Property Wisdom</a> - a site providing key data to help people make the best investments in the UK property market.
@@ -34,8 +30,6 @@ Outside of the internet some of my interests include: playing football, cycling,
 
 - [thebuildingcompany.co](https://thebuildingcompany.co) - A local building company website hosted on Github, using a custom Jekyll theme and Cloudflare.
 
-
-
 ### Contact
 
 I can be emailed via sam@samdoidge.com.
@@ -44,8 +38,8 @@ You can also find me on:
 
 - [Twitter](http://twitter.com/samdoidge) - Occasional retweets
 - [GitHub](http://github.com/samdoidge) - Code for this site and other contributions
-<!-- - [LinkedIn](http://uk.linkedin.com/in/samdoidge) - Business contacts -->
-<!-- - [Facebook](http://facebook.com/samdoidge) - Pour mes amis -->
+  <!-- - [LinkedIn](http://uk.linkedin.com/in/samdoidge) - Business contacts -->
+  <!-- - [Facebook](http://facebook.com/samdoidge) - Pour mes amis -->
 - [Instagram](http://instagram.com/samdoidge) - Occasional vanity
 
 ![sam dubai](/assets/vue-conf.jpg)

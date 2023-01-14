@@ -4,12 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     {% if page.title == "Home" %}
-    <title>Sam Doidge - Continual improvement.</title>
-    <meta property="og:title" content="Sam Doidge - Continual improvement." />
+
+    <title>{{ site.author }} - {{ site.title }}.</title>
+    <meta property="og:title" content="{{ site.author }} - {{ site.title }}." />
     <meta property="og:type" content="website" />
     {% else %}
-    <title>{{ page.title }} - Sam Doidge</title>
-    <meta property="og:title" content="{{ page.title }} - Sam Doidge" />
+    <title>{{ page.title }} - {{ site.author }}</title>
+    <meta property="og:title" content="{{ page.title }} - {{ site.author }}" />
     <meta property="og:type" content="article" />
     {% endif %}
 
@@ -23,10 +24,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <link rel="icon" href="{{ site.baseurl }}/assets/img/favicon.ico?v1" type="image/x-icon">
-    <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/img/favicon-32x32.png?v1" sizes="32x32">
-    <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/img/favicon-96x96.png?v1" sizes="96x96">
-    <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/img/favicon-16x16.png?v1" sizes="16x16">
+    <link rel="icon" href="{{ site.url }}/assets/img/favicon.ico?v1" type="image/x-icon">
+    <link rel="icon" type="image/png" href="{{ site.url }}/assets/img/favicon-32x32.png?v1" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{ site.url }}/assets/img/favicon-96x96.png?v1" sizes="96x96">
+    <link rel="icon" type="image/png" href="{{ site.url }}/assets/img/favicon-16x16.png?v1" sizes="16x16">
     <link rel="apple-touch-icon" href="/img/logo.png">
     <!-- Place favicon.ico in the root directory -->
 
@@ -37,24 +38,24 @@
     <meta name="twitter:image" content="{{ page.image }}" />
     <meta name="twitter:card" content="summary_large_image">
     {% else %}
-    <meta property="og:image" content="/assets/img/logo.png" />
-    <meta name="twitter:image" content="https://samdoidge.com/assets/img/logo.png" />
+    <meta property="og:image" content="{{ site.url }}/assets/img/logo.png" />
+    <meta name="twitter:image" content="{{ site.url }}/assets/img/logo.png" />
     <meta name="twitter:card" content="summary">
     {% endif %}
 
 
-    <meta name="twitter:site" content="@samdoidge" />
-    <meta name="twitter:creator" content="@samdoidge" />
-    <meta property="og:url" content="{{ site.baseurl }}{{ page.url | absolute_url }}" />
+    <meta name="twitter:site" content="{{ site.twitter_username }}" />
+    <meta name="twitter:creator" content="{{ site.twitter_username }}" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url | absolute_url }}" />
 
-    <meta property="og:site_name" content="Sam Doidge - Continual improvement." />
+    <meta property="og:site_name" content="{{ site.author }} - {{ site.title }}." />
 
     {% if page.image %}
     <meta property="og:image" content="{{ page.image }}" />
     <meta name="twitter:image" content="{{ page.image }}" />
     {% else %}
-    <meta property="og:image" content="/assets/img/logo.png" />
-    <meta name="twitter:image" content="https://samdoidge.com/assets/img/logo.png" />
+    <meta property="og:image" content="{{ site.url }}/assets/img/logo.png" />
+    <meta name="twitter:image" content="{{ site.url }}/assets/img/logo.png" />
     {% endif %}
 
     <link href="/assets/sass/app.css?{{site.time | date: '%s%N'}}" rel="stylesheet">
