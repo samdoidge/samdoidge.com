@@ -1,6 +1,6 @@
 ---
-title: 'Technology Posts'
-description: 'Posts tagged Other'
+title: "Technology Posts"
+description: "Posts tagged Other"
 layout: default
 ---
 
@@ -16,11 +16,12 @@ layout: default
         </h2>
 
         {% include postmeta.html %}
-        <div class="entry"><p>{{ page.content | truncatewords:47 | strip_html }}</p></div>
+        {% include excerpt.html %}
     </div>
     {% endfor %}
 
     <p class="rss-subscribe">
         <a href="/archive">View more</a>
     </p>
+
 </div>

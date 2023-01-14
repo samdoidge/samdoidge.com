@@ -14,7 +14,7 @@ layout: default
                 </a>
             </h2>
             {% include postmeta.html %}
-            <div class="entry"><p>{{ page.content | truncatewords:47 | strip_html }}</p></div>
+            {% include excerpt.html %}
 
         {% endif %}
     {% endfor %}
@@ -29,7 +29,7 @@ layout: default
             </h2>
 
             {% include postmeta.html %}
-            <div class="entry"><p>{{ page.content | strip_html | truncatewords:47  }}</p></div>
+            {% include excerpt.html %}
         </div>
 
         {% endunless %}

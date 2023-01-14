@@ -1,6 +1,6 @@
 ---
-title: 'Other Posts'
-description: 'Posts tagged Other - these are usually not technology focused posts, and focus on some other facet of our brilliant world.'
+title: "Other Posts"
+description: "Posts tagged Other - these are usually not technology focused posts, and focus on some other facet of our brilliant world."
 layout: default
 ---
 
@@ -16,11 +16,12 @@ layout: default
         </h2>
 
         {% include postmeta.html %}
-        <div class="entry"><p>{{ page.content | truncatewords:47 | strip_html }}</p></div>
+        {% include excerpt.html %}
     </div>
     {% endfor %}
 
     <p class="rss-subscribe">
         <a href="/archive">View more</a>
     </p>
+
 </div>
