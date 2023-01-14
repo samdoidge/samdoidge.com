@@ -8,10 +8,6 @@
   margin: 0 2%;
   border: 0;
 
-  &__title {
-    margin-top: 15px !important;
-  }
-
   &--small {
     padding-top: 20px;
     border-radius: 14px;
@@ -21,6 +17,7 @@
   &__title {
     border-bottom: 0;
     margin-bottom: 0;
+    margin-top: 15px !important;
     padding-bottom: 0;
   }
 

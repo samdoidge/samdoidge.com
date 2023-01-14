@@ -4,17 +4,19 @@ title: About
 permalink: about/
 ---
 
-I can be emailed via sam@samdoidge.com.
 
-I'm currently working on <a href="https://propertywisdom.io">PropertyWisdom.io</a> - a site providing key data to help people make the best investments in the UK property market.
+
+
+
+I like to think of ideas and execute them. I continually look to learn and I try not to impose limits on myself.
+
+I'm currently working on <a href="https://propertywisdom.io">Property Wisdom</a> - a site providing key data to help people make the best investments in the UK property market.
 
 Previous I was contracting at a UK investment fund, and before that developing a [football simulation game](/football-club-owner) for the App Store. I have also developed a Bitcoin investment application, and worked at a cryptocurrency startup.
 
-In my free time I like to think of ideas and execute them. I continually look to learn and I try not to impose limits on myself.
+Outside of the internet some of my interests include: playing football, cycling, design and reading.
 
-Outside of the internet some of my interests include: playing football, rowing (now only in the gym), design and reading.
-
-### Personal projects
+### Projects
 
 - [Football Club Owner](/football-club-owner) - An iOS app now on the App Store. It's a football management game with some unique elements, such as player rarities. It features the creation of an extensive match engine which gives realistic scores, taking into account each players ability rating. This was built with React Native, Typescript, Realm for storage, and Mocha for tests.
 
@@ -32,19 +34,19 @@ Outside of the internet some of my interests include: playing football, rowing (
 
 - [thebuildingcompany.co](https://thebuildingcompany.co) - A local building company website hosted on Github, using a custom Jekyll theme and Cloudflare.
 
-### Social
 
-You can find me on:
-
-- [Twitter](http://twitter.com/samdoidge) - Occasional retweets
-- [Github](http://github.com/samdoidge) - Code for this site and other contributions
-- [LinkedIn](http://uk.linkedin.com/in/samdoidge) - Business contacts
-<!-- - [Facebook](http://facebook.com/samdoidge) - Pour mes amis -->
-- [Instagram](http://instagram.com/samdoidge) - Occasional vanity
 
 ### Contact
 
-Change something on the site by creating [a GitHub issue](https://github.com/samdoidge/samdoidge.github.io/issues)
+I can be emailed via sam@samdoidge.com.
+
+You can also find me on:
+
+- [Twitter](http://twitter.com/samdoidge) - Occasional retweets
+- [GitHub](http://github.com/samdoidge) - Code for this site and other contributions
+<!-- - [LinkedIn](http://uk.linkedin.com/in/samdoidge) - Business contacts -->
+<!-- - [Facebook](http://facebook.com/samdoidge) - Pour mes amis -->
+- [Instagram](http://instagram.com/samdoidge) - Occasional vanity
 
 ![sam dubai](/assets/vue-conf.jpg)
 _Wrocław '17_
@@ -52,8 +54,8 @@ _Wrocław '17_
 <!-- ![sam dubai](/assets/sam-dubai.jpg)
 _Dubai '17_ -->
 
-![sam shanghai](/assets/sam-shanghai.jpg)
-_Shanghai '13_
+<!-- ![sam shanghai](/assets/sam-shanghai.jpg)
+_Shanghai '13_ -->
 
 #### Misc Milestones
 
