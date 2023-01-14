@@ -29,7 +29,7 @@ layout: default
             </h2>
 
             {% include postmeta.html %}
-            <div class="entry"><p>{{ page.content | truncatewords:47 | strip_html }}</p></div>
+            <div class="entry"><p>{{ page.content | strip_html | truncatewords:47  }}</p></div>
         </div>
 
         {% endunless %}
@@ -38,6 +38,6 @@ layout: default
     <p class="rss-subscribe">
         <a href="/archive">View more</a>
         <br/>
-        subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
+        subscribe <a href="{{ '/feed.xml' | prepend: site.baseurl }}">via RSS</a>
     </p>
 </div>
