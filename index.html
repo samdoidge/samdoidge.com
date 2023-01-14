@@ -5,33 +5,14 @@ layout: default
 ---
 
 <div class="posts home markdown-body">
-    <div class="post--small">
     {% for page in site.posts %}
         {% if page.is_popular == true %}
-            <h2 class="post__title">
-                <a href="{{ page.url }}">
-                    {{ page.title }}
-                </a>
-            </h2>
-            {% include postmeta.html %}
-            {% include excerpt.html %}
-
+            {% include post-preview.html %}
         {% endif %}
     {% endfor %}
-    </div>
     {% for page in site.posts limit:5  %}
         {% unless page.is_popular %}
-        <div class="post--small">
-            <h2 class="post__title">
-                <a href="{{ page.url }}">
-                    {{ page.title }}
-                </a>
-            </h2>
-
-            {% include postmeta.html %}
-            {% include excerpt.html %}
-        </div>
-
+            {% include post-preview.html %}
         {% endunless %}
     {% endfor %}
 

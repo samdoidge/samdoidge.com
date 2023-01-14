@@ -8,16 +8,7 @@ layout: default
 
     <h2 style="margin-bottom:10px;">Technology Posts</h2>
     {% for page in site.tags.tech %}
-    <div class="post--small">
-        <h2 class="post-title">
-            <a href="{{ page.url }}">
-                {{ page.title }}
-            </a>
-        </h2>
-
-        {% include postmeta.html %}
-        {% include excerpt.html %}
-    </div>
+        {% include post-preview.html %}
     {% endfor %}
 
     <p class="rss-subscribe">
