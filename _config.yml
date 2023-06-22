@@ -4,8 +4,9 @@ description: > # this means to ignore newlines until "baseurl:"
   I like to think of ideas and execute them. I continually look to learn and I try not to impose limits on myself.
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://samdoidge.com'
-twitter_username: "@samdoidge"
+twitter_username: '@samdoidge'
 disqusid: samdoidge
+google_analytics_id: 'UA-96188170-1'
 
 # Build settings
 markdown: kramdown
