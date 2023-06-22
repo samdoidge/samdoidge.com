@@ -6,11 +6,11 @@ permalink: about/
 
 I like to think of ideas and execute them. I continually look to learn and I try not to impose limits on myself.
 
-I'm currently working on <a href="https://propertywisdom.io">Property Wisdom</a> - a site providing key data to help people make the best investments in the UK property market.
+<!-- Currently I'm seeking truth, wherever it may be found. -->
 
-Previous I was contracting at a UK investment fund, and before that developing a [football simulation game](/football-club-owner) for the App Store. I have also developed a Bitcoin investment application, and worked at a cryptocurrency startup.
+Recently I've worked on <a href="https://propertywisdom.io">Property Wisdom</a> - a site providing key data to help people make the best investments in the UK property market.
 
-Outside of the internet some of my interests include: playing football, cycling, design and reading.
+Previously I was contracting at a UK investment fund, and before that developing a [football simulation game](/football-club-owner). In a past life I developed a Bitcoin investment application, and worked at a cryptocurrency startup.
 
 ### Projects
 
@@ -20,7 +20,7 @@ Outside of the internet some of my interests include: playing football, cycling,
 
 - [beforesteam.com](https://samdoidge.com/beforesteam) - A price comparison site for Steam games. Millions of price points tracked. Records price history for thousands of games in multiple vendors and multiple currencies. ~40 IP's used for polling data without hitting limits. Amazon S3 for image hosting, Cloudflare as a CDN at the front of it all.
 
-- [textiler.com](http://web.archive.org/web/20190312025846/http://textiler.com/) - A joint project where I was responsible for the development. Design & print custom digital fabrics. Makes use of canvas / fabric.js and node.js
+<!-- [textiler.com](http://web.archive.org/web/20190312025846/http://textiler.com/) - A joint project where I was responsible for the development. Design & print custom digital fabrics. Makes use of canvas / fabric.js and node.js -->
 
 - [freshfollowers.com](https://www.youtube.com/watch?v=xeT1d2AJ7os) - Based off of research into the best way to increase an Instagram following, this application gives the highest rate of acquisition for genuine followers based on their interests. This was not opened to everyone due to Instagram'ss strict acceptance policy.
 
@@ -32,12 +32,13 @@ Outside of the internet some of my interests include: playing football, cycling,
 
 ### Contact
 
-I can be emailed via sam@samdoidge.com.
+My email address is sam@samdoidge.com.
 
-You can also find me on:
+I can also be found on:
 
-- [Twitter](http://twitter.com/samdoidge) - Occasional retweets
-- [GitHub](http://github.com/samdoidge) - Code for this site and other contributions
+<!-- - [Twitter](http://twitter.com/samdoidge) - Occasional retweets -->
+
+- [GitHub](http://github.com/samdoidge) - Code for this site and other projects
   <!-- - [LinkedIn](http://uk.linkedin.com/in/samdoidge) - Business contacts -->
   <!-- - [Facebook](http://facebook.com/samdoidge) - Pour mes amis -->
 - [Instagram](http://instagram.com/samdoidge) - Occasional vanity
@@ -51,12 +52,10 @@ _Dubai '17_ -->
 <!-- ![sam shanghai](/assets/sam-shanghai.jpg)
 _Shanghai '13_ -->
 
-#### Misc Milestones
+#### Miscellaneous milestones
 
 - Freshers Men's Eight - Bournemouth University Rowing Club
 
 - Middle School Chess Champion - Loughton School
 
 - Represented Denbigh School at UK Maths Challenge
-
-My brother's website: [Tom Doidge](http://tomdoidge.com/about)
