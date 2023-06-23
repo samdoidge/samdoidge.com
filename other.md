@@ -8,7 +8,7 @@ layout: default
 
     <h2 style="margin-bottom:10px;">Other Posts</h2>
     {% for page in site.tags.other %}
-        {% include post-preview.html %}
+        {% include post/preview.html %}
     {% endfor %}
 
     <p class="rss-subscribe">

@@ -1,6 +1,6 @@
 # samdoidge.com
 
-`Updated Jan 2023.`
+`Updated June 2023.`
 
 ## Running locally
 

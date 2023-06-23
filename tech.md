@@ -1,6 +1,6 @@
 ---
-title: "Technology Posts"
-description: "Posts tagged Other"
+title: 'Technology Posts'
+description: 'Posts tagged Other'
 layout: default
 ---
 
@@ -8,7 +8,7 @@ layout: default
 
     <h2 style="margin-bottom:10px;">Technology Posts</h2>
     {% for page in site.tags.tech %}
-        {% include post-preview.html %}
+        {% include post/preview.html %}
     {% endfor %}
 
     <p class="rss-subscribe">

@@ -1,18 +1,18 @@
 ---
 title: 'Home'
-description: 'I’m a web developer based in the UK, currently contracting for a finance company. I think of ideas and execute them. I continually look to learn and I try not to impose limits on myself.'
+description: "I'm a web developer based in the UK, currently contracting for a finance company. I think of ideas and execute them. I continually look to learn and I try not to impose limits on myself."
 layout: default
 ---
 
 <div class="posts markdown-body">
     {% for page in site.posts %}
         {% if page.is_popular == true %}
-            {% include post-preview.html %}
+            {% include post/preview.html %}
         {% endif %}
     {% endfor %}
     {% for page in site.posts limit:5  %}
         {% unless page.is_popular %}
-            {% include post-preview.html %}
+            {% include post/preview.html %}
         {% endunless %}
     {% endfor %}
 
