@@ -1,0 +1,9 @@
+{% if page.image %}
+<meta property="og:image" content="{{ page.image }}" />
+<meta name="twitter:image" content="{{ page.image }}" />
+<meta name="twitter:card" content="summary_large_image" />
+{% else %}
+<meta property="og:image" content="{{ base_path }}/assets/img/logo.png" />
+<meta name="twitter:image" content="{{ base_path }}/assets/img/logo.png" />
+<meta name="twitter:card" content="summary" />
+{% endif %}
