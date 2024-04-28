@@ -1,10 +1,7 @@
-version: '3.3'
 services:
   jekyll:
+    image: bretfisher/jekyll-serve
     volumes:
-        - './:/srv/jekyll'
+      - .:/site
     ports:
-        - '4000:4000'
-        - '35729:35729'
-    image: jekyll/jekyll
-    command: jekyll serve --livereload --force_polling
+      - '4000:4000'
