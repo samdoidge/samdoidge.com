@@ -1,14 +1,13 @@
 ---
 layout: post
 title: 'Jekyll XML Sitemap Generator'
-description: 'Sitemaps are still important for SEO, perhaps one of the most improtant things.
+description: 'Sitemaps are still important for SEO, perhaps one of the most important things.
 
 An XML Sitemap is now really easy to setup in Jekyll - easier than Wordpress, even.'
-comments: True
 tags: [tech]
 ---
 
-Sitemaps are still important for SEO, perhaps one of the most improtant things.
+Sitemaps are still important for SEO, perhaps one of the most important things.
 
 An XML Sitemap is now really easy to setup in Jekyll - easier than Wordpress, even. Here is my [Sitemap](/sitemap.xml).
 

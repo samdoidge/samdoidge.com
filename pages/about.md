@@ -24,11 +24,11 @@ Previously I was contracting at a UK investment fund, and before that developing
 
 - [freshfollowers.com](https://www.youtube.com/watch?v=xeT1d2AJ7os) - Based off of research into the best way to increase an Instagram following, this application gives the highest rate of acquisition for genuine followers based on their interests. This was not opened to everyone due to Instagram'ss strict acceptance policy.
 
-- [fifatrader.com](http://fifatrader.com) - This domain is now for sale. Automatically buy and sell players from EA's FIFA at a users set prices. Has received 100's of signups with no promotion.
+- [fifatrader.com](http://fifatrader.com) - This domain is now for sale. Automatically buy and sell players from EA's FIFA at a users set prices. Has received 100's of sign-ups with no promotion.
 
 - [pintbet.com](https://samdoidge.com/pintbet) - A site for sports betting tips which tracks real bookmaker odds and records user performance with play money.
 
-- [thebuildingcompany.co](https://thebuildingcompany.co) - A local building company website hosted on Github, using a custom Jekyll theme and Cloudflare.
+- [thebuildingcompany.co](https://thebuildingcompany.co) - A local building company website hosted on GitHub, using a custom Jekyll theme and Cloudflare.
 
 ### Contact
 

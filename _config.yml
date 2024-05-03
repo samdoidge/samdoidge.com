@@ -5,7 +5,6 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://samdoidge.com'
 twitter_username: '@samdoidge'
-disqusid: samdoidge
 google_analytics_id: 'UA-96188170-1'
 
 # Build settings

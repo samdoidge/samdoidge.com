@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Auto reload with Grunt
-comments: True
 tags: [tech]
 ---
 
@@ -9,17 +8,17 @@ tags: [tech]
 
 ### What is Grunt? ###
 
-A 'task runner' - it helps us with reptitive tasks through automation, running from the command line.
+A 'task runner' - it helps us with repetitive tasks through automation, running from the command line.
 
 ### Why use Grunt? ###
 
-Reloading web pages after an code change does not take long but the time and extra actoins required builds up, we can automate this process with Grunt - especially effective when working with 2 screens. Additionally we can add further automation, SASS to CSS, minification etc.
+Reloading web pages after an code change does not take long but the time and extra actions required builds up, we can automate this process with Grunt - especially effective when working with 2 screens. Additionally we can add further automation, SASS to CSS, minification etc.
 
 ### Do not have Node.js or Grunt? ###
 
-You will need Node.js installed with npm on your system: [Node installation instructions](http://nodejs.org/)
+You will need Node.js installed with NPM on your system: [Node installation instructions](http://nodejs.org/)
 
-I'm linking to the [Grunt installation instructions](http://gruntjs.com/getting-started#installing-the-cli), this is fairly straight forward, the useage I will explain as it was not plain sailing.
+I'm linking to the [Grunt installation instructions](http://gruntjs.com/getting-started#installing-the-cli), this is fairly straight forward, the usage I will explain as it was not plain sailing.
 
 ### Setup auto reload ###
 
@@ -36,7 +35,7 @@ You will need to add ```grunt-contrib-watch``` to your ```package.json``` so you
   }
 ```
 
-With the plugin as a dependancy in package.json, you can now install the dependency for your project by running the following command:
+With the plugin as a dependency in package.json, you can now install the dependency for your project by running the following command:
 ``` bash
 npm install
 ```
@@ -64,7 +63,7 @@ Now having grunt setup for live reload, how does the browser no how to refresh? 
 ``` html
 <script src="http://localhost:35729/livereload.js"></script>
 ```
-or my prefered method, a chrome extension: [Chrome Live Reload](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en) as this doesn't require as adding additional code to our site.
+or my preferred method, a chrome extension: [Chrome Live Reload](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en) as this doesn't require as adding additional code to our site.
 
 ### Run the thing! ###
 

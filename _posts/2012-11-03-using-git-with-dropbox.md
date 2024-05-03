@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Using Git with Dropbox
-comments: True
 tags: [tech]
 ---
 
@@ -11,14 +10,14 @@ tags: [tech]
 
 **note:** I’ve set this up on Mac OS X.
 
-I’ve cancelled my beanstalkapp subscription, gone for a paid Dropbox one, and am moving my repos to Dropbox.
+I’ve cancelled my [Beanstalk](https://beanstalkapp.com/) subscription, gone for a paid Dropbox one, and am moving my repos to Dropbox.
 ``` bash
 cd ~/Dropbox
 mkdir -p Sites/your-repo-name/your-repo-name.git
 cd your-repo-name
 git --bare init
 ```
-This creates your Git repository in Dropbox. (change Sites + myrepo to your preference). Next I go into my local folder and add this to the Dropbox repo:
+This creates your Git repository in Dropbox. (change Sites + your repository to your preference). Next I go into my local folder and add this to the Dropbox repo:
 ``` bash
 cd ~/Sites/projectfolder
 git init .

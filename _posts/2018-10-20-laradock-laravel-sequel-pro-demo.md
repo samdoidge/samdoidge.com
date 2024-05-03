@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Laradock, Laravel, Sequel Pro Demo"
-comments: True
 tags: [tech]
 ---
 

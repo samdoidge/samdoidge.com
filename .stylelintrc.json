@@ -1,0 +1,7 @@
+{
+    "extends": "stylelint-config-standard-scss",
+    "ignoreFiles": ["assets/sass/app.scss", "assets/sass/_prism.scss", "assets/sass/_markdown.scss", "assets/sass/_normalize.scss"],
+    "rules": {
+        "color-hex-length": "long"
+    }
+}

@@ -2,7 +2,6 @@
 layout: post
 title: 'PHP Interfaces and Abstract classes'
 image: /assets/php-logo.png
-comments: True
 tags: [tech]
 ---
 
@@ -29,7 +28,7 @@ Interfaces are defined in the same way as a class, but with the interface keywor
 
 To expand on the usefulness of an interface:
 
-You may create an interface, Cache, which defines what caches do. Next you may create several different implementations such as FileSystemCache, RedisCache, and MemcachdCache.
+You may create an interface, Cache, which defines what caches do. Next you may create several different implementations such as FileSystemCache, RedisCache, and MemcachedCache.
 
 The code that wants to cache information only uses the Cache interface. Maybe today the cache is implemented using the FileSystemCache object. As the website grows and traffic increases you see that a better cache system is required. Instead of rewriting all the places that are using the cache you can simply switch the creation of the cache from FileSystemCache to RedisCache.
 

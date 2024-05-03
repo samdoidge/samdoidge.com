@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Find and replace a string across many files with Shell / Terminal
-comments: True
 tags: [tech]
 ---
 

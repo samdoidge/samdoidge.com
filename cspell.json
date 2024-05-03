@@ -1,0 +1,33 @@
+{
+    "caseSensitive": true,
+    "dictionaries": [
+        "cpp",
+        "project-words",
+        "php",
+        "ruby",
+        "python"
+    ],
+    "language": "en-GB",
+    "dictionaryDefinitions": [
+        {
+            "name": "project-words",
+            "path": "./project-words.txt",
+            "addWords": true
+        }
+    ],
+    "ignorePaths": [
+        "_site",
+        "pages/archive.md",
+        "pages/other.md",
+        "pages/tech.md",
+        "project-words.txt"
+    ],
+    "ignoreRegExpList": [
+        "/```[\\s\\S]*?```/g",
+        "/`.*?`/g",
+        "\\/\\w+",
+        "\\w+\\.\\w+",
+        "<[^>]+>",
+        "\\[[^\\]]+\\]"
+    ]
+}

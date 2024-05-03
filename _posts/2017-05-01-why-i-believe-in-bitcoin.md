@@ -2,7 +2,6 @@
 layout: post
 title: 'Why I believe in Bitcoin'
 image: /assets/bitcoin.png
-comments: True
 is_popular: True
 tags: [other]
 ---
@@ -35,7 +34,7 @@ Its decentralised nature ensures it cannot be manipulated, or censored.
 
 #### Network effects
 
-I was initially skeptical of Bitcoin, as an identical coin could be created very easily, however Bitcoin now has [network effects](https://en.wikipedia.org/wiki/Network_effect). Why buy $1000 of a similar currency, when you can buy $1000 of bitcoin which is accepted by more people? (This is not a dismissal of altcoins, as I believe some can prosper as well, just not those looking to mimic bitcoin). It has secured its place and proven itself as the store of value in the digital and cryptocurrency world. [More places accept bitcoin](https://99bitcoins.com/who-accepts-bitcoins-payment-companies-stores-take-bitcoins/) than any other cryptocurrency by far, these include: Microsoft, Subway, Overstock.com, Steam, Dell, Whole Foods, Square and thousands more.
+I was initially sceptical of Bitcoin, as an identical coin could be created very easily, however Bitcoin now has [network effects](https://en.wikipedia.org/wiki/Network_effect). Why buy $1000 of a similar currency, when you can buy $1000 of bitcoin which is accepted by more people? (This is not a dismissal of altcoins, as I believe some can prosper as well, just not those looking to mimic bitcoin). It has secured its place and proven itself as the store of value in the digital and cryptocurrency world. [More places accept bitcoin](https://99bitcoins.com/who-accepts-bitcoins-payment-companies-stores-take-bitcoins/) than any other cryptocurrency by far, these include: Microsoft, Subway, Overstock.com, Steam, Dell, Whole Foods, Square and thousands more.
 
 <p style="text-align: center">
 <a href="/assets/btc-exchange.png" target="_blank"><img src="/assets/btc-exchange.png?style=fifty"></a>

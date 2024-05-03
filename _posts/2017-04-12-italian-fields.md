@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Italian Fields'
-comments: True
 tags: [other, tech]
 ---
 

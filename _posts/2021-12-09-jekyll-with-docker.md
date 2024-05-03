@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Jekyll with Docker"
-comments: True
 tags: [tech]
 ---
 
@@ -39,7 +38,7 @@ Bundler could not find compatible versions for gem "bundler":
       bundler (2.2.24)
 ```
 
-I resolve these by deleting my local Gemfile.lock, and also a redunant Jekyll theme file I was using.
+I resolve these by deleting my local Gemfile.lock, and also a redundant Jekyll theme file I was using.
 
 Thank you to [Stephan](https://svrooij.io/2020/12/31/github-pages-live-reload/) for making this a quick Google. I made an edit to his `docker-compose.yml` file as it seems [--livereload and --incremental do not work together](https://github.com/jekyll/jekyll/issues/6701#issuecomment-487313636)
 

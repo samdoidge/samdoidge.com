@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Content Lord - Instagram posts from Slack"
-comments: True
 tags: [tech]
 ---
 

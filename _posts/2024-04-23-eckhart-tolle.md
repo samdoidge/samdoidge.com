@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Eckhart Tolle'
-comments: True
 tags: [other]
 ---
 
@@ -19,4 +18,4 @@ I don't want to ramble, but I would urge everyone to digest the book, and listen
 
 I believe all this to be true, and correct. We should be more conscious - leave space for something else to come in. We can go deeper here, and there is much more to take in, but I will leave that to the master Eckhart, for now.
 
-On a practical level I will extend the domain register for this domain as long as possible, and also hope Github does not change too much regarding their hosting, so if people did want to see a message from me when I'm not able to give one via other means, you have this.
+On a practical level I will extend the domain register for this domain as long as possible, and also hope GitHub does not change too much regarding their hosting, so if people did want to see a message from me when I'm not able to give one via other means, you have this.

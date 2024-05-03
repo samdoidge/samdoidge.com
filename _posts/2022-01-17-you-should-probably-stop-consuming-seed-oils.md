@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "You Should Probably Stop Consuming Seed Oils"
-comments: True
 tags: [other]
 ---
 
 After indulging over the Christmas period, and contracting Covid, I was feeling not-great. This led me to more diet research, and to seed oils which I had seen mentioned as being bad for you on various platforms across the Internet. Hours of research later, I embarked on removing them from my diet. I've since felt like I have more energy, and have been dropping some fat which I needed to lose.
 
-As for the actual mechanism, people like Tucker Goodrich explain why in the videos below, but in essence it seems to be the key component in the modern western diet that has us experience massive increases in obesity and diabetes etc vs 150 years ago. These polyunsaturated fatty oils do have a perceived positive impact on cholesterol levels, but in studies metnioned in the second video below, actual mortality increases with the use of them. We have seen carbohydrate consumption decrease in recent years, but obesity levels are not going down.
+As for the actual mechanism, people like Tucker Goodrich explain why in the videos below, but in essence it seems to be the key component in the modern western diet that has us experience massive increases in obesity and diabetes etc vs 150 years ago. These polyunsaturated fatty oils do have a perceived positive impact on cholesterol levels, but in studies mentioned in the second video below, actual mortality increases with the use of them. We have seen carbohydrate consumption decrease in recent years, but obesity levels are not going down.
 
 
 The below is the best video to start with:
@@ -34,9 +33,9 @@ High linoleic acid diet = seed oils in the above.
 
 Dr Catherine Shanahan has an interesting article on the topic and [identifies high polyunsaturated seed oils](https://drcate.com/the-hateful-eight-enemy-fats-that-destroy-your-health/)
 
-#### Atheletic performance:
+#### Athletic performance:
 
-> In summary, this study demonstrates a specific contribution of n-6 PUFA-rich oils like CO to the loss of spontaneous physical activity and insulin sensitivity in mice. If these data hold true for humans, this study could provide a novel link between recent increases in dietary n-6 PUFA to sedentary behavior and the development of insulin resistance in the Western world.
+> In summary, this study demonstrates a specific contribution of n-6 PUFA-rich oils like CO to the loss of spontaneous physical activity and insulin sensitivity in mice. If these data hold true for humans, this study could provide a novel link between recent increases in dietary n-6 PUFA to sedentary behaviour and the development of insulin resistance in the Western world.
 
 [A high-fat diet rich in corn oil reduces spontaneous locomotor activity and induces insulin resistance in mice](https://www.sciencedirect.com/science/article/abs/pii/S0955286314002472?via%3Dihub)
 

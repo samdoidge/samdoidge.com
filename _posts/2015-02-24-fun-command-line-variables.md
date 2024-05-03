@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Fun Command Line Variables
-comments: True
-description: I've put fun, open is fun in that a new window pops up over your terminal showing you the files you are browsing visually, and drag-ablly. History is just useful
+description: You have a bash script that needs to FTP somewhere and want to test part of the script works outside of the whole script? Run it in the command line. 'But it has configuration variables' I hear you cry!
 tags: [tech]
 ---
 
@@ -14,7 +13,7 @@ I've decided to continue the series.
 
 ### Command Line Variables ###
 
-You have a bash script that needs to FTP somewhere and want to test part of the script works outside of the whole script? Run it in the command line. 'But it has configruation variables' I hear you cry!
+You have a bash script that needs to FTP somewhere and want to test part of the script works outside of the whole script? Run it in the command line. 'But it has configuration variables' I hear you cry!
 
 Paste them into the command line. You don't have to have type out a huge command copy and pasting the values in, use them exactly like bash does. The variables will be set for your incoming command.
 

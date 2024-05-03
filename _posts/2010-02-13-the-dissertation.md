@@ -1,7 +1,6 @@
 ---
 layout: post
 title: The Dissertation
-comments: True
 tags: [other]
 ---
 

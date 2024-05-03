@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Speedy Laravel Development
-comments: True
 tags: [tech]
 ---
 

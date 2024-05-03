@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Using Google Lighthouse for SEO"
-comments: True
 tags: [tech]
 ---
 
@@ -12,7 +11,7 @@ I debated creating this post, but it's a useful tool you may not be aware of, an
 ">Google Developers
 </a>
 
-It can do the basic checks for your onpage SEO, as well as loading times etc.
+It can do the basic checks for your on-page SEO, as well as loading times etc.
 
 <p style="text-align: center">
 <div class='embed-container'><iframe src='https://www.youtube.com/embed/TheIzyL1I3o' frameborder='0' allowfullscreen></iframe></div>
@@ -20,4 +19,4 @@ It can do the basic checks for your onpage SEO, as well as loading times etc.
 
 
 
-The SEO is limited to onpage, and is quite limited, but it's a good place to start to ensure you have the basics done correctly. Some of the strengths of the tool are probably in the other categories - performance, accessability, and best practises.
+The SEO is limited to on-page, and is quite limited, but it's a good place to start to ensure you have the basics done correctly. Some of the strengths of the tool are probably in the other categories - performance, accessibility, and best practises.

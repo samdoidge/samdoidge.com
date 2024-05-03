@@ -2,7 +2,6 @@
 layout: post
 title: 'HTTP API Methods'
 image: /assets/php-logo.png
-comments: True
 tags: [tech]
 ---
 

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Fraser Island does not have more sand than the Sahara desert
-comments: True
 tags: [other]
 ---
 
@@ -22,7 +21,7 @@ More Googling and some back-of-the-envelope calculations:
 
 * Fraser Island area is 1,840 km<sup>2</sup> total. 1,880,000 / 1,840 = 1021.73~
 
-* One estimate gives the average depth of the Sahara sand to be approximately 150 metres.
+* One estimate gives the average depth of the Sahara sand to be approximately 150 meters.
 
 The Sahara Desert's sand area is over 1000 times large than Fraser island and for Fraser Island to have more sand would have to be over (1000~ * 150m) 150km deep.
 

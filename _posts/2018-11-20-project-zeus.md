@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Project Zeus"
-comments: True
 tags: [tech]
 ---
 

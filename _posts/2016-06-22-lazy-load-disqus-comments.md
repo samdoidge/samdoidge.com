@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Lazy load Disqus comments
-comments: True
 description: Lazy load Disqus comments
 tags: [tech]
 ---
+
+(2024: I've now removed the comment feature)
 
 I've implemented lazy loading of Disqus comments, it's just a better way of handling comments loaded via javascript I believe.
 

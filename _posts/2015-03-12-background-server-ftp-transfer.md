@@ -1,15 +1,14 @@
 ---
 layout: post
 title: Background Server FTP Transfer
-comments: True
 description: I had a lot of files to transfer, and little bandwidth in my current location
 tags: [tech]
 ---
 
-I had a lot of files to transfer, little bandwith from my laptop and limited timed. Can I have my server transfering the files in the background? Yes.
+I had a lot of files to transfer, little bandwidth from my laptop and limited timed. Can I have my server transferring the files in the background? Yes.
 
 
-My VPS has more bandwith than my current location. I needed to FTP the files, a little research and I settled on lftp. I use debian-based linux, so `apt-get install lftp` to get the program, and then.
+My VPS has more bandwidth than my current location. I needed to FTP the files, a little research and I settled on lftp. I use debian-based linux, so `apt-get install lftp` to get the program, and then.
 ```cd``` to my files location.
 
 If you are in the current directory of your files, you will use the following command:

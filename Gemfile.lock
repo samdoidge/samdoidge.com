@@ -112,7 +112,6 @@ DEPENDENCIES
   jekyll-feed
   jekyll-sitemap
   jemoji
-  webrick
 
 BUNDLED WITH
    2.3.19

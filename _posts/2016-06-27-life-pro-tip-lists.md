@@ -1,14 +1,13 @@
 ---
 layout: post
 title: 'Lists'
-comments: True
 description: 'Lists'
 tags: [other]
 ---
 
 Sharing a Pro Tip with you guys: Lists.
 
-Lists, specifically to-do lists, are very powerful. They allow us to take things off the mind, but them onto paper (or an app) and we now only have to remember one thing - to look at the list. This isn't just some rambling from a late-twenties aspiring entreupenuer; Leonardo Da Vinci was also a big user.
+Lists, specifically to-do lists, are very powerful. They allow us to take things off the mind, but them onto paper (or an app) and we now only have to remember one thing - to look at the list. This isn't just some rambling from a late-twenties aspiring entrepreneur; Leonardo Da Vinci was also a big user.
 
 ![no-margin](/assets/leo-groceries.jpg)
 *A list by Leonardo Da Vinci. I love the care he has taken in drawing pictures of the groceries.*

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Laravel Inverse Seed Generator"
-comments: True
 tags: [tech]
 ---
 

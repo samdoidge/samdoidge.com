@@ -1,12 +1,11 @@
 ---
 layout: post
 title: Fun OSX Terminal Commands
-comments: True
-description: I've put fun, open is fun in that a new window pops up over your terminal showing you the files you are browsing visually, and drag-ablly. History is just useful
+description: I've put fun, open is fun in that a new window pops up over your terminal showing you the files you are browsing visually, and they are draggable. History is just useful
 tags: [tech]
 ---
 
-I've put fun - ```open``` is fun in that a new window pops up over your terminal showing you the files you are browsing visually, and drag-ablly. History is just useful!
+I've put fun - ```open``` is fun in that a new window pops up over your terminal showing you the files you are browsing visually, and they are draggable. History is just useful!
 
 To open a finder window in the current directory you are browsing in terminal, use:
 ``` bash

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Public, private and protected in PHP
-comments: True
 description: To answer the question, on anything more complex than a one page site it is worth using Sass. There is a tiny learning curve, native CSS works in Sass, Sass just adds to CSS.
 tags: [tech]
 ---
@@ -97,4 +96,4 @@ echo $flower->display();
 ### Basically ###
 <code>public</code> can be accessed and changed from outside the class. This cannot happen with <code>private</code> or <code>protected</code> :)
 
-Taken from [this stackoverflow question](http://stackoverflow.com/questions/4361553/php-public-private-protected) with a minor improvement.
+Taken from [this Stack Overflow question](http://stackoverflow.com/questions/4361553/php-public-private-protected) with a minor improvement.

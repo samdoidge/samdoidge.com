@@ -12,7 +12,7 @@
         </li>
     </ul>
 
-    {% if  page.url != '/about/' and page.url !='/archive/' %}
+    {% if page.url != '/about/' and page.url !='/archive/' %}
     <ul class="tags">
         {% for tag in site.tags_list %}
         <li class="tag__item">

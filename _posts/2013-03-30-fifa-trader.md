@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Fifa Trader
-comments: True
 tags: [tech, other]
 ---
 

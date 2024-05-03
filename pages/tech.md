@@ -2,6 +2,7 @@
 title: 'Technology Posts'
 description: 'Posts tagged Other'
 layout: default
+permalink: tech/
 ---
 
 <div class="posts markdown-body">

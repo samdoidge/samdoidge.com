@@ -2,6 +2,7 @@
 title: 'Other Posts'
 description: 'Posts tagged Other - these are usually not technology focused posts, and focus on some other facet of our brilliant world.'
 layout: default
+permalink: other/
 ---
 
 <div class="posts markdown-body">

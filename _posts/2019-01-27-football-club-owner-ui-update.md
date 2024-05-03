@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Football Club Owner UI Update"
-comments: True
 tags: [tech]
 ---
 

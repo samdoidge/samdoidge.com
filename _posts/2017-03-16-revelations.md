@@ -1,13 +1,12 @@
 ---
 layout: post
 title: 'Revelations'
-comments: True
 tags: [other]
 ---
 
 This post is probably a marker that I have to split my personal and technical posts, but onwards.
 
-My recent holiday has been a relevation to me, and I'm feeling very positive.
+My recent holiday has been a revelation to me, and I'm feeling very positive.
 
 
 

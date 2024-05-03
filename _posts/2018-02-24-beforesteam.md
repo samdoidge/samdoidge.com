@@ -2,7 +2,6 @@
 layout: post
 title: "beforeSteam"
 image: /assets/beforesteam.png
-comments: True
 tags: [tech]
 ---
 <p style="text-align: center">

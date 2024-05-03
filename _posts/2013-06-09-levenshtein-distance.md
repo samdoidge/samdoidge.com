@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Levenshtein Distance
-comments: True
 tags: [tech]
 ---
 

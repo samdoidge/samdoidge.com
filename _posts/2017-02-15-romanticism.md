@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Romanticism'
-comments: True
 categories: Art
 tags: [other]
 ---

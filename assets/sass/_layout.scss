@@ -1,8 +1,7 @@
 @import 'mixins';
-@import 'variables';
 
 .container {
-  padding: 0px 15px;
+  padding: 0 15px;
 
   @include screen-sm {
     width: 830px;

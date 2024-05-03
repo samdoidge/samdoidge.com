@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Setup local sites with OS X Mavericks
-comments: True
 tags: [tech]
 ---
 

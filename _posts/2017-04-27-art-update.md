@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Art Update'
-comments: True
 tags: [other]
 ---
 

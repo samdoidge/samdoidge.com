@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "Angular 6 and Font Awesome"
-comments: True
 tags: [tech]
 ---
 
-Continuing with my screencast 'series' - the best way to integrate Font Awesome and Angular, this is simple and quick, shown on a fresh installation.
+Continuing with my screen-cast 'series' - the best way to integrate Font Awesome and Angular, this is simple and quick, shown on a fresh installation.
 
 <p style="text-align: center">
 <div class='embed-container'><iframe src='https://www.youtube.com/embed/HCCos5odyqg' frameborder='0' allowfullscreen></iframe></div>

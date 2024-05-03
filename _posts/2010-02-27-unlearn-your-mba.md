@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Unlearn Your MBA
-comments: True
 tags: [other]
 ---
 

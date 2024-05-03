@@ -1,7 +1,6 @@
 ---
 layout: post
 title: wikidtutorials
-comments: True
 tags: [tech, other]
 ---
 

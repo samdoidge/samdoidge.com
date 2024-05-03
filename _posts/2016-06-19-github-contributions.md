@@ -1,8 +1,7 @@
 ---
 layout: post
 title: GitHub Contributions
-comments: True
-description: Github missing Contributions
+description: GitHub missing Contributions
 tags: [tech]
 ---
 

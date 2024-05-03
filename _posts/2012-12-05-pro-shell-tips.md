@@ -1,13 +1,12 @@
 ---
 layout: post
 title: Pro-shell-tips
-comments: True
 tags: [tech]
 ---
 ``` bash
 cp -r /source-folder /destination-folder
 ```
-will not preserve permissions - you want to preverse permissions if backing up folder on a live server.
+will not preserve permissions - you want to preserve permissions if backing up folder on a live server.
 ``` bash
 cp -a /source-folder /destination-folder
 ```

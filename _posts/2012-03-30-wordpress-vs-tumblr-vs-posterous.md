@@ -1,7 +1,6 @@
 ---
 layout: post
 title: WordPress vs Tumblr vs Posterous
-comments: True
 tags: [tech]
 ---
 <code>

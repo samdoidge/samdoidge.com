@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Database backups to Dropbox
-comments: True
 tags: [tech]
 ---
 
