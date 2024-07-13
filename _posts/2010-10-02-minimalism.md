@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Minimalism
-tags: [other]
 ---
 
 I’ve been making my room more minimalist.

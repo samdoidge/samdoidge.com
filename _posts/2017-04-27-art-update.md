@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Art Update'
-tags: [other]
 ---
 
 I used to browse a blog full of graphs and charts ([Jesse's Café Américain](http://jessescrossroadscafe.blogspot.co.uk)), but on the periphery were old posters and advertisements of a bygone era. I think this added something to the website. It brought some humanity - we are humans, after all.. and depending on our tastes, can appreciate such things.

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Fraser Island does not have more sand than the Sahara desert
-tags: [other]
 ---
 
 My friend Neil mentioned the claim 'Fraser Island has more sand than the Sahara desert' when viewing footage of Fraser Island tonight, it sounded almost unbelievable.

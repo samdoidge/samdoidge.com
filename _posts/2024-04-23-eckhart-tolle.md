@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Eckhart Tolle'
-tags: [other]
 ---
 
 I wanted to write a post in case something happens to me and I can no longer post. Rather than an otherwise potentially alarming title, I've gone for a recent but profound teacher, Eckhart Tolle.

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Revelations'
-tags: [other]
 ---
 
 This post is probably a marker that I have to split my personal and technical posts, but onwards.

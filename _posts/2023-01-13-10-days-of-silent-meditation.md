@@ -1,7 +1,6 @@
 ---
 layout: post
 title: '10 Days of Silent Meditation'
-tags: [other]
 ---
 
 I wanted to write about a silent Vipassana meditation course I recently went on. When I was there, I couldn't read or write, and had time to think about what I would write if I could.

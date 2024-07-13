@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "You Should Probably Stop Consuming Seed Oils"
-tags: [other]
 ---
 
 After indulging over the Christmas period, and contracting Covid, I was feeling not-great. This led me to more diet research, and to seed oils which I had seen mentioned as being bad for you on various platforms across the Internet. Hours of research later, I embarked on removing them from my diet. I've since felt like I have more energy, and have been dropping some fat which I needed to lose.

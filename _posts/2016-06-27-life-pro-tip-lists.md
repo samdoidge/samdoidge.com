@@ -2,7 +2,6 @@
 layout: post
 title: 'Lists'
 description: 'Lists'
-tags: [other]
 ---
 
 Sharing a Pro Tip with you guys: Lists.
