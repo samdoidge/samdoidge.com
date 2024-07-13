@@ -2,7 +2,6 @@
 layout: post
 title: 'Why I believe in Bitcoin'
 image: /assets/bitcoin.png
-is_popular: True
 ---
 
 <p style="text-align: center">

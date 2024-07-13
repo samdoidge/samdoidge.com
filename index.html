@@ -4,20 +4,13 @@ layout: default
 ---
 
 <div class="posts markdown-body">
-    {% for page in site.posts %}
-        {% if page.is_popular == true %}
-            {% include post/preview.html %}
-        {% endif %}
-    {% endfor %}
-    {% for page in site.posts limit:5  %}
-        {% unless page.is_popular %}
-            {% include post/preview.html %}
-        {% endunless %}
+    {% for page in site.posts limit:5 %}
+    {% include post/preview.html %}
     {% endfor %}
 
     <p class="rss-subscribe">
         <a href="/archive">View more</a>
-        <br/>
+        <br />
         subscribe <a href="{{ '/feed.xml' | prepend: site.baseurl }}">via RSS</a>
     </p>
 </div>
