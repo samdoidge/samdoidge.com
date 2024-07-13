@@ -1,7 +1,6 @@
 ---
 layout: post
 title: wikidtutorials
-tags: [tech, other]
 ---
 
 ![urgigs](/assets/wikidtutorials.png)

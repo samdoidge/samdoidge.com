@@ -2,7 +2,6 @@
 layout: post
 title: hackrhackr Logo
 categories: Design
-tags: [other]
 ---
 
 ![hackrhackr](/assets/hackrhackr.jpeg)

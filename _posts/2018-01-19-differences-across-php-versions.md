@@ -2,7 +2,6 @@
 layout: post
 title: 'Differences across PHP versions'
 image: /assets/php-logo.png
-tags: [tech]
 ---
 
 <p style="text-align: center">

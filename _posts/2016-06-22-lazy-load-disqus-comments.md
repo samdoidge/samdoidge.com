@@ -2,7 +2,6 @@
 layout: post
 title: Lazy load Disqus comments
 description: Lazy load Disqus comments
-tags: [tech]
 ---
 
 (2024: I've now removed the comment feature)

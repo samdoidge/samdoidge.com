@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Sass Lint Visual Studio Code Extension"
-tags: [tech]
 ---
 
 This is a great Visual Studio Code extension I found when looking to tidy up my SCSS files. It will notify you of incorrect property order, alert you when you should use variables, and much more.

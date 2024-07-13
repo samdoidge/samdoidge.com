@@ -2,7 +2,6 @@
 layout: post
 title: "Why didn't Let's Encrypt auto renew?"
 image: /assets/le-logo-wide.png
-tags: [tech]
 ---
 <p style="text-align: center">
 	<img src="/assets/le-logo-wide.png">

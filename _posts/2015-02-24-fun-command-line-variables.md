@@ -2,7 +2,6 @@
 layout: post
 title: Fun Command Line Variables
 description: You have a bash script that needs to FTP somewhere and want to test part of the script works outside of the whole script? Run it in the command line. 'But it has configuration variables' I hear you cry!
-tags: [tech]
 ---
 
 Since my last post was such a success

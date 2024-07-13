@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Using Git with Dropbox
-tags: [tech]
 ---
 
 <code>

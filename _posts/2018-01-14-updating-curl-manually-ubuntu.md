@@ -2,7 +2,6 @@
 layout: post
 title: 'Updating curl manually on Ubuntu'
 image: /assets/bitcoin.png
-tags: [tech]
 ---
 
 <p style="text-align: center">

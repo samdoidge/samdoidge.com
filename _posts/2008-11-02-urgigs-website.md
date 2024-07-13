@@ -1,7 +1,6 @@
 ---
 layout: post
 title: ur.gigs Website
-tags: [tech, other]
 ---
 
 ![urgigs](/assets/urgigshome.jpg)

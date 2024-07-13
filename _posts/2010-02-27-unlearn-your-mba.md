@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Unlearn Your MBA
-tags: [other]
 ---
 
 David Heinemeier Hansson does it again, more inspiration for doing your own startup. He’s real.

@@ -2,7 +2,6 @@
 layout: post
 title: Fun OSX Terminal Commands
 description: I've put fun, open is fun in that a new window pops up over your terminal showing you the files you are browsing visually, and they are draggable. History is just useful
-tags: [tech]
 ---
 
 I've put fun - ```open``` is fun in that a new window pops up over your terminal showing you the files you are browsing visually, and they are draggable. History is just useful!

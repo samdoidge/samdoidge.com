@@ -1,7 +1,6 @@
 ---
 layout: post
 title: WordPress vs Tumblr vs Posterous
-tags: [tech]
 ---
 <code>
 **2014:** Posterous is now dead, I'm using Jekyll

@@ -2,7 +2,6 @@
 layout: post
 title: 'HTTP API Methods'
 image: /assets/php-logo.png
-tags: [tech]
 ---
 
 <p style="text-align: center">

@@ -2,7 +2,6 @@
 layout: post
 title: Why use Sass?
 description: To answer the question, on anything more complex than a one page site it is worth using Sass. There is a tiny learning curve, native CSS works in Sass, Sass just adds to CSS.
-tags: [tech]
 ---
 
 ![no-margin](/assets/sass.png)

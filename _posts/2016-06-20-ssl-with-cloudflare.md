@@ -2,7 +2,6 @@
 layout: post
 title: SSL / HTTPS with Cloudflare
 description: SSL / HTTPS with Cloudflare
-tags: [tech]
 ---
 
 I get asked a lot of questions (I don't ). Here's a how-to on SSL with Cloudflare (they now provide this on their free plan):

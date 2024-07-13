@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Database backups to Dropbox
-tags: [tech]
 ---
 
 I'm automating my database backups and storing them with Dropbox. You need [Dropbox running on your server](http://buildcontext.com/blog/2012/dropbox-linux-ubuntu-ec2-linode-selective-sync) for this - it's a great guide, but note one key point : when 'This client is not linked to any account...' appears - **leave the service open, do not press Ctrl + C**, enter the URL in the browser - when it says 'welcome' - then you can close.

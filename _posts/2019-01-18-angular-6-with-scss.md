@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Angular 6 with SCSS"
-tags: [tech]
 ---
 
 This is a quick demonstration of how to create a project with SCSS as default `ng new projectname --style=scss` or the slightly more involved solution for changing an existing project to use SCSS.

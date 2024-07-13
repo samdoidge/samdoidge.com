@@ -1,7 +1,6 @@
 ---
 layout: post
 title: The Dissertation
-tags: [other]
 ---
 
 Yeah… that little thing.

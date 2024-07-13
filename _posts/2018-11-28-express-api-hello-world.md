@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Express API Hello World"
-tags: [tech]
 ---
 
 This is a demo at the most basic level for creating an API in Node using the <a href="https://expressjs.com/">Express</a> framework.

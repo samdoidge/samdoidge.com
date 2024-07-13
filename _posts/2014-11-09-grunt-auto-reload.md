@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Auto reload with Grunt
-tags: [tech]
 ---
 
 ![no-margin](/assets/grunt-logo.png)

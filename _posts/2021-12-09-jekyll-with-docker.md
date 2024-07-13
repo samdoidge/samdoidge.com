@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Jekyll with Docker"
-tags: [tech]
 ---
 
 Since moving to a new Mac, pulling down my blog to make a post - I really didn't want to deal with configuring the environment to run Jekyll locally again. It won't be the last machine I have to configure this on, and it's not a systematic solution, in my mind.

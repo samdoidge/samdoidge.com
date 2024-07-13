@@ -2,7 +2,6 @@
 layout: post
 title: 'Hyper vs iTerm2'
 description: 'I recently saw a colleague using a shiny new terminal called Hyper. I liked the beautiful look, and the number of GitHub Stars - so I installed, and Googled comparisons.'
-tags: [tech]
 ---
 
 I recently saw a colleague using a shiny new terminal called [Hyper](https://hyper.is/). I liked the beautiful look, and the number of GitHub Stars - so I installed, and Googled comparisons.

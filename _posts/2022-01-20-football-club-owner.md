@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Football Club Owner"
-tags: [tech]
 ---
 
 <div class='embed-container'>

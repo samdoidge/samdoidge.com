@@ -2,7 +2,6 @@
 layout: post
 title: Background Server FTP Transfer
 description: I had a lot of files to transfer, and little bandwidth in my current location
-tags: [tech]
 ---
 
 I had a lot of files to transfer, little bandwidth from my laptop and limited timed. Can I have my server transferring the files in the background? Yes.

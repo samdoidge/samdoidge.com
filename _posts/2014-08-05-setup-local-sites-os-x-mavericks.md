@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Setup local sites with OS X Mavericks
-tags: [tech]
 ---
 
 You've just installed Mavericks on your lovely Mac, and want to do some web development, probably with PHP. Things are made simple for us in this version. I'm on 10.9.4 - others may need some other changes on anything older releases of Mavericks. I like to have folders in a Sites directory within my user folder, and my URLs as localhost/[folder-name] - edit if you want your sites somewhere else.

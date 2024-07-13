@@ -1,7 +1,6 @@
 ---
 layout: post
 title: PHP London 2012 Conference
-tags: [tech]
 ---
 
 Round up: Was it worth going? Yes. There is a lot to take in and it got my brain working. As programming conferences goes it was a riot ;)

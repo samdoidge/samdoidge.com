@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Hello Jekyll
-tags: [tech]
 ---
 I'm now using [Jekyll](http://jekyllrb.com/) - a tool which transforms your markdown into static html.
 

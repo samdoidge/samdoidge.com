@@ -2,7 +2,6 @@
 layout: post
 title: "beforeSteam"
 image: /assets/beforesteam.png
-tags: [tech]
 ---
 <p style="text-align: center">
 	<img src="/assets/beforesteam.png">

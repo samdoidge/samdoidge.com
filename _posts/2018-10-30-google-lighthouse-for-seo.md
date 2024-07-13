@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Using Google Lighthouse for SEO"
-tags: [tech]
 ---
 
 I debated creating this post, but it's a useful tool you may not be aware of, and very easy to use.

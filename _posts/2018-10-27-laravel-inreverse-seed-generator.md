@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Laravel Inverse Seed Generator"
-tags: [tech]
 ---
 
 This is a cool tool, and automates some of which I had been doing manually - creating seeds for data. With one command, it will create a seed for a given table (or tables) using the data already within that table - beautiful. <a href="https://github.com/orangehill/iseed

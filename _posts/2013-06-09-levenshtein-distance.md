@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Levenshtein Distance
-tags: [tech]
 ---
 
 The Levenshtein distance between two words is the minimum number of single-character edits (insertion, deletion, substitution) required to change one word into the other. – [Wikipedia](http://en.wikipedia.org/wiki/Levenshtein_distance)
