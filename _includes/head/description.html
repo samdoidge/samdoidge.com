@@ -1,11 +1,14 @@
-{% if page.description %}
-<meta name="description" content="{{ page.description }}" />
-<meta property="og:description" content="{{ page.description }}" />
+{% if page.home %}
+  <meta name="description" content="{{ site.description }}" />
+  <meta property="og:description" content="{{ site.description }}" />
+{% elsif page.description %}
+  <meta name="description" content="{{ page.description }}" />
+  <meta property="og:description" content="{{ page.description }}" />
 {% else %}
-<meta
-  name="description"
-  content="{{ page.content | truncatewords:47 | strip_html }}" />
-<meta
-  property="og:description"
-  content="{{ page.content | truncatewords:47 | strip_html }}" />
+  <meta
+    name="description"
+    content="{{ page.content | truncatewords:47 | strip_html }}" />
+  <meta
+    property="og:description"
+    content="{{ page.content | truncatewords:47 | strip_html }}" />
 {% endif %}
