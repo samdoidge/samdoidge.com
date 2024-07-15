@@ -8,7 +8,7 @@ I like to think of ideas and execute them. I continually look to learn and I try
 
 <!-- Currently I'm seeking truth, wherever it may be found. -->
 
-Recently I've worked on <a href="https://propertywisdom.io">Property Wisdom</a> - a site providing key data to help people make the best investments in the UK property market.
+Recently I've worked on <a href="https://www.youtube.com/watch?v=VhS5cHxe1vE">Property Wisdom</a> - a site providing key data such as rental demands and yields across the UK property market.
 
 Previously I was contracting at a UK investment fund, and before that developing a [football simulation game](/football-club-owner). In a past life I developed a Bitcoin investment application, and worked at a cryptocurrency startup.
 
@@ -20,15 +20,13 @@ Previously I was contracting at a UK investment fund, and before that developing
 
 - [beforesteam.com](https://samdoidge.com/beforesteam) - A price comparison site for Steam games. Millions of price points tracked. Records price history for thousands of games in multiple vendors and multiple currencies. ~40 IP's used for polling data without hitting limits. Amazon S3 for image hosting, Cloudflare as a CDN at the front of it all.
 
-<!-- [textiler.com](http://web.archive.org/web/20190312025846/http://textiler.com/) - A joint project where I was responsible for the development. Design & print custom digital fabrics. Makes use of canvas / fabric.js and node.js -->
-
 - [freshfollowers.com](https://www.youtube.com/watch?v=xeT1d2AJ7os) - Based off of research into the best way to increase an Instagram following, this application gives the highest rate of acquisition for genuine followers based on their interests. This was not opened to everyone due to Instagram'ss strict acceptance policy.
-
-- [fifatrader.com](http://fifatrader.com) - This domain is now for sale. Automatically buy and sell players from EA's FIFA at a users set prices. Has received 100's of sign-ups with no promotion.
 
 - [pintbet.com](https://samdoidge.com/pintbet) - A site for sports betting tips which tracks real bookmaker odds and records user performance with play money.
 
 - [thebuildingcompany.co](https://thebuildingcompany.co) - A local building company website hosted on GitHub, using a custom Jekyll theme and Cloudflare.
+
+- [fifatrader.com](https://samdoidge.com/fifa-trader) - Automatically buy and sell players from EA's FIFA at a users set prices. Has received 100's of sign-ups with no promotion.
 
 ### Contact
 
@@ -36,21 +34,11 @@ My email address is sam@samdoidge.com.
 
 I can also be found on:
 
-<!-- - [Twitter](http://twitter.com/samdoidge) - Occasional retweets -->
-
 - [GitHub](http://github.com/samdoidge) - Code for this site and other projects
-  <!-- - [LinkedIn](http://uk.linkedin.com/in/samdoidge) - Business contacts -->
-  <!-- - [Facebook](http://facebook.com/samdoidge) - Pour mes amis -->
-- [Instagram](http://instagram.com/samdoidge) - Occasional vanity
 
 ![sam dubai](/assets/vue-conf.jpg)
 _Wrocław '17_
 
-<!-- ![sam dubai](/assets/sam-dubai.jpg)
-_Dubai '17_ -->
-
-<!-- ![sam shanghai](/assets/sam-shanghai.jpg)
-_Shanghai '13_ -->
 
 #### Miscellaneous milestones
 
