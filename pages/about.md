@@ -4,15 +4,15 @@ title: About
 permalink: about/
 ---
 
-I like to think of ideas and execute them. I continually look to learn and I try not to impose limits on myself.
+My current focus is consciousness. Exploring what comes from within, rather than what is imposed externally. 
+
+Previously I've said I continually look to learn and I try not to create limits for myself.
 
 <!-- Currently I'm seeking truth, wherever it may be found. -->
 
-Recently I've worked on <a href="https://www.youtube.com/watch?v=VhS5cHxe1vE">Property Wisdom</a> - a site providing key data such as rental demands and yields across the UK property market.
+Recently I've worked on Property Wisdom, a site providing key data such as rental demands and yields across the UK property market. I've also contracted at a UK investment fund, and before that developed a football simulation game enjoyed by thousands. In a past life I developed a Bitcoin investment application, and worked at a cryptocurrency startup.
 
-Previously I was contracting at a UK investment fund, and before that developing a [football simulation game](/football-club-owner). In a past life I developed a Bitcoin investment application, and worked at a cryptocurrency startup.
-
-### Projects
+<!-- ### Projects
 
 - [Football Club Owner](/football-club-owner) - An iOS app now on the App Store. It's a football management game with some unique elements, such as player rarities. It features the creation of an extensive match engine which gives realistic scores, taking into account each players ability rating. This was built with React Native, Typescript, Realm for storage, and Mocha for tests.
 
@@ -26,21 +26,19 @@ Previously I was contracting at a UK investment fund, and before that developing
 
 - [thebuildingcompany.co](https://thebuildingcompany.co) - A local building company website hosted on GitHub, using a custom Jekyll theme and Cloudflare.
 
-- [fifatrader.com](https://samdoidge.com/fifa-trader) - Automatically buy and sell players from EA's FIFA at a users set prices. Has received 100's of sign-ups with no promotion.
+- [fifatrader.com](https://samdoidge.com/fifa-trader) - Automatically buy and sell players from EA's FIFA at a users set prices. Has received 100's of sign-ups with no promotion. -->
 
 ### Contact
 
 My email address is sam@samdoidge.com.
 
-I can also be found on:
+I can also be found on [GitHub](http://github.com/samdoidge), containing code for this site and other projects
 
-- [GitHub](http://github.com/samdoidge) - Code for this site and other projects
-
-![sam dubai](/assets/vue-conf.jpg)
-_Wrocław '17_
+<!-- ![sam dubai](/assets/vue-conf.jpg)
+_Wrocław '17_ -->
 
 
-#### Miscellaneous milestones
+### Miscellaneous milestones
 
 - Freshers Men's Eight - Bournemouth University Rowing Club
 

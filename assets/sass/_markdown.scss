@@ -1,3 +1,4 @@
+@import 'mixins';
 @import 'variables';
 
 * {
@@ -12,14 +13,20 @@ pre {
   padding: 45px;
   border: 1px solid #ddd;
   border-radius: 3px;
+  color: #333;
+  font-size: 16px;
+  line-height: 26px;
   word-break:break-word;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  color: #333;
-  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 16px;
-  line-height: 1.6;
   word-wrap: break-word;
+}
+
+@include screen-sm {
+  .markdown-body {
+    font-size: 17px;
+    line-height: 28px;
+  }
 }
 
 .markdown-body a {
