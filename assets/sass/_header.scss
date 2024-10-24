@@ -4,6 +4,7 @@
 .header {
   display: flex;
   margin-top: 20px;
+
   max-width: $screen-sm;
 
   &__text {
@@ -38,8 +39,8 @@
   }
 
   @include screen-sm {
-  
 
+    display: flex;
     margin-top: 60px;
 
     &__text {
