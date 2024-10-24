@@ -1,17 +1,13 @@
 @import 'mixins';
 
 .logo {
-  float: left;
   margin-right: 20px;
 
   &__img {
-    height: 48px;
-    width: 48px;
+    height: 84px;
+    width: 84px;
 
-    @include screen-sm {
-      height: 100%;
-      width: 100%;
-    }
+   
   }
 
   @include screen-sm {
