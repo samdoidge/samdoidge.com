@@ -16,9 +16,3 @@ Prerequisites: [Docker](https://www.docker.com/).
 To update the Gemfile.lock you will need to run `bundle update` within the Docker container.
 
 Docker Desktop allows you to open the terminal within the visual IDE, then simply type the command above.
-
-## Linting SCSS
-
-To lint the SCSS, run `npm install` in the root directory.
-
-`npm run lint:scss` can then be called to lint the SCSS.
