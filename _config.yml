@@ -10,7 +10,6 @@ markdown: kramdown
 permalink: /:title
 
 plugins:
-  - jekyll-sitemap
   - jemoji
 
 exclude:
