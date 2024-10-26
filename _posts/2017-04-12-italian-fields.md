@@ -1,7 +1,6 @@
 ---
 layout: post
-title: 'Italian Fields'
-tags: [other, tech]
+title: 'Italian fields'
 ---
 
 Another new design.

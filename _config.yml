@@ -1,7 +1,6 @@
 author: Sam Doidge
 title: 'samdoidge.com'
-description: > # this means to ignore newlines until "baseurl:"
-  I like to think of ideas and execute them. I continually look to learn and I try not to impose limits on myself.
+description: ''
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://samdoidge.com'
 
@@ -18,11 +17,6 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
-
-# Custom header pages
-pages_list:
-  About: '/about'
-  Archive: '/archive'
 
 sass:
   sass_dir: /assets/sass/

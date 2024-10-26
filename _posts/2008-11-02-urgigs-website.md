@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ur.gigs Website
+title: ur.gigs website
 ---
 
 ![urgigs](/assets/urgigshome.jpg)

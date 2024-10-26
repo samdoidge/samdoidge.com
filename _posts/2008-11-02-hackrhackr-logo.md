@@ -1,7 +1,6 @@
 ---
 layout: post
-title: hackrhackr Logo
-categories: Design
+title: hackrhackr logo
 ---
 
 ![hackrhackr](/assets/hackrhackr.jpeg)

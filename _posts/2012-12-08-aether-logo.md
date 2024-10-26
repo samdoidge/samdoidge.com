@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Aether Logo
+title: Aether logo
 ---
 
 ![Aether Logo](/assets/aether-logo.png)
