@@ -1,13 +1,9 @@
 {
   "scripts": {
-    "spellcheck": "cspell '**/*.md'",
-    "spellcheck:dictionary": "cspell --words-only --unique '**/*.md' | sort --ignore-case >> project-words.txt",
-    "spellcheck:trace": "cspell trace $npm_config_word",
     "lint:scss": "npx stylelint '**/*.scss'",
     "lint:scss:fix": "npx stylelint '**/*.scss' --fix"
   },
   "devDependencies": {
-    "cspell": "^8.7.0",
     "stylelint": "^16.4.0",
     "stylelint-config-standard-scss": "^13.1.0"
   }
