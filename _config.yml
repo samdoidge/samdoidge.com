@@ -9,9 +9,6 @@ markdown: kramdown
 
 permalink: /:title
 
-plugins:
-  - jemoji
-
 exclude:
   - Gemfile
   - Gemfile.lock
