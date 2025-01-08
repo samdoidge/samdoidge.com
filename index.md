@@ -19,6 +19,7 @@ Previously I've contracted at an investment fund, and launched a football simula
 
 <br />
 
-github.com/samdoidge
 
 [firstname]@samdoidge.com
+<br/>
+<a href="https://github.com/samdoidge">github.com/samdoidge</a>
