@@ -7,7 +7,7 @@ permalink: /
 My current focus is exploring what comes from within.
 
 
-Recently I've created Property Wisdom to identify the best investments within the UK property market.
+Recently I've created a platform to identify the best investments within the UK property market.
 
 Previously I've contracted at an investment fund, and launched a football simulation game enjoyed by thousands. In a past life I developed a Bitcoin investment application, and worked at a cryptocurrency startup.
 
