@@ -1,21 +1,18 @@
-@import 'mixins';
+@import "mixins";
 
 .container {
-  padding: 0 15px;
+  padding: 0 30px;
 
   @include screen-sm {
-    width: 830px;
     margin: 20px auto;
   }
 }
 
 #content {
   padding-bottom: 60px;
-  margin-top: 10px;
 
   @include screen-sm {
-    float: right;
-    width: 650px;
+    text-align: center;
     margin-top: 0;
   }
 }
