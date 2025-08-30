@@ -1,21 +1,21 @@
 ---
 ---
 
-@import 'normalize';
-@import 'variables';
-@import 'header';
+@import "normalize";
+@import "variables";
 
-@import 'layout';
-@import 'logo';
-@import 'metadata';
-@import 'page';
+@import "layout";
+@import "logo";
+@import "metadata";
+@import "page";
 
-@import 'markdown';
-@import 'post';
+@import "markdown";
+@import "post";
 
 body {
   -webkit-font-smoothing: antialiased;
-  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   margin: 0;
   color: $lighter-black;
 }
@@ -57,7 +57,7 @@ embed {
 }
 
 @media (min-width: $screen-sm) {
-  img[src$='fifty'] {
+  img[src$="fifty"] {
     max-width: 50%;
   }
 
