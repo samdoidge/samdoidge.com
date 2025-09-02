@@ -2,6 +2,7 @@
 
 .container {
   padding: 0 30px;
+  text-align: center;
 
   @include screen-sm {
     margin: 20px auto;
@@ -12,7 +13,6 @@
   padding-bottom: 60px;
 
   @include screen-sm {
-    text-align: center;
     margin-top: 0;
   }
 }
