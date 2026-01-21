@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 'VS Code vs VSCodium: A Fair Performance Benchmark'
+title: 'VS Code vs VSCodium vs Zed: A Performance Benchmark'
 ---
 
-I ran a head-to-head performance comparison between VS Code and VSCodium on my M3 MacBook Air. The key insight: **for a fair comparison, I disabled VS Code's extensions** since my VSCodium install was fresh with none.
+I ran a head-to-head performance comparison between VS Code, VSCodium, and Zed on my M3 MacBook Air. For a fair comparison, **I disabled VS Code's extensions** since my VSCodium and Zed installs were fresh.
 
 #### Test Environment
 
@@ -11,49 +11,96 @@ I ran a head-to-head performance comparison between VS Code and VSCodium on my M
 - **OS:** macOS 26.1
 - **VS Code:** 1.108.1 (19 extensions installed, disabled for tests)
 - **VSCodium:** 1.107.18627 (0 extensions)
+- **Zed:** 0.219.5 (fresh install)
+
+---
 
 #### Cold Startup Time
 
-With extensions disabled on VS Code, startup times were nearly identical:
-
 | Editor | Run 1 | Run 2 | Run 3 | Average |
 |--------|-------|-------|-------|---------|
-| VS Code (--disable-extensions) | 0.667s | 0.542s | 0.674s | 0.628s |
-| VSCodium | 0.541s | 0.539s | 0.539s | 0.540s |
+| **Zed** | 0.75s | 0.53s | 0.52s | **0.60s** |
+| VS Code (--disable-extensions) | 1.31s | 1.30s | 1.26s | 1.29s |
+| VSCodium | 1.32s | 1.16s | 1.15s | 1.21s |
 
-**Winner:** VSCodium by ~90ms, but more importantly it was more *consistent*.
+**Winner:** Zed - **2x faster** than VS Code/VSCodium
 
-#### Memory Usage (Fresh Start)
+---
 
-This is where the difference is significant:
+#### Memory Usage (Idle with folder open)
 
 | Editor | Total Memory | Process Count |
 |--------|--------------|---------------|
-| VS Code | ~3.7 GB | 22 processes |
-| VSCodium | ~1.6 GB | 10 processes |
+| **Zed** | **222 MB** | 5 processes |
+| VSCodium | 1,400 MB | 12 processes |
+| VS Code | 3,549 MB | 23 processes |
 
-**Winner:** VSCodium uses **57% less memory** and spawns fewer than half the processes.
+**Winner:** Zed - **16x less memory** than VS Code, **6x less** than VSCodium
 
-Even with extensions disabled, VS Code runs more background processes. This is likely due to telemetry services and proprietary features that VSCodium strips out.
+---
 
 #### File Opening (100,000 line JS file)
 
-| Editor | Run 1 | Run 2 | Run 3 |
-|--------|-------|-------|-------|
-| VS Code | 3.04s | 3.05s | 3.03s |
-| VSCodium | 3.05s | 3.05s | 3.05s |
+| Editor | Run 1 | Run 2 | Run 3 | Average |
+|--------|-------|-------|-------|---------|
+| **Zed** | 0.23s | 0.09s | 0.13s | **0.15s** |
+| VS Code | 1.18s | 1.22s | 1.17s | 1.19s |
+| VSCodium | 1.16s | 1.19s | 1.15s | 1.17s |
 
-**Winner:** Identical - they share the same core editor.
+**Winner:** Zed - **8x faster** file opening
 
-#### Key Takeaways
+---
 
-1. **Startup time:** Virtually identical when extensions are disabled
-2. **File operations:** Identical (same underlying editor)
-3. **Memory:** VSCodium uses significantly less RAM, even comparing apples-to-apples
-4. **Process count:** VS Code spawns 2x more background processes
+#### Summary
 
-If you care about memory usage or prefer open-source software without telemetry, VSCodium is worth considering. The editing experience is identical since it's built from the same source.
+| Metric | VS Code | VSCodium | Zed | Zed Advantage |
+|--------|---------|----------|-----|---------------|
+| Startup | 1.29s | 1.21s | 0.60s | 2x faster |
+| Memory | 3,549 MB | 1,400 MB | 222 MB | 16x / 6x less |
+| File Open | 1.19s | 1.17s | 0.15s | 8x faster |
+
+---
+
+#### Why the Difference?
+
+**VS Code / VSCodium** are built on Electron (Chromium + Node.js). Each window spawns dozens of processes.
+
+**Zed** is written in native Rust using their own GPU-accelerated UI framework. No Chromium overhead.
+
+---
+
+#### Should You Switch to Zed?
+
+**Zed is compelling if:**
+- You want raw speed and low memory usage
+- You do mostly editing (less reliance on extensions)
+- You like built-in collaborative editing
+- You're okay with a younger extension ecosystem
+
+**Stick with VS Code/VSCodium if:**
+- You depend on specific extensions (Docker, GitLens, language-specific tools)
+- You need deep debugging integration
+- You're embedded in the Microsoft ecosystem
+
+---
+
+#### Making Zed Feel Like VS Code
+
+Zed has One Dark theme built-in. Here's my settings.json:
+
+```json
+{
+  "theme": "One Dark",
+  "buffer_font_size": 13,
+  "tab_size": 2,
+  "autosave": "on_focus_change",
+  "format_on_save": "on",
+  "git": { "inline_blame": { "enabled": true } }
+}
+```
+
+---
 
 #### Run It Yourself
 
-I've published the [benchmark script as a gist](https://gist.github.com/samdoidge/3bd408e872aacd24adb933fea469d024) - requires macOS with both editors installed.
+I've published the [benchmark script as a gist](https://gist.github.com/samdoidge/3bd408e872aacd24adb933fea469d024) - requires macOS with the editors installed.
