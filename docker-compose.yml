@@ -1,7 +1,13 @@
 services:
   jekyll:
-    image: bretfisher/jekyll-serve
+    image: ruby:3.1-slim
+    working_dir: /site
+    command: sh -c "apt-get update && apt-get install -y --no-install-recommends build-essential git && bundle install && bundle exec jekyll serve --host 0.0.0.0 --force_polling"
     volumes:
       - .:/site
+      - bundle:/usr/local/bundle
     ports:
       - '4000:4000'
+
+volumes:
+  bundle:
