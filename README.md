@@ -1,6 +1,6 @@
 # samdoidge.com
 
-`Readme updated May 2026.`
+`Updated October 2024.`
 
 ## Running locally
 
