@@ -1,7 +1,13 @@
 services:
   jekyll:
-    image: bretfisher/jekyll-serve
+    image: ruby:3.3
+    working_dir: /site
+    command: bash -c "bundle install && bundle exec jekyll serve --host 0.0.0.0 --force_polling"
     volumes:
       - .:/site
+      - bundle:/usr/local/bundle
     ports:
       - '4000:4000'
+
+volumes:
+  bundle:
