@@ -9,9 +9,15 @@
   </a>
 
   <div class="header__text">
+    {% if page.url == "/" %}
     <h1 class="header__title">
       <a class="header__link" href="/">{{ site.author }}</a>
     </h1>
-    <p class="header__description">{{site.title}}</p>
+    {% else %}
+    <p class="header__title">
+      <a class="header__link" href="/">{{ site.author }}</a>
+    </p>
+    {% endif %}
+    <p class="header__description">{{ site.title }}</p>
   </div>
 </header>

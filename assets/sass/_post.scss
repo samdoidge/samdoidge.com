@@ -21,6 +21,13 @@
   @include screen-sm {
     margin: 0;
   }
+
+  .footer {
+    border-top: 1px solid #eeeeee;
+    line-height: 28px;
+    margin-top: 40px;
+    padding-top: 24px;
+  }
 }
 
 .markdown-body h1 {

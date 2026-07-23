@@ -20,6 +20,6 @@ Previously I've contracted at an investment fund, and launched a football simula
 <br />
 
 
-[firstname]@samdoidge.com
+<a href="mailto:sam@samdoidge.com">sam@samdoidge.com</a>
 <br/>
 <a href="https://github.com/samdoidge">github.com/samdoidge</a>
