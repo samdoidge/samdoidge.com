@@ -16,6 +16,8 @@ Previously I've contracted at an investment fund, and launched a football simula
 * <a href="/10-days-of-silent-meditation">10 Days of silent meditation</a>
 * <a href="/why-i-believe-in-bitcoin">Why I believe in Bitcoin</a>
 
-<a href="mailto:sam@samdoidge.com">sam@samdoidge.com</a>
-<br/>
-<a href="https://github.com/samdoidge">github.com/samdoidge</a>
+<p class="contact">
+  <a href="mailto:sam@samdoidge.com">sam@samdoidge.com</a>
+  <br />
+  <a href="https://github.com/samdoidge">github.com/samdoidge</a>
+</p>
