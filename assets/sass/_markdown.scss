@@ -818,3 +818,25 @@ pre {
     font-size: 24px;
   }
 }
+
+// Post images — centered, natural size, never upscaled
+.markdown-body img {
+  display: block;
+  height: auto;
+  margin: 0 auto 1.25em;
+  max-width: 100%;
+  width: auto;
+}
+
+.markdown-body p > img {
+  margin-bottom: 0;
+}
+
+// Wide images may break out of the text column on desktop, still centered
+@include screen-sm {
+  .markdown-body img {
+    margin-left: 50%;
+    max-width: 120%;
+    transform: translateX(-50%);
+  }
+}
